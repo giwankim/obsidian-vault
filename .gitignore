@@ -1,0 +1,13 @@
+# macOS
+.DS_Store
+
+# Obsidian - workspace (changes constantly)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+
+# Obsidian - trash
+.trash/
+
+# Obsidian - plugins and themes (can be reinstalled)
+.obsidian/plugins/
+.obsidian/themes/

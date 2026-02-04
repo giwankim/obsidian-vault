@@ -1,0 +1,1 @@
+[Event Sourcing, CQRS and Micro Services: Real FinTech Example from my Consulting Career](https://lukasniessen.medium.com/this-is-a-detailed-breakdown-of-a-fintech-project-from-my-consulting-career-9ec61603709c)
