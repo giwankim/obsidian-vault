@@ -24,7 +24,7 @@ This is a paragraph.
 
 This is another paragraph (blank line between creates separate paragraphs).
 
-For a line break within a paragraph, add two spaces at the end  
+For a line break within a paragraph, add two spaces at the end
 or use Shift+Enter.
 ```
 

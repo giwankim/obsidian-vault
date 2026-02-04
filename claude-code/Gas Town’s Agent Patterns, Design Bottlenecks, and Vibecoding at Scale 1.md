@@ -72,7 +72,7 @@ With agents to hand, it’s easy to get ahead of yourself, stumbling forward int
 
 Gas Town seems to be halfway into this pitfall. The biggest flaw in Yegge’s creation is that it is poorly designed. I mean this in the sense that he absolutely did not design the shape of this system ahead of time, thoughtfully considering which metaphors and primitives would make this effective, efficient, easy to use, and comprehensible.
 
-He just made stuff up as he went. He says as much himself: “Gas Town is complicated. Not because I wanted it to be, but because I had to keep adding components until it was a self-sustaining machine.” Gas Town is composed of “especially difficult \[theories\] because it’s a bunch of bullshit I pulled out of my arse over the past 3 weeks, and I named it after badgers and stuff.” It was slapdashed together over “17 days, 75k lines of code, 2000 commits. It finally got off the ground (GUPP started working) just 2 days ago.” 
+He just made stuff up as he went. He says as much himself: “Gas Town is complicated. Not because I wanted it to be, but because I had to keep adding components until it was a self-sustaining machine.” Gas Town is composed of “especially difficult \[theories\] because it’s a bunch of bullshit I pulled out of my arse over the past 3 weeks, and I named it after badgers and stuff.” It was slapdashed together over “17 days, 75k lines of code, 2000 commits. It finally got off the ground (GUPP started working) just 2 days ago.”
 
 This Hacker News describes the problem well, and points out that Yegge’s previous project, of which Gas Town is an extension, suffers the same issue:
 

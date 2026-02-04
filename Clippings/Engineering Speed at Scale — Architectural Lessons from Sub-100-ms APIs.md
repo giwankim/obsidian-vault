@@ -29,8 +29,8 @@ Listen to this article - 34:55
 
 ## The Cost of a Millisecond: Why Latency Shapes Experience
 
-When we talk about API performance, it’s tempting to think in neat technical terms - response times, CPU cycles, connection pools, and the occasional flame graph. But in real-world systems, especially global commerce and payments platforms, latency has a very human cost. A delay of just 50 or 100 milliseconds rarely registers in isolation, but at scale it can nudge a customer away from completing a purchase, disrupt a payment flow, or simply chip away at the trust users place in your product.  
-  
+When we talk about API performance, it’s tempting to think in neat technical terms - response times, CPU cycles, connection pools, and the occasional flame graph. But in real-world systems, especially global commerce and payments platforms, latency has a very human cost. A delay of just 50 or 100 milliseconds rarely registers in isolation, but at scale it can nudge a customer away from completing a purchase, disrupt a payment flow, or simply chip away at the trust users place in your product.
+
 Speed shapes perception long before it shapes metrics. Users don’t measure latency with stopwatches - they feel it. The difference between a 120 ms checkout step and an 80 ms one is invisible to the naked eye, yet emotionally it becomes the difference between "smooth" and "slightly annoying". On a small scale, that’s forgettable. Across millions of sessions, it becomes the friction that compacts into lower conversion rates, abandoned carts, and reduced revenue. And the irony? The engineering effort needed to recover from that friction - new features, experiments, retention strategies - often dwarfs the work needed to prevent it in the first place.
 
 ![](https://www.infoq.com/articles/engineering-speed-scale/articles/engineering-speed-scale/en/resources/170figure-1-1767008190654.jpg)
@@ -65,20 +65,20 @@ Let’s walk through the anatomy of a fast system and where milliseconds typical
 
 A typical sub-100 ms request flow might look like this:
 
-1. **Client** → **CDN or Edge Network**  
-	The closest node absorbs the request and routes it smartly.<  
+1. **Client** → **CDN or Edge Network**
+	The closest node absorbs the request and routes it smartly.<
 	Latency target: **5–15 ms**
-2. **Edge** → **API Gateway**  
-	Authentication, routing, throttling.  
+2. **Edge** → **API Gateway**
+	Authentication, routing, throttling.
 	Latency target: **5 ms**
-3. **Gateway** → **Service Layer**  
-	Business logic, orchestration, fan-out.  
+3. **Gateway** → **Service Layer**
+	Business logic, orchestration, fan-out.
 	Latency target: **20–30 ms**
-4. **Service Layer** → **Data Layer**  
-	Reads from databases, caches, or search systems.  
+4. **Service Layer** → **Data Layer**
+	Reads from databases, caches, or search systems.
 	Latency target: **25–40 ms**
-5. **Service** → **Gateway** → **Client**  
-	Serialization and network hop back.  
+5. **Service** → **Gateway** → **Client**
+	Serialization and network hop back.
 	Latency target: **5–10 ms**
 
 When done right, the entire hop chain stays predictable - even during peak load. But if any single hop drifts, the whole chain inherits the slowdown. This is why fast systems start with understanding the complete journey, not just the part you own.
@@ -205,8 +205,8 @@ If your executor is misconfigured, you can trigger:
 
 **Thread Pool Rule of Thumb**:
 
-For downstream IO-bound calls, size your pool to:  
-**2×CPU cores × expected parallel downstream calls per request**  
+For downstream IO-bound calls, size your pool to:
+**2×CPU cores × expected parallel downstream calls per request**
 (adjust using p95/p99 load testing)
 
 ![](https://www.infoq.com/articles/engineering-speed-scale/articles/engineering-speed-scale/en/resources/111figure-3-1767010410236.jpg)
@@ -436,7 +436,7 @@ registry.timer("api.product.latency",
 
 A rule we use internally:
 
-**Tag everything that might affect latency.**  
+**Tag everything that might affect latency.**
 Region, device type, API version, cache hit/miss, fallback triggered, etc.
 
 This creates *semantic observability* - the opposite of blind metrics.
@@ -490,7 +490,7 @@ A typical SLO (Service Level Objective):
 
 A very useful burn-rate alert rule:
 
-**Alert if burn-rate > 14.4 over 10 minutes**  
+**Alert if burn-rate > 14.4 over 10 minutes**
 Translation: 14.4 is a commonly used "fast-burn" threshold - if that pace were sustained, you’d consume a 30-day error budget in roughly ~2 days (≈50 hours), which is why it’s treated as urgent.
 
 **How this prevents issues from reaching customers**: Burn-rate alerts are designed to fire **early**, while the regression is still small (or still limited to a subset of traffic). That gives you time to pause or reverse a rollout and fix the underlying cause before the slowdown becomes widespread and sustained. Teams often pair this with progressive delivery (canaries) and synthetic checks, but the key is that burn-rate is an **SLO-native early warning** tied directly to user-facing latency.
@@ -588,7 +588,7 @@ These shifts push systems from reactive performance tuning toward proactive perf
 
 The final and most important takeaway:
 
-**Architecture can make your system fast.  
+**Architecture can make your system fast.
 Culture is what keeps it fast.**
 
 Teams that monitor p99 as closely as correctness, that design with latency budgets, and that learn from regressions are the ones who consistently deliver instant-feeling experiences at scale.

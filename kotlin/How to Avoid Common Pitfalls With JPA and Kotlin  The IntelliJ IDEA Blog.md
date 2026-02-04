@@ -31,17 +31,17 @@ Jakarta Persistence defines several [requirements](https://jakarta.ee/specificat
 An entity class must:
 
 - **Provide a no-argument constructor**The persistence provider uses reflection to call the no-argument constructor to create entity instances when loading data from the database.
-- **Have non-final attributes**When fetching an entity object from the database, the persistence provider sets all attribute values after it calls the no-argument constructor to instantiate the entity object. This process is called hydration.  
+- **Have non-final attributes**When fetching an entity object from the database, the persistence provider sets all attribute values after it calls the no-argument constructor to instantiate the entity object. This process is called hydration.
 	After that is done, the persistence provider keeps a reference to the entity object to perform automatic dirty checks, during which it detects changes and updates the corresponding database records automatically.
 - **Be non-final**The persistence provider often creates proxy subclasses to implement features such as [lazy loading](https://www.baeldung.com/hibernate-lazy-eager-loading) for @ManyToOne and @OneToOne relationships. For this to work, the entity class can’t be final.
 
 In addition to these specification requirements, it is a widely accepted best practice to:
 
-- **Implement `equals`, `hashCode`, and `toString` carefully  
+- **Implement `equals`, `hashCode`, and `toString` carefully
 	**These methods should rely only on the entity’s identifier and type to avoid unexpected behavior in persistence contexts. You can find approaches for better implementing those [here](https://thorben-janssen.com/ultimate-guide-to-implementing-equals-and-hashcode-with-hibernate/).
 
-These rules are easy to follow in Java but conflict with some of Kotlin’s defaults, such as final classes, immutable properties, and constructor-based initialization.  
-  
+These rules are easy to follow in Java but conflict with some of Kotlin’s defaults, such as final classes, immutable properties, and constructor-based initialization.
+
 The following sections show how to adapt your Kotlin classes to meet these requirements while still using Kotlin’s language features effectively.
 
 [Kotlin’s data classes](https://kotlinlang.org/docs/data-classes.html) are designed to hold data. They are final and provide several utility methods, including getters and setters for all fields, as well as `equals`, `hashCode`, and `toString`.
@@ -347,7 +347,7 @@ class Company {
    @get:GeneratedValue
    var id: Long? = null
 
-   val name: String? = null 
+   val name: String? = null
 }
 ```
 
@@ -567,7 +567,7 @@ var email: String = "default@email.com"
 ```
 @Entity
 class Company(
-   @Id @GeneratedValue 
+   @Id @GeneratedValue
    var id: Long? = null,
 
    @NotNull

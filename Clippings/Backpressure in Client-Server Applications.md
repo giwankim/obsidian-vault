@@ -51,7 +51,7 @@ For this article we created a project at [https://github.com/travishaagen/blog-b
 Every network connection establishes a [Channel](https://github.com/netty/netty/blob/4.2/transport/src/main/java/io/netty/channel/Channel.java). A `Channel` has a method called `isWritable()` with the following documentation,
 
 > Returns `true` if and only if the I/O thread will perform the requested write operation immediately. Any write requests made when this method returns `false` are queued until the I/O thread is ready to process the queued write requests.
-> 
+>
 > [WriteBufferWaterMark](https://github.com/netty/netty/blob/4.2/transport/src/main/java/io/netty/channel/WriteBufferWaterMark.java) can be used to configure on which condition the write buffer would cause this channel to change writability.
 
 In our `WebSocketClient` you can see that, in a loop, we increment a 64-bit integer and only write it to the channel when writable. The client is detecting and adapting to a full write buffer.

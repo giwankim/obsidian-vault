@@ -175,11 +175,11 @@ I didn't write a single line of code myself in this project. I alternated betwee
 
 For the first phase of the project, I mostly used variations of this one. Asking it to go through all the big files one by one and implement them faithfully (it didn't really follow instructions as we've seen later...)
 
-> Open BATTLE\_TODO.md to get the list of all the methods in both battle\*.rs.  
-> Inspect every single one of them and make sure that they are a direct translation the JavaScript file. If there's a method with the same name, the JavaScript definition will be in the comment.  
-> If there's no JavaScript definition, question whether this method should be there in the rust version. Our goal is to follow as closely as possible the JavaScript version to avoid any bugs in translation. If you notice that the implementation doesn't match, do all the refactoring needed to match 1 to 1.  
-> This will be a complex project. You need to go through all the methods one by one, IN ORDER. YOU CANNOT skip a method because it is too hard or would requiring building new infrastructure. We will call this in a loop so spend as much time as you need building the proper infrastructure to make it 1 to 1 with the JavaScript equivalent. Do not give up.  
-> Update BATTLE\_TODO.md and do a git commit after each unit of work.  
+> Open BATTLE\_TODO.md to get the list of all the methods in both battle\*.rs.
+> Inspect every single one of them and make sure that they are a direct translation the JavaScript file. If there's a method with the same name, the JavaScript definition will be in the comment.
+> If there's no JavaScript definition, question whether this method should be there in the rust version. Our goal is to follow as closely as possible the JavaScript version to avoid any bugs in translation. If you notice that the implementation doesn't match, do all the refactoring needed to match 1 to 1.
+> This will be a complex project. You need to go through all the methods one by one, IN ORDER. YOU CANNOT skip a method because it is too hard or would requiring building new infrastructure. We will call this in a loop so spend as much time as you need building the proper infrastructure to make it 1 to 1 with the JavaScript equivalent. Do not give up.
+> Update BATTLE\_TODO.md and do a git commit after each unit of work.
 
 ### Todos
 
@@ -187,9 +187,9 @@ Claude Code while porting the methods one by one often decided to write a "simpl
 
 The master md file in practice didn't really work, it quickly became too big to be useful and Claude started creating a bunch more littering the repo with them. Instead I gave it a deterministic way to go through then by calling grep on the codebase, so it knew when to find them.
 
-> We want to fix every TODO in the codebase. `TODO` or `simplif` in pokemon-showdown-rs/.  
-> There are hundreds of them, so go diligently one by one. Do not skip them even if they are difficult. I will call this prompt again and again so you don't need to worry about taking too long on any single one.  
-> The port must be exactly one to one. If the infrastructure doesn't exist, please implement it. Do not invent anything.  
+> We want to fix every TODO in the codebase. `TODO` or `simplif` in pokemon-showdown-rs/.
+> There are hundreds of them, so go diligently one by one. Do not skip them even if they are difficult. I will call this prompt again and again so you don't need to worry about taking too long on any single one.
+> The port must be exactly one to one. If the infrastructure doesn't exist, please implement it. Do not invent anything.
 > Make sure it still compiles after each addition and commit and push to git.
 
 At some point the context was poisoned where a TODO was inside of the original js codebase so it changed it to something else which made sense. But then it did the same for all the subsequent TODOs which didn't... Thankfully I could just revert all these commits.

@@ -27,7 +27,7 @@ To see the heap files we can use a few postgres internal tables to see where the
 ```sql
 show data_directory;
 
-         data_directory          
+         data_directory
 ---------------------------------
  /opt/homebrew/var/postgresql@16SQL
 ```
@@ -39,15 +39,15 @@ create table foo (id int, name text);
 
 select oid, datname
 from pg_database
-where datname = 'my_database';                                                                                
+where datname = 'my_database';
 
-  oid  |         datname        
+  oid  |         datname
 -------+-------------------------
  71122 | my_database
 (1 row)SQL
 ```
 ```sql
-select relfilenode from pg_class where relname = 'foo';                                                                                                  
+select relfilenode from pg_class where relname = 'foo';
  relfilenode
 -------------
        71123SQL
@@ -75,7 +75,7 @@ We can add the `ctid` field to the query to retrieve the ctid of each line. The 
 
 ```sql
 select ctid, * from foo;
- ctid  | id |  name   
+ ctid  | id |  name
 -------+----+---------
  (0,1) |  1 | Ronaldo
  (0,2) |  2 | Romario

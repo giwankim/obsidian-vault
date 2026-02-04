@@ -366,5 +366,5 @@ It worked satisfactorily in the end, and, what’s more, I am happy to maintain 
 I’ve recently read *The Art of Doing Science and Engineering* by Hamming (of distance and code), and one story stuck with me:
 
 > A psychologist friend at Bell Telephone Laboratories once built a machine with about 12 switches and a red and a green light. You set the switches, pushed a button, and either you got a red or a green light. After the first person tried it 20 times they wrote a theory of how to make the green light come on. The theory was given to the next victim and they had their 20 tries and wrote their theory, and so on endlessly. The stated purpose of the test was to study how theories evolved.
-> 
+>
 > But my friend, being the kind of person he was, had connected the lights to a random source! One day he observed to me that no person in all the tests (and they were all high-class Bell Telephone Laboratories scientists) ever said there was no message. I promptly observed to him that not one of them was either a statistician or an information theorist, the two classes of people who are intimately familiar with randomness. A check revealed I was right!

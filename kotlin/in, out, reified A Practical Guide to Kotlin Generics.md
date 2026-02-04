@@ -104,7 +104,7 @@ class EventBus<T>(private val eventType: Class<T>) {
     fun subscribe(consumer: EventConsumer<T>): Subscription<T> {
         val id = UUID.randomUUID().toString()
         subscribers[id] = consumer
-        
+
         return object : Subscription<T> {
             override val eventType: Class<T> = this@EventBus.eventType
             override fun unsubscribe() {
@@ -112,7 +112,7 @@ class EventBus<T>(private val eventType: Class<T>) {
             }
         }
     }
-    
+
     fun publish(event: T) {
         subscribers.values.forEach { it.onEvent(event) }
     }
@@ -158,7 +158,7 @@ val allSubs = mutableListOf<Subscription<*>>()
 
 fun clearAll() {
     // Safe: unsubscribe() takes no arguments
-    allSubs.forEach { it.unsubscribe() } 
+    allSubs.forEach { it.unsubscribe() }
 }
 ```
 

@@ -164,8 +164,8 @@ Chase will redirect them back to the redirect URI that you gave, lets say ynab.c
 
 So user is redirected back to ynab.com/oauth-callback?authorization\_code=xyz, and now your app has an authorization code. You send that authorization code to the Chase authorization server, along with your client secret. Why include the client secret? Because again, the authorization code is in the URL. So anyone can see it and anyone could try to exchange it for the access token. That's why we need to send the client secret, so Chase's server can say "Oh yes I remember I had generated this code for this client ID, and the client secret matches. This is a valid request."
 
-And then it returns the access token. Note how in every step of the OAuth flow, they have thought through how someone could exploit the flow, and added safeguards\*. That is a big reason why it's so complicated.  
-  
+And then it returns the access token. Note how in every step of the OAuth flow, they have thought through how someone could exploit the flow, and added safeguards\*. That is a big reason why it's so complicated.
+
 *\*I'm reliably informed by a friend in security that the OAuth designers learned a bunch of lessons the hard way, and that is another reason why it is so complicated: because it had to be patched repeatedly.*
 
 The other big reason is because we want the user to be involved. That makes it complicated because all the user stuff has to be frontend, which is insecure, because anyone can see it. And then all the secure stuff has to be on the back end.

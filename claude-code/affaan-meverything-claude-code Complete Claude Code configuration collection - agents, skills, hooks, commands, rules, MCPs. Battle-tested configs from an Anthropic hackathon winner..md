@@ -415,7 +415,7 @@ MIT - Use freely, modify as needed, contribute back if you can.
 
 ## Packages
 
-No packages published  
+No packages published
 
 ## Languages
 

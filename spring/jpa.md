@@ -3,4 +3,3 @@
 [AI 시대, JPA의 복잡성 대신 본질에 집중하기](https://brunch.co.kr/@cleancode/95)
 [MySQL Connection Pool 관리 - HikariCP 설정 및 타임아웃 처리](https://cheese10yun.github.io/mysql-connection-pool-timeout/)
 [Offset and Keyset Pagination with Spring Data JPA](https://thorben-janssen.com/offset-and-keyset-pagination-with-spring-data-jpa/)
-

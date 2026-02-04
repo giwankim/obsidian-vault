@@ -109,12 +109,12 @@ Another commenter [politely suggested](https://news.ycombinator.com/item?id=4674
 If you liked this post, consider [subscribing](https://buttondown.com/seangoedecke) to email updates about my new posts, or [sharing it on Hacker News](https://news.ycombinator.com/submitlink?u=https://www.seangoedecke.com/how-i-estimate-work/&t=How%20I%20estimate%20work%20as%20a%20staff%20software%20engineer). Here's a preview of a related post that shares tags with this one.
 
 > How I provide technical clarity to non-technical leaders
-> 
+>
 > My mission as a staff engineer is to provide technical clarity to the organization.
-> 
+>
 > Of course, I do other stuff too. I run projects, I ship code, I review PRs, and so on. But the most important thing I do - what I’m *for* - is to provide technical clarity.
-> 
-> **In an organization, technical clarity is when non-technical decision makers have a good-enough practical understanding of what changes they can make to their software systems.**  
+>
+> **In an organization, technical clarity is when non-technical decision makers have a good-enough practical understanding of what changes they can make to their software systems.**
 > [Continue reading...](https://www.seangoedecke.com/clarity/)
 
 ---

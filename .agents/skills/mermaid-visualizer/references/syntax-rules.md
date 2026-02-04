@@ -30,7 +30,7 @@ This reference provides comprehensive syntax rules and error prevention strategi
 
 ✅ [1.Perception]           # Remove space
 ✅ [① Perception]           # Use circled numbers
-✅ [(1) Perception]         # Use parentheses  
+✅ [(1) Perception]         # Use parentheses
 ✅ [Step 1: Perception]     # Use prefix
 ✅ [Step 1 - Perception]    # Use dash
 ✅ [Perception]             # Remove numbering
@@ -144,12 +144,12 @@ graph TB
         direction TB
         A --> B
     end
-    
+
     # Simple ID only (no spaces)
     subgraph simple
         C --> D
     end
-    
+
     # Can set direction inside subgraph
     subgraph horiz["Horizontal"]
         direction LR
@@ -163,15 +163,15 @@ graph TB
 graph TB
     subgraph outer["Outer Group"]
         direction TB
-        
+
         subgraph inner1["Inner 1"]
             A --> B
         end
-        
+
         subgraph inner2["Inner 2"]
             C --> D
         end
-        
+
         inner1 -.-> inner2
     end
 ```
@@ -185,14 +185,14 @@ graph TB
     subgraph g1["Group 1"]
         A[Node A]
     end
-    
+
     subgraph g2["Group 2"]
         B[Node B]
     end
-    
+
     # Connect individual nodes (recommended)
     A --> B
-    
+
     # Connect subgraphs (creates invisible link for layout)
     g1 -.-> g2
 ```
@@ -297,7 +297,7 @@ graph TB
         direction TB
         A --> B --> C
     end
-    
+
     subgraph horizontal["Horizontal Flow"]
         direction LR
         D --> E --> F
@@ -313,7 +313,7 @@ graph TB
     A[Start] --> B[Process]
     B --> C[Output]
     C -.->|Feedback| A
-    
+
     style A fill:#d3f9d8,stroke:#2f9e44,stroke-width:2px
     style B fill:#e5dbff,stroke:#5f3dc4,stroke-width:2px
     style C fill:#c5f6fa,stroke:#0c8599,stroke-width:2px
@@ -326,11 +326,11 @@ graph TB
     subgraph lane1["Lane 1"]
         A[Step 1] --> B[Step 2]
     end
-    
+
     subgraph lane2["Lane 2"]
         C[Step 3] --> D[Step 4]
     end
-    
+
     B --> C
 ```
 
@@ -339,7 +339,7 @@ graph TB
 ```mermaid
 graph TB
     Hub[Central Hub]
-    
+
     A[Spoke 1] --> Hub
     B[Spoke 2] --> Hub
     C[Spoke 3] --> Hub
@@ -354,7 +354,7 @@ graph TB
     Decision -->|Option A| PathA[Path A]
     Decision -->|Option B| PathB[Path B]
     Decision -->|Option C| PathC[Path C]
-    
+
     PathA --> End[End]
     PathB --> End
     PathC --> End
@@ -365,26 +365,26 @@ graph TB
 ```mermaid
 graph TB
     Title[Comparison]
-    
+
     subgraph left["System A"]
         A1[Feature 1]
         A2[Feature 2]
         A3[Feature 3]
     end
-    
+
     subgraph right["System B"]
         B1[Feature 1]
         B2[Feature 2]
         B3[Feature 3]
     end
-    
+
     Title --> left
     Title --> right
-    
+
     subgraph compare["Key Differences"]
         Diff[Difference Summary]
     end
-    
+
     left --> compare
     right --> compare
 ```
