@@ -11,3 +11,6 @@
 # Obsidian - plugins and themes (can be reinstalled)
 .obsidian/plugins/
 .obsidian/themes/
+
+# Claude Code - local settings
+.claude/settings.local.json
