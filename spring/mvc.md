@@ -1,6 +1,11 @@
 [HTTP Request, Response 내용을 logging 적용해보기](https://beaniejoy.tistory.com/97)
+
 [Spring RestClient/RestTemplate 요청이 실패하는 이유 - 데이터 타입에 따른 전송 방식 차이](https://nilgil.com/blog/spring-http-transfer-method-changes/#%EA%B2%B0%EB%A1%A0)
+
 [직렬화,역직렬화 in Spring](https://velog.io/@supernovamk/%EC%A7%81%EB%A0%AC%ED%99%94%EC%97%AD%EC%A7%81%EB%A0%AC%ED%99%94-in-Spring)
+
 [Connection Timeout과 Read Timeout 살펴보기](https://alden-kang.tistory.com/20)
+
 [Here’s a lesson I learned a while back with RestClient and I recently had to adapt it while upgrading from SpringBoot3 to SpringBoot4](http://youtube.com/post/UgkxNedhX_e7TlqCXTe4p0rXug6UW3pC_CSx?si=CcwYxdQeNrzziWH6)
+
 [Spring의 ConcurrentWebSocketSessionDecorator 소개](https://prostars.net/362)
