@@ -1,0 +1,7 @@
+config:
+  default: false # Start with all rules disabled; enable selectively.
+
+  # Enabled rules:
+  MD009: true # No trailing spaces.
+  MD012: true # No multiple consecutive blank lines.
+  MD047: true # Files should end with a single newline.
