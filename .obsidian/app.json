@@ -1,4 +1,7 @@
 {
   "tabSize": 2,
-  "showLineNumber": true
+  "showLineNumber": true,
+  "userIgnoreFilters": [
+    "README.md"
+  ]
 }
