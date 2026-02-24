@@ -9,6 +9,10 @@ description: "OAuth was first introduced in 2007."
 tags:
   - "clippings"
 ---
+
+> [!summary]
+> OAuth explained through a YNAB/Chase example: how access tokens, authorization codes, client secrets, scopes, and the front-channel/back-channel distinction work together to let third-party apps access user data securely without sharing passwords.
+
 ![access token image](https://substackcdn.com/image/fetch/$s_!jI0X!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F38e08e71-9534-4112-b466-bc8dd139253e_394x483.png)
 
 access token image
