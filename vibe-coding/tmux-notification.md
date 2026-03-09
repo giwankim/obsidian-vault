@@ -1,3 +1,6 @@
+> [!summary]
+> A collection of links to GitHub issues and discussions about Claude Code notification problems in Ghostty and tmux terminals. The issues cover Ghostty requiring iTerm2 notification mode and a feature request for tmux notification support.
+
 [[BUG] Notifications don't work in ghostty unless set to iterm2](https://github.com/anthropics/claude-code/issues/19979)
 
 [Claude Code notifications don't work with Ghostty integration on Mac](https://github.com/ghostty-org/ghostty/discussions/10215)

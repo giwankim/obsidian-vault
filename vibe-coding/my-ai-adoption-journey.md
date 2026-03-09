@@ -9,6 +9,10 @@ description:
 tags:
   - "clippings"
 ---
+
+> [!summary]
+> Mitchell Hashimoto chronicles his measured, multi-step journey adopting AI coding tools -- from abandoning chatbots in favor of agents, to reproducing his own work to build expertise, to running end-of-day agents, outsourcing "slam dunk" tasks, and engineering verification harnesses. His key insight is that agents become far more efficient when given fast, high-quality tools to automatically detect mistakes, and that the human developer's role shifts to deciding what to delegate and engineering the feedback loops.
+
 February 5, 2026
 
 Table of Contents

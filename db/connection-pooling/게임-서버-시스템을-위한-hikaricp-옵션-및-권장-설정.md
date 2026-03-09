@@ -9,6 +9,10 @@ description: "HikariCP는 특별히 옵션을 튜닝하지 않더라도 대부�
 tags:
   - "clippings"
 ---
+
+> [!summary]
+> Provides detailed HikariCP configuration recommendations specifically tailored for game server systems, which prioritize low-latency responses over resource efficiency. Covers pool sizing, timeout values (validation, connection, statement, read), keepalive settings, and explains why WAS-oriented defaults can cause performance degradation or unexpected failures in game servers.
+
 안녕하세요, 넷마블 TPM실 기술분석팀 박정욱입니다.
 
 HikariCP는 특별히 옵션을 튜닝하지 않더라도 대부분의 개발 및 배포에서 충분한 성능으로 동작합니다.

@@ -1,3 +1,6 @@
+> [!summary]
+> A collection of open browser tabs and TODO items covering a mix of Korean tech content (Toss housing questions, joining Toss), systems programming fundamentals (two's complement, floating point, B-trees), distributed systems topics (WebSockets vs SSE vs long-polling, distributed locking), and Java/Spring Boot optimization resources.
+
 [청약 질문](https://toss.im/tossfeed/series/housing-question)
 
 [토스 Learner's High 서버 2기](https://tosspublic.notion.site/learner-s-high-2)

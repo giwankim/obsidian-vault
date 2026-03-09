@@ -10,6 +10,10 @@ description:
 tags:
   - "clippings"
 ---
+
+> [!summary]
+> An open-source high performance computing book that teaches practical algorithm optimization for modern hardware, covering CPU caching, SIMD, pipelining, and instruction-level parallelism. The case studies demonstrate dramatic speedups (e.g., 8-15x faster binary search, 100x faster matrix multiplication) over standard library implementations by exploiting hardware-level parallelism rather than relying solely on asymptotic complexity improvements.
+
 This is an upcoming high performance computing book titled “Algorithms for Modern Hardware” by [Sergey Slotin](http://sereja.me/).
 
 Its intended audience is everyone from performance engineers and practical algorithm researchers to undergraduate computer science students who have just finished an advanced algorithms course and want to learn more practical ways to speed up a program than by going from $O(n \log n)$ to $O(n \log \log n)$.

@@ -9,6 +9,10 @@ description: "What’s the difference?"
 tags:
   - "clippings"
 ---
+
+> [!summary]
+> Explains the distinctions between message brokers, message queues, and pub-sub: a message broker is the middleware infrastructure (e.g., RabbitMQ, Kafka), while message queues (point-to-point, exactly-one-consumer delivery) and pub-sub (one-to-many broadcast) are messaging patterns that brokers implement. The article covers architectural differences, key characteristics of each pattern, and when to use them in distributed systems.
+
 ### What’s the difference?
 
 When you’re working on a distributed system and need components to **communicate asynchronously**, you’ll hear terms like: **“pub-sub”, “message queue”**, and **“message broker”**.

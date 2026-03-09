@@ -8,6 +8,10 @@ description: "This is a multi-part blog series and will be updated with links to
 tags:
   - "clippings"
 ---
+
+> [!summary]
+> The first part of an eight-part series from PlanetScale that dissects consensus algorithms (like Paxos and Raft) by breaking them into smaller concerns: distributed durability, availability, and automation. The series takes an engineering approach to rebuilding consensus principles with more flexible, composable algorithms, ultimately showing how Vitess implements these ideas on top of vanilla MySQL.
+
 $50 Metal Postgres databases are here.[Learn more](https://planetscale.com/blog/50-dollar-planetscale-metal-is-ga-for-postgres)
 
 [Blog](https://planetscale.com/blog) |

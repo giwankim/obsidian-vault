@@ -8,6 +8,10 @@ description: "I feel like I got substantial value out of Claude today, and want 
 tags:
   - "clippings"
 ---
+
+> [!summary]
+> Matklad documents using Claude Code to build a cloud VM orchestration tool ("box") for running distributed TigerBeetle tests across multiple machines. He describes an incremental approach where he provides the structural skeleton (types, function signatures, control flow) and lets Claude fill in the implementation details -- particularly effective for wrangling baroque AWS APIs -- while noting that one-shotting produces characterless code and that LLMs struggle to discover emergent architectural patterns on their own.
+
 I feel like I got substantial value out of Claude today, and want to document it. I am at the tail end of AI adoption, so I don’t expect to say anything particularly useful or novel. However, I am constantly complaining about the lack of boring AI posts, so it’s only proper if I write one.
 
 ## Problem Statement

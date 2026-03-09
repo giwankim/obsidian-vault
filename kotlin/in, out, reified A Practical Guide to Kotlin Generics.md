@@ -9,6 +9,10 @@ description: "in, out, reified: A Practical Guide to Kotlin Generics Building a 
 tags:
   - "clippings"
 ---
+
+> [!summary]
+> A practical guide to Kotlin generics that explains variance (covariant `out`, contravariant `in`, invariant), `reified` type parameters, and star projection by building a simple event bus from scratch. The article maps each concept to a concrete use case: the bus itself is invariant, subscriptions are covariant producers, and event consumers are contravariant.
+
 [Sitemap](https://proandroiddev.com/sitemap/sitemap.xml)
 
 Get unlimited access to the best of Medium for less than $1/week.[Become a member](https://medium.com/plans?source=upgrade_membership---post_top_nav_upsell-----------------------------------------)

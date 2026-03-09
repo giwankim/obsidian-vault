@@ -11,6 +11,10 @@ description: "How OpenAI built an in-house AI data agent that uses GPT-5, Codex,
 tags:
   - "clippings"
 ---
+
+> [!summary]
+> OpenAI describes its custom internal AI data agent, built on GPT-5 and Codex, that lets employees go from question to insight in minutes across 600 petabytes of data and 70,000 datasets. The agent layers multiple forms of context -- schema metadata, code-level table definitions, institutional knowledge from Slack/Docs/Notion, and a self-improving memory system -- to ground its reasoning, and it uses closed-loop self-correction to iteratively refine analyses without human intervention.
+
 Inside OpenAI’s in-house data agent | OpenAI
 
 Data powers how systems learn, products evolve, and how companies make choices. But getting answers quickly, correctly, and with the right context is often harder than it should be. To make this easier as OpenAI scales, we built **our own bespoke in-house AI data agent** that explores and reasons over our own platform**.**

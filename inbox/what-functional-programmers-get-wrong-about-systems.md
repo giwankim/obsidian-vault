@@ -9,6 +9,10 @@ description: "Type systems verify properties of programs. Production correctness
 tags:
   - "clippings"
 ---
+
+> [!summary]
+> A seasoned Haskell developer argues that functional programming's powerful tools for local program correctness -- type systems, algebraic data types, making illegal states unrepresentable -- can foster unwarranted confidence about system-level properties. The gap between program verification and production correctness involves distributed state, partial failures, network boundaries, and operational concerns that type checkers cannot reach, and mistaking one for the other is where the most interesting failures live.
+
 Static types, algebraic data types, making illegal states unrepresentable: the functional programming tradition has developed extraordinary tools for reasoning about *programs*. I have spent over a decade writing Haskell professionally, and I believe in all of it.
 
 But the very effectiveness of these tools creates a particular susceptibility. We sometimes mistake reasoning about programs for reasoning about *systems*. These are not the same activity, and the instincts that make you good at one do not automatically transfer to the other.

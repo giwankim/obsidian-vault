@@ -9,4 +9,8 @@ description: "A technical deep dive into the Codex agent loop, explaining how Co
 tags:
   - "clippings"
 ---
+
+> [!summary]
+> A technical deep dive from OpenAI into how the Codex CLI agent loop works, explaining how it orchestrates models, tools, prompts, and performance using the Responses API. The post covers the architecture behind Codex's iterative approach to code generation and modification.
+
 [https://github.com/openai/codex⁠(opens in a new window)](https://github.com/openai/codex)

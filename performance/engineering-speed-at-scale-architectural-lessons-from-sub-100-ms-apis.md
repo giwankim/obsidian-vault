@@ -9,6 +9,10 @@ description: "Low‑latency systems require intentional design, strict latency b
 tags:
   - "clippings"
 ---
+
+> [!summary]
+> Explores how high-performing engineering teams achieve sub-100ms API response times by treating latency as a first-class product concern with explicit latency budgets allocated across edge, routing, application logic, and data access layers. The article argues that speed degrades unless actively guarded through architecture, caching, async patterns, observability, and a culture of shared performance ownership.
+
 [BT](https://www.infoq.com/int/bt/ "bt")
 
 [InfoQ Homepage](https://www.infoq.com/ "InfoQ Homepage") [Articles](https://www.infoq.com/articles "Articles") Engineering Speed at Scale — Architectural Lessons from Sub-100-ms APIs

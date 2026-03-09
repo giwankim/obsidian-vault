@@ -9,6 +9,10 @@ description: "Locks, PostgreSQL, Code , Examples and more."
 tags:
   - "clippings"
 ---
+
+> [!summary]
+> Demonstrates how to implement distributed locking using PostgreSQL advisory locks with Spring Boot, eliminating the need for external systems like Redis or ZooKeeper. Covers both session-level and transaction-level advisory locks (blocking and non-blocking), with practical Spring Boot service implementations for preventing race conditions such as cache stampedes.
+
 ### Locks, PostgreSQL, Code, Examples and more.
 
 ### Introduction

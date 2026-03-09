@@ -9,6 +9,10 @@ description: "TCP 3-way handshake는 TCP/IP 네트워크에서 안정적이고 �
 tags:
   - "clippings"
 ---
+
+> [!summary]
+> Explains the TCP 3-way handshake procedure used to establish reliable connections in TCP/IP networks. The three steps involve the client sending a SYN segment with an initial sequence number, the server responding with SYN+ACK, and the client confirming with ACK, after which data transmission can begin.
+
 ## TCP 3-way handshake에 대해서 설명해주세요.
 
 백엔드 와 관련된 질문이에요.

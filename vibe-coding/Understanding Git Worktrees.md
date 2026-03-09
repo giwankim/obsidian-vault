@@ -9,6 +9,10 @@ description: "A practical guide to Git worktrees: mental model, real scenarios, 
 tags:
   - "clippings"
 ---
+
+> [!summary]
+> A practical guide to Git worktrees explaining how they let you have multiple branches checked out simultaneously in separate folders sharing the same Git history, using just three commands (add, list, remove). The article highlights their growing importance for AI-powered workflows, particularly with tools like Cursor that use worktrees to run parallel agents in isolation.
+
 2025-12-19 · 8 min read
 
 The stash/unstash workflow is clunky.

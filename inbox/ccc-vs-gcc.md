@@ -9,6 +9,10 @@ description: "A Guide to comparing Claude Code Compiler with GCC"
 tags:
   - "clippings"
 ---
+
+> [!summary]
+> A thorough benchmark comparison of Anthropic's AI-written C compiler (CCC) against GCC, testing both Linux kernel compilation and SQLite performance. While CCC impressively compiled all 2,844 kernel C files without error, it failed at the linker stage, and its SQLite output ran 737x to 158,000x slower than GCC due to poor register allocation and lack of real optimization passes -- the -O2 flag is accepted but completely ignored, producing byte-identical binaries to -O0.
+
 ##### Posted on February 8, 2026 • 15 minutes • 3024 words
 
 ## Introduction

@@ -9,6 +9,10 @@ description: "Rails 8 eliminates Redis from the default stack. Learn how SolidQu
 tags:
   - "clippings"
 ---
+
+> [!summary]
+> Makes the case for replacing Redis and Sidekiq with Rails 8’s SolidQueue, which uses PostgreSQL’s `FOR UPDATE SKIP LOCKED` to implement efficient, contention-free job queuing entirely on your existing relational database. Covers SolidQueue’s architecture, built-in recurring jobs, concurrency controls, migration steps from Sidekiq, and scaling guidance -- noting that 95% of Rails apps can run without Redis.
+
 ![I Love You, Redis, But I’m Leaving You for SolidQueue](https://www.simplethread.com/wp-content/uploads/2025/11/redis-tattoo-mattK.jpg)
 
 [Rails 8](https://rubyonrails.org/), the latest release of the popular web application framework based on Ruby, excised [Redis](https://redis.io/)  from its standard technology stack. Redis is no longer required to queue jobs, cache partials and data, and send real-time messages. Instead, Rails’s new features— [SolidQueue](https://github.com/rails/solid_queue)  for job queuing, [SolidCache](https://github.com/rails/solid_cache)  for caching, and [SolidCable](https://github.com/rails/solid_cable) for transiting ActionCable messages—run entirely on your application’s existing relational database service. For most Rails applications, Redis can be discarded.

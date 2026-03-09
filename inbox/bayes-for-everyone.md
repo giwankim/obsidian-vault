@@ -9,6 +9,10 @@ description: "A guest post by Brandon Hendrickson"
 tags:
   - "clippings"
 ---
+
+> [!summary]
+> Brandon Hendrickson argues that Bayes' theorem can be made accessible to everyone -- not just quantitative thinkers -- by using visual representations (rectangles instead of equations), connecting it to emotional intuitions, and grounding it in questions kids actually care about like cryptids and UFOs. Drawing on Kieran Egan's educational philosophy, the piece positions Bayesian reasoning not as a capstone to rationality but as a front door that invites collaborative, evidence-based conversation.
+
 ### A guest post by Brandon Hendrickson
 
 *\[**Editor’s note:** I accept guest posts from certain people, especially past Book Review Contest winners. Brandon Hendrickson, whose [review of The Educated Mind](https://www.astralcodexten.com/p/your-book-review-the-educated-mind) won the 2023 contest, has taken me up on this and submitted this essay. He writes at [The Lost Tools of Learning](https://losttools.substack.com/) and will be at [LessOnline](https://less.online/) this weekend, where he and Jack Despain Zhou aka TracingWoodgrains will be doing a live conversation about education.\]*

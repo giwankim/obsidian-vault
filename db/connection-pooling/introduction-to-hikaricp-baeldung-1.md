@@ -9,6 +9,10 @@ description: "We learn about the HikariCP JDBC connection pool project."
 tags:
   - "clippings"
 ---
+
+> [!summary]
+> Introduces HikariCP, a lightweight (~130Kb) and high-performance JDBC connection pooling framework. Covers Maven setup, DataSource configuration (including key properties like jdbcUrl, connectionTimeout, maximumPoolSize, and leak detection), and demonstrates basic usage with a sample application querying employee data.
+
 - [1\. Overview](https://www.baeldung.com/#bd-overview)
 - [2\. Introduction](https://www.baeldung.com/#bd-introduction)
 - [3\. Maven Dependency](https://www.baeldung.com/#bd-maven)

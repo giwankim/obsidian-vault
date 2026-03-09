@@ -9,6 +9,10 @@ description: "Claude Code @anthropicai"
 tags:
   - "clippings"
 ---
+
+> [!summary]
+> Boris Cherny, creator of Claude Code, shares a thread on the extensive customizability of the tool, covering terminal configuration, effort levels, plugins/MCPs/skills, custom agents, permission pre-approval, sandboxing, status lines, keybindings, and lifecycle hooks. The thread emphasizes that every engineer uses their tools differently and Claude Code was built to support that flexibility.
+
 **Boris Cherny** @bcherny [2026-02-11](https://x.com/bcherny/status/2021699851499798911)
 
 Reflecting on what engineers love about Claude Code, one thing that jumps out is its customizability: hooks, plugins, LSPs, MCPs, skills, effort, custom agents, status lines, output styles, etc.

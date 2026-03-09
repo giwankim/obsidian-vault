@@ -1,3 +1,6 @@
+> [!summary]
+> Explains API design patterns as reusable blueprints that help get rigid, hard-to-change APIs right the first time. Uses a Twitter-like API case study to demonstrate how pagination and import/export patterns prevent costly structural changes later.
+
 ## 2.1 What are API design patterns?
 API design patterns are simply blueprints for ways of designing and structuring APIs. While most API design patterns often remain silent on the underlying implementation, sometimes they dictate certain aspects of the API's behavior.
 

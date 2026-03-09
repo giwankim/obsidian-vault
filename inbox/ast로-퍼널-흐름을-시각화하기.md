@@ -10,6 +10,10 @@ description: "소스코드 기반으로 복잡한 퍼널 이동을 시각화한 
 tags:
   - "clippings"
 ---
+
+> [!summary]
+> A Toss Tech blog post describing how a frontend developer used AST (Abstract Syntax Tree) static analysis to automatically visualize complex funnel navigation flows from source code. Faced with 39 pages connected by 82 conditional branches in the seller onboarding flow, the team built a tool using ts-morph to parse TypeScript code and extract navigation logic, producing documentation that never becomes outdated.
+
 안녕하세요, 토스코어 Business Onboarding Team 프론트엔드 개발자 조성륜입니다.
 
 토스팀에 합류하고 처음 받은 과제는 판매자 입점 퍼널을 이해하는 것이었습니다. 판매자 입점 퍼널은 판매자가 토스페이에 가입하는 과정 을 말해요.

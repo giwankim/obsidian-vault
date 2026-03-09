@@ -8,6 +8,10 @@ description: "Understand the different versions of UUIDs and why using them as a
 tags:
   - "clippings"
 ---
+
+> [!summary]
+> Explains why using UUIDs as primary keys in MySQL can degrade performance due to random B+ Tree page splitting and increased storage consumption (up to 9x compared to 32-bit integers). Recommends mitigations including using BINARY(16) storage, ordered UUID variants (v6/v7), MySQL's `UUID_TO_BIN` with swap flag, or alternative ID types like Snowflake IDs, ULIDs, or NanoIDs.
+
 $50 Metal Postgres databases are here.[Learn more](https://planetscale.com/blog/50-dollar-planetscale-metal-is-ga-for-postgres)
 
 [Blog](https://planetscale.com/blog) |

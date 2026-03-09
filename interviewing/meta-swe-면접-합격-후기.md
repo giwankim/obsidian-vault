@@ -9,6 +9,10 @@ description: "스크리닝, 코딩, 시스템 디자인, Behavioral 인터뷰, �
 tags:
   - "clippings"
 ---
+
+> [!summary]
+> A detailed account of passing Meta's SWE interview process by an 8-year mobile developer with no prior big tech or LeetCode interview experience. The post covers every stage from screening through team matching and offer negotiation, along with practical preparation strategies: solving 140 LeetCode problems in 3 sets, taking paid mock system design interviews, and preparing STAR-format behavioral stories.
+
 ### 스크리닝, 코딩, 시스템 디자인, Behavioral 인터뷰, 팀 매칭, 오퍼
 
 ## 배경

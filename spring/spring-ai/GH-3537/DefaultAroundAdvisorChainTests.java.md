@@ -1,3 +1,6 @@
+> [!summary]
+> Describes the test suite for `DefaultAroundAdvisorChain` in Spring AI, covering null validation, observation registry behavior, advisor retrieval immutability after chain execution, and comprehensive `copy()` method edge cases. The tests verify that original advisor lists remain consistent even after internal deques are mutated during chain execution.
+
 # Location
 spring-ai-client-chat/src/test/java/org/springframework/ai/chat/client/advisor/DefaultAroundAdvisorChainTests.java
 # Coverage

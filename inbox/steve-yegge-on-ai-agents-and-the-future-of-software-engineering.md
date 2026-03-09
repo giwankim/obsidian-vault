@@ -9,6 +9,10 @@ description: "Steve Yegge on the 8 levels of AI adoption, why big companies may 
 tags:
   - "clippings"
 ---
+
+> [!summary]
+> An interview with Steve Yegge covering his 8-level model of AI adoption for developers (from "no AI" to "build your own orchestrator"), his prediction that big companies will cut roughly 50% of engineers to fund AI tooling for the rest, and the "Dracula effect" where vibe coding at full speed is so draining that companies should expect only about three hours of productive AI-augmented work per day. He argues that innovation at large companies is effectively dead and the real action will come from small, AI-augmented teams.
+
 ### Steve Yegge on the 8 levels of AI adoption, why big companies may be doomed, and why he and many AI-adopters feel drained from using agents non-stop
 
 *Note: apologies for this issue of the newsletter arriving slightly later than usual, I’m currently in San Francisco. Last night, I attended AI Night with WorkOS, and tomorrow I’ll be hosting [The Pragmatic Summit](https://www.pragmaticsummit.com/).*

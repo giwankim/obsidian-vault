@@ -1,3 +1,6 @@
+> [!summary]
+> An empirical evaluation of AI agent skills (specifically terraform-skill) by testing Claude Code and Codex on Terraform infrastructure generation tasks with and without the skill enabled. The results reveal a "trough of disillusionment" -- skills often fail to trigger on complex tasks, and even when triggered, guideline adherence is inconsistent, indicating that an engineer-in-the-loop is still required to steer agents toward best practices.
+
 The generated code for this experiment is available in [skills-test-with-terraform](https://github.com/giwankim/skills-test-with-terraform/tree/main).
 
 ## Skills

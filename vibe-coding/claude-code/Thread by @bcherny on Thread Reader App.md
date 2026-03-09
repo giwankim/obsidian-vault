@@ -9,6 +9,10 @@ description: "@bcherny: I'm Boris and I created Claude Code. Lots of people have
 tags:
   - "clippings"
 ---
+
+> [!summary]
+> Boris Cherny, creator of Claude Code, shares his personal workflow: running 5+ parallel Claude sessions locally and 5-10 on the web, using Opus 4.5 for everything, maintaining a shared team CLAUDE.md, starting most sessions in Plan mode, and using slash commands, subagents, PostToolUse hooks for formatting, and MCP integrations with Slack and BigQuery. His top tip is giving Claude a way to verify its work, which 2-3x the quality of results.
+
 ## Enter URL or ID to Unroll
 
 18,904 views

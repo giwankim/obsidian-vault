@@ -9,6 +9,10 @@ description: "A comprehensive guide to Claude Code's most powerful features, fro
 tags:
   - "clippings"
 ---
+
+> [!summary]
+> A comprehensive compilation of 31 daily Claude Code tips covering everything from essential shortcuts (bang prefix, double-Esc rewind, prompt stashing) to advanced features like subagents, agent skills, plugins, hooks, and the Claude Agent SDK. The guide is organized progressively from beginner setup through session management, productivity features, thinking/planning modes, permissions, automation, and browser integration.
+
 Throughout December, I shared one Claude Code tip per day on X/Twitter and LinkedIn. What started as a simple advent calendar became a map of the features that have fundamentally changed how I write software. This post compiles all 31 tips into a comprehensive guide, reorganized from beginner essentials to advanced patterns, and adds additional context that can't be covered in 280 characters.
 
 Whether you’re just getting started or looking to level up with Claude Code, there’s something here for you.

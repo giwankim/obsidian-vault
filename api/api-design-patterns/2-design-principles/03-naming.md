@@ -1,3 +1,6 @@
+> [!summary]
+> Covers principles for choosing good API names that are expressive, simple, and predictable. Discusses language, grammar pitfalls (prepositions as code smells, pluralization), syntax conventions, contextual meaning, and the importance of including units -- illustrated by the Mars Climate Orbiter disaster.
+
 ## 3.1 Why do names matter?
 
 ## 3.2 What makes a name "good?"

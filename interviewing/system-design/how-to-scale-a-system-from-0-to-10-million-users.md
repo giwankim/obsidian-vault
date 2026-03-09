@@ -9,6 +9,10 @@ description: "Scaling is a complex topic, but after working at big tech on servi
 tags:
   - "clippings"
 ---
+
+> [!summary]
+> A practical guide walking through 7 stages of scaling a system from zero to 10 million+ users, emphasizing incremental improvement over premature optimization. Each stage introduces specific architectural components -- from single server to load balancers, database replicas, caching layers, CDNs, message queues, sharding, and microservices -- explaining what to add, when, and the trade-offs involved.
+
 Scaling is a complex topic, but after working at **big tech** on services handling millions of requests and scaling my own **startup ([AlgoMaster.io](https://algomaster.io/))** from scratch, I’ve realized that most systems evolve through a surprisingly similar set of stages as they grow.
 
 The key insight is that **you should not over-engineer from the start**. Start simple, identify bottlenecks, and scale incrementally.

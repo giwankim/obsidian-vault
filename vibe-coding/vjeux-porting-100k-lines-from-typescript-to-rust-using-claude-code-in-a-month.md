@@ -8,6 +8,10 @@ description:
 tags:
   - "clippings"
 ---
+
+> [!summary]
+> Vjeux describes porting the ~100k-line Pokemon Showdown JavaScript codebase to Rust using Claude Code running 24/7 for a month, producing 5000 commits without writing a single line of code himself. Key lessons include giving Claude rigid structure (one method per file, deterministic scripts for source mapping), running end-to-end tests against the original JS to catch divergences, and the constant need to prevent Claude from taking shortcuts like hardcoding behaviors or writing "simplified" versions.
+
 ## Porting 100k lines from TypeScript to Rust using Claude Code in a month
 
 I read [this post](https://www.linkedin.com/posts/galenh_principal-software-engineer-coreai-microsoft-activity-7407863239289729024-WTzf/) “Our strategy is to combine AI *and* Algorithms to rewrite Microsoft’s largest codebases \[from C++ to Rust\]. Our North Star is ‘1 engineer, 1 month, 1 million lines of code.” and it got me curious, how difficult is it really?

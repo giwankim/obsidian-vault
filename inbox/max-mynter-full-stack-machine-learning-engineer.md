@@ -8,6 +8,10 @@ description: "Max Mynter - Full Stack Machine Learning Engineer. Explore my blog
 tags:
   - "clippings"
 ---
+
+> [!summary]
+> Max Mynter recounts his 18-month strategic journey from a first ML engineering role to signing as a research engineer at Mistral, a major foundation model lab. The post details his deliberate approach: building deep technical expertise through side projects and open-source contributions, cultivating a public presence, networking authentically, and treating the job search itself as a systematic campaign with targeted applications and interview preparation.
+
 \[
 
 back

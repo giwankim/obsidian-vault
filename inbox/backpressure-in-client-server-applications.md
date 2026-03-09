@@ -9,6 +9,10 @@ description: "Backpressure, in client-server applications, is accomplished when 
 tags:
   - "clippings"
 ---
+
+> [!summary]
+> An explanation of backpressure in client-server networking, where clients adjust their transmission rate in response to server slowdowns rather than repeatedly disconnecting and reconnecting. The article demonstrates the concept with a Netty-based websocket experiment that shows TCP window size dropping to zero when the server's bounded queue fills up, proving that both client and server must actively manage read/write operations for backpressure to work effectively.
+
 Backpressure, in client-server applications, is accomplished when a client adjusts its transmission of messages in response to a server that has slowed its processing of messages.
 
 ## Stuck in Traffic

@@ -1,3 +1,6 @@
+> [!summary]
+> Deep-dive reference for the `servicetalk-http-api` module, documenting its three-tier API model (async streaming, blocking streaming, aggregated), the full request/response type hierarchy, filter middleware chain, execution strategy offloading, serialization interfaces, and its architectural position as the interface-only layer that 29 downstream modules depend on.
+
 # servicetalk-http-api
 
 API-only module defining ServiceTalk's HTTP abstractions for HTTP/1.x and HTTP/2. Contains interfaces, value types, adapters, and filters — no transport implementation. All HTTP-based communication in the framework (HTTP, gRPC, JAX-RS routing) flows through types defined here.

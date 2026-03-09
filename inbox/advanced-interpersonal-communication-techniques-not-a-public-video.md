@@ -9,6 +9,10 @@ description: "Advisor to growth-stage startups. ex-Stripe, Twitter, Google, Yaho
 tags:
   - "clippings"
 ---
+
+> [!summary]
+> A video by Shreyas Doshi on advanced interpersonal communication techniques, drawing on his experience advising growth-stage startups and leading product at Stripe, Twitter, and Google. The content is unlisted and covers strategies for more effective workplace communication and leadership.
+
 ![](https://www.youtube.com/watch?v=DcK40UJWT6k)
 
 Advisor to growth-stage startups. ex-Stripe, Twitter, Google, Yahoo

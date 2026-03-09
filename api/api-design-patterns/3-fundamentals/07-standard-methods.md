@@ -1,3 +1,6 @@
+> [!summary]
+> Defines the standard methods (Get, List, Create, Update, Delete, Replace) that should be consistently supported across API resources. Emphasizes idempotence, avoiding side effects, and applying familiar patterns so users can transfer knowledge between resources.
+
 ## 7.1 Motivation
 One of the most valuable aspects of a well-designed API is the ability for users to apply what they already know in order to more quickly understand how an API works. Once users built up their understanding of resources, they're familiar with a set of standard methods that can be performed on those resources.
 

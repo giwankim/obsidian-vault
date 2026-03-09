@@ -9,4 +9,8 @@ description: "Reverse Engineering your Software Architecture with Claude Code to
 tags:
   - "clippings"
 ---
+
+> [!summary]
+> Nick Tune describes using Claude Code to reverse-engineer your own software architecture, generating documentation and structural understanding that then helps Claude Code itself work more effectively on the codebase. The key insight is that the more Claude understands your system's architecture, the better it can assist with future development tasks.
+
 Nick Tune

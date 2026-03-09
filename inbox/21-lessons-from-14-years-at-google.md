@@ -9,6 +9,10 @@ description: "Lessons learned from 14 years of engineering at Google, focusing o
 tags:
   - "clippings"
 ---
+
+> [!summary]
+> Addy Osmani distills 21 career lessons from 14 years at Google, emphasizing that the most impactful engineers succeed not through technical brilliance alone but by navigating people, politics, alignment, and ambiguity. Key themes include prioritizing user problems over technology, valuing clarity over cleverness, shipping early, managing unknowns, and treating your career as compound interest rather than lottery tickets.
+
 When I joined Google ~14 years ago, I thought the job was about writing great code. I was partly right. But the longer I’ve stayed, the more I’ve realized that the engineers who thrive aren’t necessarily the best programmers - they’re the ones who’ve figured out how to navigate everything around the code: the people, the politics, the alignment, the ambiguity.
 
 These lessons are what I wish I’d known earlier. Some would have saved me months of frustration. Others took years to fully understand. None of them are about specific technologies - those change too fast to matter. They’re about the patterns that keep showing up, project after project, team after team.

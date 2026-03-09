@@ -9,6 +9,10 @@ description: "Practice real coding interview questions and system design problem
 tags:
   - "clippings"
 ---
+
+> [!summary]
+> HackTheRounds is a paid interview prep platform offering hundreds of real coding and system design questions from 40+ top tech companies like Google, Meta, and OpenAI. It differentiates from LeetCode by providing company-specific questions, a built-in code editor with live execution, and an integrated system design whiteboard, with users reporting 60-90% total compensation increases after landing offers.
+
 Unlock all questions starting at $10/mo with HackTheRounds Pro. No auto-renewals.[HackTheRounds](https://www.hacktherounds.com/)
 
 New

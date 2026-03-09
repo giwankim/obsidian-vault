@@ -9,6 +9,10 @@ description: "Affordability is a goal, not a policy."
 tags:
   - "clippings"
 ---
+
+> [!summary]
+> An op-ed contrasting two Democratic approaches to housing affordability: Governor Hochul's deregulatory "Let Them Build" proposal to relax environmental review and encourage private construction, versus Mayor Mamdani's redistributive approach of rent freezes and government-subsidized housing. The author argues that New York's existing million-plus subsidized or rent-controlled units have failed to solve its housing crisis, and that relaxing regulatory barriers to increase supply is the more practical path.
+
 *Howard Husock is a senior fellow at the American Enterprise Institute and author of “The Projects.”*
 
  <video xmlns="http://www.w3.org/1999/xhtml"><source src="https://video.primis.tech/uploads/cn1/video/users/hls/32606/video_68c2b755a27c2752011550/vid697a3374e7cd5509904599.mp4/chunklist_480.m3u8" type="application/x-mpegURL"> <source src="https://video.primis.tech/uploads/cn1/video/users/converted/32606/video_68c2b755a27c2752011550/vid697a3374e7cd5509904599.mp4?tok=ewogICAgImFsZyI6ICJIUzI1NiIsCiAgICAidHlwIjogIkpXVCIKfQ.ewogICAgImlzcyI6ICJQcmltaXMiLAogICAgInN1YiI6ICIvdXBsb2Fkcy9jbjEvdmlkZW8vdXNlcnMvY29udmVydGVkLzMyNjA2L3ZpZGVvXzY4YzJiNzU1YTI3YzI3NTIwMTE1NTAvdmlkNjk3YTMzNzRlN2NkNTUwOTkwNDU5OS5tcDQiLAogICAgIm5iZiI6IDE3Njk3MjQwMDAsCiAgICAiZXhwIjogMTc2OTkxODc2MAp9.2wFfdHVDI1KHLUJgAP3b5d4S40RvBIS_NmHC7CyYfac" type="video/mp4"></video>

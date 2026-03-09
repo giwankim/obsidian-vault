@@ -1,3 +1,6 @@
+> [!summary]
+> Examines how to structure relationships between API resources, covering reference, many-to-many, self-reference, and hierarchical relationship types. Warns against common anti-patterns like creating resources for everything, overly deep hierarchies, and excessive in-lining of data.
+
 ## 4.1 What is resource layout?
 Resource layout is the entity (resource) relationship model for a particular design of an API.
 

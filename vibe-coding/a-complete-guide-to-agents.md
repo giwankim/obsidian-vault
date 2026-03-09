@@ -8,6 +8,10 @@ description: "Learn how to optimize your AGENTS.md file for AI coding agents. Ma
 tags:
   - "clippings"
 ---
+
+> [!summary]
+> A guide to writing effective AGENTS.md files for AI coding agents, emphasizing that these files should be kept small and focused to avoid wasting tokens and confusing agents. The article advocates for progressive disclosure -- putting only essential project info in the root file and linking to separate documents for language-specific rules, testing patterns, and other domain guidance.
+
 [← All Posts](https://www.aihero.dev/posts)
 
 Matt Pocock

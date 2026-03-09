@@ -1,3 +1,6 @@
+> [!summary]
+> Detailed analysis of the `servicetalk-http-api` module covering its streaming-first design where async streaming is the core model and other paradigms are adapters. Documents the full call graph from builder to transport, payload/trailer state management, execution strategy offloading semantics, and notable test-verified behaviors including content encoding and cookie parsing.
+
 # ServiceTalk HTTP API (`servicetalk-http-api`)
 
 ## Overview

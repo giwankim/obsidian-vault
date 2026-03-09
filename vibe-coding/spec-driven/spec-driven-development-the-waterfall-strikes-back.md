@@ -9,6 +9,10 @@ description: "Kiro, Spec-kit, Bmad, Tessl, and other SDD frameworks turn busines
 tags:
   - "clippings"
 ---
+
+> [!summary]
+> A critical take on Spec-Driven Development (SDD), arguing that it revives Waterfall-era heavy documentation and buries agility under layers of Markdown. The author contends that SDD tools like Kiro, spec-kit, and Tessl produce verbose, repetitive specs that are tedious to review and don't reliably keep agents on track, and advocates instead for an iterative, natural-language approach inspired by Agile and Lean methodologies where simple features are built incrementally.
+
 ![Spec-Driven Development: The Waterfall Strikes Back](https://marmelab.com/_astro/large.OJOAet7s_Hi7e7.webp) ![François Zaninotto](https://marmelab.com/_astro/francois.CHSMwzIw_2ss09O.webp)
 
 By

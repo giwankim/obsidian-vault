@@ -9,6 +9,10 @@ description: "The Anthropic Hive Mind As you’ve probably noticed, something is
 tags:
   - "clippings"
 ---
+
+> [!summary]
+> Steve Yegge describes Anthropic as operating like a "hive mind" driven by vibes and improvisational collaboration, where more available work than people eliminates internal politics and enables rapid innovation (Claude Cowork was launched 10 days after the idea). He draws parallels to Golden Ages at Amazon and Google, arguing that these eras die when there are more people than work, and predicts that Anthropic's model -- fully transparent, ego-free, campfire-style evolutionary development -- is how all successful companies will eventually operate.
+
 [Sitemap](https://steve-yegge.medium.com/sitemap/sitemap.xml)
 
 Get unlimited access to the best of Medium for less than $1/week.[Become a member](https://medium.com/plans?source=upgrade_membership---post_top_nav_upsell-----------------------------------------)

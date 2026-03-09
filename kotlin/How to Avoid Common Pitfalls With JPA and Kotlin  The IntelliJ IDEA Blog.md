@@ -16,6 +16,10 @@ description: "This article outlines a set of best practices to help you avoid pr
 tags:
   - "clippings"
 ---
+
+> [!summary]
+> A comprehensive guide to avoiding common pitfalls when using Jakarta Persistence (JPA) with Kotlin, covering entity class design (why data classes are a bad fit), val vs var for entity fields, access types, null safety limitations due to reflection, primary key handling, and default value behavior. The article also highlights IntelliJ IDEA 2026.1 inspections that will automatically detect many of these issues.
+
 ## How to Avoid Common Pitfalls With JPA and Kotlin
 
 *This post was written together with [Thorben Janssen](https://thorben-janssen.com/), who has more than 20 years of experience with JPA and Hibernate and is the author of “Hibernate Tips: More than 70 Solutions to Common Hibernate Problems” and the JPA newsletter.*

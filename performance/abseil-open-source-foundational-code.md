@@ -8,6 +8,10 @@ description: "Battle-tested, Mom-approved"
 tags:
   - "clippings"
 ---
+
+> [!summary]
+> A performance tuning guide by Jeff Dean and Sanjay Ghemawat from Google, covering general principles for writing efficient code including estimation techniques, back-of-the-envelope calculations, and choosing faster alternatives when they do not compromise readability. The document challenges the common "optimize later" approach by arguing that disregarding performance during development leads to flat profiles with no clear hotspots.
+
 ## Performance Hints
 
 [Jeff Dean](https://research.google/people/jeff/),[Sanjay Ghemawat](https://research.google/people/sanjayghemawat/)

@@ -1,3 +1,6 @@
+> [!summary]
+> Technical brief on ServiceTalk's `servicetalk-http-api` module covering its public HTTP surface for both client and server, including request/response models, execution/offload strategy, filters, and adapters across streaming, aggregated, and blocking paradigms. Details the client and server build chains, payload aggregation flow, and module dependencies.
+
 # servicetalk-http-api brief
 
 **Overview**

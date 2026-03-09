@@ -1,3 +1,6 @@
+> [!summary]
+> Documents the `DefaultAroundAdvisorChain` class in Spring AI, which implements the Chain of Responsibility pattern for processing AI chat requests through synchronous (`CallAdvisor`) and reactive (`StreamAdvisor`) interceptors. Key design elements include deque-based advisor stacks that are popped during execution, immutable original lists for introspection, Micrometer observation support, and a builder pattern for advisor ordering.
+
 # Overview
 `DefaultAroundAdvisorChain` is the default implementation of the `BaseAdvisorChain` interface, part of Spring AI's advisor pattern for intercepting and modifying client requests/responses. It implements a Chain of Responsibility pattern for processing AI chat requests.
 # Purpose

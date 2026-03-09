@@ -9,6 +9,10 @@ description: "-----= OPEN FOR SUGGESTIONS! =-----  How to suggest new resources?
 tags:
   - "clippings"
 ---
+
+> [!summary]
+> A comprehensive curated list of resources for learning 3D computer graphics programming, organized into three tracks: offline rendering (ray/path tracing), real-time rendering (GPU/rasterization), and generative art. It covers beginner projects, YouTube channels, university courses, books, blogs, and tools, emphasizing practical tinkering over purely theoretical study.
+
 \- <sup><a href="https://docs.google.com/document/u/0/d/1JwwLYxFMDwuxX4Sc3znE-8jVIQMW1LWjuvYeLpiVf_8/?pli=1#cmnt1">[a]</a></sup> \----= OPEN FOR SUGGESTIONS! =-----
 
 How to suggest new resources? Use comments in Google Doc!

@@ -9,4 +9,8 @@ description: "A series of brief talks on general philosophy of life, given at th
 tags:
   - "clippings"
 ---
+
+> [!summary]
+> A YouTube playlist of brief philosophy-of-life talks given at the end of Friday lectures in Stanford's CS 111 course during spring quarter 2024. The series covers general life philosophy topics beyond computer science.
+
 ![](https://www.youtube.com/watch?v=embed)

@@ -1,3 +1,6 @@
+> [!summary]
+> A curated collection of resources covering Spring Data JPA and database connectivity topics, including transaction isolation phenomena (read/write skew), connection pooling with HikariCP, and pagination strategies (offset vs. keyset) for Spring Data JPA.
+
 [A beginner’s guide to Read and Write Skew phenomena](https://vladmihalcea.com/a-beginners-guide-to-read-and-write-skew-phenomena/)
 [Connection Pooling: Fundamentals, Challenges and Trade-offs](https://engineeringatscale.substack.com/p/database-connection-pooling-guide)
 [AI 시대, JPA의 복잡성 대신 본질에 집중하기](https://brunch.co.kr/@cleancode/95)

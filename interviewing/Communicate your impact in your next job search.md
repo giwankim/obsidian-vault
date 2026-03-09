@@ -8,6 +8,10 @@ description: "Join Kelly (Dir. of Engineering) and Taylor (Engineering Recruiter
 tags:
   - "clippings"
 ---
+
+> [!summary]
+> A Maven course by Kelly Vaughn (Dir. of Engineering) and Taylor Desseyn (Engineering Recruiter) on personal branding for tech job searches. It covers crafting standout resumes and LinkedIn profiles, preparing for every interview round, and leveraging content creation to showcase leadership and impact beyond technical skills.
+
 Hosted by Kelly Vaughn and Taylor Desseyn
 
 What you'll learn

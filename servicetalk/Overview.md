@@ -1,3 +1,6 @@
+> [!summary]
+> Comprehensive architectural overview of ServiceTalk, a Netty-based JVM framework with reactive concurrency primitives (Publisher, Single, Completable), protocol-specific APIs for HTTP and gRPC, and built-in client features like DNS service discovery, load balancing, and traffic resilience. Covers the full module structure including transport, serialization, routing, observability, and cross-component integration patterns.
+
 **High-Level Summary**
 ServiceTalk is a JVM network application framework built on Netty with protocol-specific APIs (e.g., HTTP/1.x, HTTP/2.x) and includes server support plus client-side load balancing and service discovery features. `README.adoc:7-12`
 The repository is a multi-module Gradle build with modules covering concurrency, buffers, transport, HTTP, gRPC, serialization, routing, load balancing, observability, and examples. `settings.gradle:17-134`

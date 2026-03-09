@@ -8,6 +8,10 @@ description:
 tags:
   - "clippings"
 ---
+
+> [!summary]
+> Erik Meijer proposes a formal verification approach to AI agent safety, where agents must generate mathematical proofs that their planned actions are safe before being authorized to execute them. The article demonstrates how prompt injection attacks can exploit tool-calling agents (e.g., silently exfiltrating email data), and argues that static verification of structured workflows -- analogous to Java bytecode verification -- provides stronger guarantees than reactive guardrails or runtime monitoring alone.
+
 We are redesigning the Queue website.
 [Please take a look and let us know what you think](https://spawn-queue.acm.org/).
 

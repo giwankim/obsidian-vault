@@ -9,6 +9,10 @@ description: "A tool that connects everyday work into one space. It gives you an
 tags:
   - "clippings"
 ---
+
+> [!summary]
+> A comprehensive online book covering Kotlin Exposed, the lightweight SQL framework for Kotlin. It walks through DSL and DAO approaches, DDL/DML operations, column types, transactions, Spring Boot integration, async/non-blocking support, multi-tenant application development, and common pitfalls with their solutions.
+
 ![](https://debop.notion.site/image/attachment%3A3542e622-a944-4ea9-95d5-16f5ca070414%3Aexposed-text-light.png?table=block&id=1ad27445-26b0-8042-8173-e9c907abdae2&spaceId=c001cd20-7e4a-4a18-b09b-dde2c58f28fd&width=2000&userId=&cache=v2)
 
 📕

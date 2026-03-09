@@ -1,3 +1,6 @@
+> [!summary]
+> A collection of resources on the Transactional Outbox pattern, covering Spring Boot implementations, a revisited design by Gunnar Morling, a real-world case study from 29CM, and the Namastack outbox library. The pattern ensures reliable event publishing by writing events to an outbox table within the same database transaction as the business operation.
+
 [Transactional Outbox pattern with Spring Boot](https://www.wimdeblauwe.com/blog/2024/06/25/transactional-outbox-pattern-with-spring-boot/)
 
 [Revisiting the Outbox Pattern](https://www.morling.dev/blog/revisiting-the-outbox-pattern/)

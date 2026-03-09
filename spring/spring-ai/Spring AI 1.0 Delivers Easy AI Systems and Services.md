@@ -9,6 +9,10 @@ description: "Jakarta EE 11 introduces support for Java 21, records, virtual thr
 tags:
   - "clippings"
 ---
+
+> [!summary]
+> A comprehensive walkthrough of Spring AI 1.0 by Josh Long, demonstrating how to build a production-ready AI-powered dog adoption assistant using chat models, RAG with PgVector, tool calling, memory advisors, and MCP integration. The article also covers production concerns including Spring Security, GraalVM native images, virtual threads for scalability, and Micrometer-based observability for token usage monitoring.
+
 [BT](https://www.infoq.com/int/bt/ "bt")
 
 [InfoQ Homepage](https://www.infoq.com/ "InfoQ Homepage") [Articles](https://www.infoq.com/articles "Articles") Spring AI 1.0 Delivers Easy AI Systems and Services

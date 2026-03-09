@@ -1,3 +1,6 @@
+> [!summary]
+> A deep dive into Kotlin companion objects, explaining that they are real singleton objects (not just syntactic sugar for Java statics) and can implement interfaces, participate in delegation, and be passed as values. The article catalogs common misconceptions that coding agents make, such as confusing companion-level interface implementation with subclass inheritance of static members, and provides authoritative references and prompt templates to elicit correct behavior.
+
 # Kotlin Companion Objects, Inheritance, and Why Agents Misread Them
 
 ## Companion object essentials: syntax, semantics, and the core mental model

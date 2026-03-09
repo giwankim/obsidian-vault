@@ -11,6 +11,10 @@ description: "Explore how AI tools are transforming software development and the
 tags:
   - "clippings"
 ---
+
+> [!summary]
+> Sandro Mancuso argues that AI-accelerated code generation makes Software Craftsmanship principles more important, not less. Since developers spend less than 25% of their time actually writing code -- with the rest spent reading, understanding, and navigating systems -- generating more code faster without maintaining modularity, clear naming, and test discipline only amplifies existing flaws and accelerates knowledge loss across teams.
+
 Prefer listening over reading? Press play and enjoy
 
 Software Craftsmanship in the AI Era

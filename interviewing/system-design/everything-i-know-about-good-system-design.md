@@ -8,6 +8,10 @@ description:
 tags:
   - "clippings"
 ---
+
+> [!summary]
+> A practitioner's guide arguing that good system design is about using boring, well-tested components correctly rather than clever tricks. It covers core principles including minimizing statefulness, database optimization (schemas, indexes, replicas), background jobs, caching trade-offs, event-driven architecture, push vs. pull patterns, hot path identification, and building resilience through killswitches, circuit breakers, and idempotency keys.
+
 I see a lot of bad system design advice. One classic is the LinkedIn-optimized “bet you never heard of *queues* ” style of post, presumably aimed at people who are new to the industry. Another is the Twitter-optimized “you’re a terrible engineer if you ever store booleans in a database” clever trick. Even good system design advice can be kind of bad. I love *Designing Data-Intensive Applications*, but I don’t think it’s particularly useful for most system design problems engineers will run into.
 
 What is system design? In my view, if software design is how you assemble lines of code, system design is how you assemble *services*. The primitives of software design are variables, functions, classes, and so on. The primitives of system design are app servers, databases, caches, queues, event buses, proxies, and so on.

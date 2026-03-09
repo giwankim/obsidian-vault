@@ -9,4 +9,8 @@ description: "Kotlin 2.3 introduces a new, experimental \"Explicit Backing Field
 tags:
   - "clippings"
 ---
+
+> [!summary]
+> An overview of Kotlin 2.3's experimental "Explicit Backing Fields" feature, which allows properties to have a different external type than their internal backing field type. This enables cleaner encapsulation patterns where the public API exposes an immutable type while the backing field remains mutable internally.
+
 ![](https://www.youtube.com/watch?v=qU_a1ioqOR8)

@@ -1,3 +1,6 @@
+> [!summary]
+> A link collection covering Spring MVC topics including HTTP request/response logging, RestClient/RestTemplate data transfer behavior, serialization/deserialization, connection and read timeouts, and WebSocket session handling with ConcurrentWebSocketSessionDecorator.
+
 [HTTP Request, Response 내용을 logging 적용해보기](https://beaniejoy.tistory.com/97)
 
 [Spring RestClient/RestTemplate 요청이 실패하는 이유 - 데이터 타입에 따른 전송 방식 차이](https://nilgil.com/blog/spring-http-transfer-method-changes/#%EA%B2%B0%EB%A1%A0)

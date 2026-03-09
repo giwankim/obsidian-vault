@@ -8,6 +8,10 @@ description:
 tags:
   - "clippings"
 ---
+
+> [!summary]
+> Formation's comprehensive FAANG interview preparation guide covering data structures, algorithms, and interview habits from beginner to expert level. It provides a structured curriculum with curated video/article resources, LeetCode practice problems, and study plans (2-week to 3-month), all organized around Formation's six-step Engineering Method for systematic problem-solving during interviews.
+
 ### 👋 Welcome
 
 Formation helps software engineers prepare for FAANG-level interviews by combining proven curriculum with feedback from senior mentors. This guide distills the core data structures, algorithms, and interview habits you should be fluent in before you meet with a top-tier team. If anything is unclear, ask in this [LinkedIn thread](https://fm.dev/jg8); one of our engineers will reply.

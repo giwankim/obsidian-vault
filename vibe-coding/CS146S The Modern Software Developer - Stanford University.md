@@ -9,6 +9,10 @@ description:
 tags:
   - "clippings"
 ---
+
+> [!summary]
+> Stanford course CS146S on modern AI-assisted software development, covering LLM fundamentals, prompt engineering, agent architecture, MCP, context management, IDE integrations, security, code review, and DevOps. The course features guest speakers from Cognition, Warp, Semgrep, Graphite, Vercel, and Resolve, with hands-on assignments building coding agents, MCP servers, and multi-stack web apps.
+
 AI coding strategies that work delivered to your inbox.
 
 ## Course Description

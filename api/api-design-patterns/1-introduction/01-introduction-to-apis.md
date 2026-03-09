@@ -1,3 +1,6 @@
+> [!summary]
+> Introduces web APIs and contrasts RPC-style with resource-oriented API design, where standardized resources and a limited set of methods reduce complexity. A good API is operational, expressive, simple, and predictable.
+
 ## 1.1 What are web APIs?
 
 An API defines the way in which computer systems interact.

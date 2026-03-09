@@ -9,6 +9,10 @@ description:
 tags:
   - "clippings"
 ---
+
+> [!summary]
+> Tips from the Claude Code team on maximizing productivity: use 3-5 git worktrees for parallel sessions, start complex tasks in plan mode, invest heavily in CLAUDE.md, create reusable skills and slash commands, let Claude fix bugs autonomously via Slack MCP, level up prompting by challenging Claude, and use subagents to offload tasks while keeping the main context clean.
+
 **Boris Cherny** @bcherny [2026-01-31](https://x.com/bcherny/status/2017742741636321619)
 
 I'm Boris and I created Claude Code. I wanted to quickly share a few tips for using Claude Code, sourced directly from the Claude Code team. The way the team uses Claude is different than how I use it. Remember: there is no one right way to use Claude Code -- everyones' setup is different. You should experiment to see what works for you!

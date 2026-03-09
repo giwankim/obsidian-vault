@@ -1,3 +1,6 @@
+> [!summary]
+> Briefing on the `servicetalk-http-api` module, which defines ServiceTalk's core HTTP client and server abstractions across three programming models: async streaming, blocking, and aggregated. Covers the request/response hierarchy, filter/decorator middleware pattern, execution strategy for thread offloading, and key dependencies.
+
 # servicetalk-http-api Briefing
 
 ## Overview

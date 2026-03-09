@@ -9,6 +9,10 @@ description: "Including my Vegas hotel tiers and restaurant recommendations. Plu
 tags:
   - "clippings"
 ---
+
+> [!summary]
+> Nate Silver shares practical advice for aspiring professional poker players and an opinionated guide to Las Vegas hotels and restaurants, drawing on his experience as a former pro player and someone who has spent roughly nine months living on the Strip. The poker advice emphasizes live cash games over online, exploitative play, learning PLO, networking for private game access, and maintaining realistic expectations about an increasingly difficult profession.
+
 ### Including my Vegas hotel tiers and restaurant recommendations. Plus, advice for young poker players. Is the poker dream dead?
 
 Merry Christmas/Happy Holidays from Silver Bulletin! (Does anybody use “Seasons Greetings” anymore?) We hope you’ve enjoyed the newsletter this year. We’ve also really enjoyed meeting some of you through questions, comments, and chats.

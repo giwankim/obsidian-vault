@@ -9,6 +9,10 @@ description: "Learn how to create, structure, and maintain CLAUDE.md files for C
 tags:
   - "clippings"
 ---
+
+> [!summary]
+> A thorough guide to creating, structuring, and maintaining CLAUDE.md files for Claude Code, covering file placement, essential content (project context, code style, commands, gotchas), the @imports system for referencing external docs, and modular rules via .claude/rules/. The article emphasizes keeping the file under 300 lines, building it organically from real corrections, and periodically reviewing for staleness.
+
 [‹ Back to blog](https://www.builder.io/blog)
 
 #### AI

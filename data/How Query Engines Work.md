@@ -8,6 +8,10 @@ description:
 tags:
   - "clippings"
 ---
+
+> [!summary]
+> The acknowledgements page for Andy Grove's book "How Query Engines Work," which covers the internals of query engine design. The book grew out of six years of work on the Apache DataFusion project and is available on Leanpub.
+
 ## Keyboard shortcuts
 
 Press ← or → to navigate between chapters

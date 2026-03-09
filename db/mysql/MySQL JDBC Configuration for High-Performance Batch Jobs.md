@@ -9,6 +9,10 @@ description: "MySQL JDBC Configuration for High-Performance Batch Jobs - mysql-o
 tags:
   - "clippings"
 ---
+
+> [!summary]
+> Covers MySQL JDBC driver options for optimizing batch job performance, including server-side prepared statements (`useServerPrepStmts`), batch statement rewriting (`rewriteBatchedStatements`), and large-scale data retrieval strategies (ResultSet streaming and server-side cursors). Highlights important conflicts between these options and provides practical configuration guidance for Spring Batch with MySQL.
+
 MySQL JDBC Configuration for High-Performance Batch Jobs
 
 Table of Contents

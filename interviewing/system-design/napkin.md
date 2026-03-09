@@ -8,6 +8,10 @@ description:
 tags:
   - "clippings"
 ---
+
+> [!summary]
+> Napkin Math is a newsletter and reference for estimating systems performance using back-of-the-envelope calculations and first-principle thinking, without writing code. It provides benchmark reference numbers (e.g., Redis throughput, MySQL fsync rates, database page cache hit rates) and poses estimation problems that build intuition for reasoning about system capacity and latency.
+
 [![Napkin Math reference numbers](https://sirupsen.com/images/napkin-header.png)
 
 Napkin Math reference numbers

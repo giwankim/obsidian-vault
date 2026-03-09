@@ -9,6 +9,10 @@ description: "Learn how to write effective specifications for AI coding agents t
 tags:
   - "clippings"
 ---
+
+> [!summary]
+> A practical framework for writing effective specifications for AI coding agents, built around five principles: start with a high-level vision and let AI expand it, break large tasks into focused sub-specs, include style/testing/boundary constraints, use plan-then-execute mode, and iterate continuously. The guide emphasizes keeping specs concise enough to fit within context window limits while providing enough structure to keep agents on track.
+
 **TL;DR: Aim for a clear spec covering just enough nuance (this may include structure, style, testing, boundaries) to guide the AI without overwhelming it. Break large tasks into smaller ones vs. keeping everything in one large prompt. Plan first in read-only mode, then execute and iterate continuously.**
 
 *“I’ve heard a lot about writing good specs for AI agents, but haven’t found a solid framework yet. I could write a spec that rivals an RFC, but at some point the context is too large and the model breaks down.”*

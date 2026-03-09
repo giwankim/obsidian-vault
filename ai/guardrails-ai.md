@@ -9,6 +9,10 @@ description: "Enforce assurance for LLM applications"
 tags:
   - "clippings"
 ---
+
+> [!summary]
+> Guardrails AI is an open-source framework for managing unreliable generative AI behavior through validation guardrails. It provides a library of community-driven validators for detecting toxic language, preventing data leaks, catching hallucinations in real time, and enforcing domain-specific rules like financial compliance.
+
 ## Mitigate Gen AI risks with Guardrails
 
 #### Ship to prod with confidence and AI-powered validation

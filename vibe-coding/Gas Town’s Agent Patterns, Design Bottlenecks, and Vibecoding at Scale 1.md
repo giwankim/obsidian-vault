@@ -18,6 +18,10 @@ description: "On agent orchestration patterns, why design and critical thinking 
 tags:
   - "clippings"
 ---
+
+> [!summary]
+> An analysis of Steve Yegge's "Gas Town" agent orchestrator, which runs dozens of coding agents simultaneously in a Mad-Max-themed metaphorical town. The article explores emerging agent orchestration patterns, argues that design thinking and critical judgment are the new bottlenecks in AI-assisted development, and examines whether developers should let go of reading every line of code their agents produce.
+
 A few weeks ago published an elaborate to Gas Town, his Mad-Max-Slow-Horses-Waterworld-etc-themed agent orchestrator that runs dozens of coding agents simultaneously in a metaphorical town of automated activity. Gas Town is entirely vibecoded, hastily designed with off-the-cuff solutions, and inefficiently burning through thousands of dollars a month in API costs.
 
 This doesn’t sound promising, but it’s lit divisive debates and sparks of change across the software engineering community. A small hype machine has formed around it. It’s made the rounds through every engineering team’s Slack, probably twice. There’s somehow already a doing over $400k in earnings. And the hype is justified. First, because it’s utterly unhinged, and second because it’s a serious indication of how agents will change the nature of software development from this point on.

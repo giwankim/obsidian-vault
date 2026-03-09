@@ -9,6 +9,10 @@ description: "Learn how to use PostgreSQL as a Dead Letter Queue (DLQ) for event
 tags:
   - "clippings"
 ---
+
+> [!summary]
+> Describes using PostgreSQL as a Dead Letter Queue instead of Kafka for handling failed events in an event-driven pipeline at Wayfair. The approach stores failed events with metadata in a DLQ table, uses ShedLock-backed scheduled retries with `FOR UPDATE SKIP LOCKED` for safe concurrent processing, and provides superior observability through plain SQL querying of failure data.
+
 While I was working on a project with Wayfair, I got the opportunity to work on a system that generated daily business reports aggregated from multiple data sources flowing through event streams across Wayfair. At a high level, Kafka consumers listened to these events, hydrated them with additional data by calling downstream services, and finally persisted the enriched events into a durable datastore—CloudSQL PostgreSQL on GCP.
 
 When everything was healthy, the pipeline worked exactly as expected. Events flowed in, got enriched, and were stored reliably. The real challenge started when things went wrong, which, in distributed systems, is not an exception but a certainty.

@@ -11,6 +11,10 @@ description: "The craft of engineering is rapidly changing. We built our own cod
 tags:
   - "clippings"
 ---
+
+> [!summary]
+> Ramp's engineering team describes how and why they built "Inspect," their own background coding agent that runs in sandboxed VMs on Modal, integrates with their full dev stack (Sentry, Datadog, GitHub, Slack), and supports multiplayer sessions. The article serves as a detailed spec covering sandbox architecture, API design with Cloudflare Durable Objects, and client implementations (Slack bot, web UI, Chrome extension), with ~30% of merged PRs now written by the agent.
+
 –
 
 January 12, 2026

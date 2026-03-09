@@ -1,3 +1,6 @@
+> [!summary]
+> Notes on the fundamentals of coding agents, covering how modern tools like Claude Code work internally: reading terminal input, providing tool-use capabilities (file reading, editing, directory listing), and executing tools offline in an agentic loop. The key advice is to treat every repeated task as something an agent can automate.
+
 ## How to succeed in this class
 - Treat every task you do repeatedly as something an agent can do
 - Always spend 10 minutes experimenting with a tool on a new task

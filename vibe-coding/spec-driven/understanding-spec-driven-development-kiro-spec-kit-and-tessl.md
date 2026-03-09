@@ -10,6 +10,10 @@ description: "Notes from my Thoughtworks colleagues on AI-assisted software deli
 tags:
   - "clippings"
 ---
+
+> [!summary]
+> A detailed comparison of three Spec-Driven Development tools -- Kiro, spec-kit, and Tessl -- examining their different workflows, spec structures, and levels of ambition from spec-first to spec-as-source. The author identifies key challenges including one-size-fits-all workflows, excessive Markdown review burden, agents not reliably following specs, and draws parallels to Model-Driven Development's historical limitations.
+
 I’ve been trying to understand one of the latest AI coding buzzword: Spec-driven development (SDD). I looked at three of the tools that label themselves as SDD tools and tried to untangle what it means, as of now.
 
 ## Definition

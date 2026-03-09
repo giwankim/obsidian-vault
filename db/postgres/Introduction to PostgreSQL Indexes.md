@@ -8,6 +8,10 @@ description: "Who’s this for Basics How data is stored in disk How indexes spe
 tags:
   - "clippings"
 ---
+
+> [!summary]
+> A comprehensive guide to PostgreSQL index types (B-Tree, Hash, BRIN, GIN, GiST/SP-GiST), covering how data is stored on disk, how indexes speed up queries, and the associated costs in disk space, write overhead, and memory usage. Also explains advanced indexing techniques including multi-column, partial, covering, and expression indexes.
+
 ## Who’s this for
 
 This text is for developers that have an intuitive knowledge of what database indexes are, but don’t necessarily know how they work internaly, what are the tradeoffs associated with indexes, what are the types of indexes provided by postgres and how you can use some of its more advanced options to make them more optimized for your use case.

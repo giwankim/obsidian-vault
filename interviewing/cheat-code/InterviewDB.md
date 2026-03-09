@@ -8,6 +8,10 @@ description: "Your shortcut for acing your next tech/quant interview. We curate 
 tags:
   - "clippings"
 ---
+
+> [!summary]
+> InterviewDB is a crowdsourced platform that curates real, recently-asked interview questions for tech and quant roles, aggregating content from users and sources like 1point3acres. It categorizes questions by interview stage (OA, phone screen, onsite) and role, aiming to replace the unfocused LeetCode grind with targeted, high-probability practice.
+
 ## Your Shortcut to Acing Tech Interviews
 
 Access REAL interview questions to sharpen your preparation and land your dream job

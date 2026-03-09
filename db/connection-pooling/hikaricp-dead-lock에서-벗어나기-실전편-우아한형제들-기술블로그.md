@@ -9,6 +9,10 @@ description: "1부 HikariCP Dead lock에서 벗어나기 (이론편)은 잘 보�
 tags:
   - "clippings"
 ---
+
+> [!summary]
+> Investigates a real-world HikariCP dead lock (pool-locking) caused by JPA's `@GeneratedValue(strategy = GenerationType.AUTO)` requiring a second database connection for ID generation via a hibernate_sequence table. Presents the pool sizing formula `pool size = Tn x (Cm - 1) + 1` to prevent dead locks, and demonstrates the PooledLoThreadLocalOptimizer as a solution to reduce connection usage for ID generation.
+
 ## HikariCP Dead lock에서 벗어나기 (실전편)
 
 2020\. 02. 06.WoowaTech

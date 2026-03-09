@@ -9,6 +9,10 @@ description: "Complete Claude Code configuration collection - agents, skills, ho
 tags:
   - "clippings"
 ---
+
+> [!summary]
+> A comprehensive, battle-tested collection of Claude Code configurations including agents, skills, hooks, slash commands, rules, and MCP server setups, created by an Anthropic hackathon winner. The repo serves as an installable plugin with cross-platform support and covers advanced topics like token optimization, memory persistence, verification loops, and subagent orchestration.
+
 **[everything-claude-code](https://github.com/affaan-m/everything-claude-code)** Public
 
 Complete Claude Code configuration collection - agents, skills, hooks, commands, rules, MCPs. Battle-tested configs from an Anthropic hackathon winner.

@@ -8,6 +8,10 @@ description:
 tags:
   - "clippings"
 ---
+
+> [!summary]
+> A staff engineer argues that software estimation is fundamentally backwards: managers arrive with a target timeline already in mind, and the engineer’s real job is to figure out which technical approaches can fit within that estimate. Rather than breaking down work to produce a number, the author gathers political context first, then returns with a range of options and risk assessments, since unknown work always dominates and accurate time estimates for software are essentially impossible.
+
 There’s a kind of polite fiction at the heart of the software industry. It goes something like this:
 
 > Estimating how long software projects will take is very hard, but not impossible. A skilled engineering team can, with time and effort, learn how long it will take for them to deliver work, which will in turn allow their organization to make good business plans.
