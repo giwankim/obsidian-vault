@@ -9,6 +9,10 @@ description: "A series about the internals of Terraform and how different parts 
 tags:
   - "clippings"
 ---
+
+> [!summary]
+> A blog series index by Daniel Schmidt (HashiCorp/IBM Terraform Core team member) that deep-dives into Terraform internals including address systems, references, go-cty evaluation, error handling, and for_each/count expansion. The series aims to help readers understand the codebase well enough to contribute to Terraform itself.
+
 [Go back](https://danielmschmidt.de/)
 
 ## Inside Terraform: A series about the internals of Terraform

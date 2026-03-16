@@ -2,16 +2,18 @@
 title: "shanraisshan/claude-code-best-practice: practice made claude perfect"
 source: "https://github.com/shanraisshan/claude-code-best-practice?tab=readme-ov-file"
 author:
-  - "[[GitHub]]"
+  - "[[Agents]]"
+  - "[[shanraisshan]]"
 published:
-created: 2026-03-14
+created: 2026-03-11
 description: "practice made claude perfect. Contribute to shanraisshan/claude-code-best-practice development by creating an account on GitHub."
 tags:
   - "clippings"
 ---
-
 > [!summary]
-> A comprehensive guide to Claude Code best practices covering core concepts (commands, agents, skills, hooks, MCP servers, plugins), development workflows (cross-model, RPI, Ralph Wiggum Loop), and detailed tips on prompting, planning, debugging, and daily usage. Includes orchestration workflow examples and comparisons with startup tools that Claude Code features have replaced.
+> Community-maintained reference for Claude Code best practices, covering core concepts (commands, agents, skills, hooks, MCP servers), development workflows (planning, debugging, context management), and the Command → Agent → Skill orchestration pattern.
+
+[Open in github.dev](https://github.dev/) [Open in a new github.dev tab](https://github.dev/) [Open in codespace](https://github.com/codespaces/new/shanraisshan/claude-code-best-practice?resume=1)
 
 ## claude-code-best-practice
 
@@ -23,16 +25,16 @@ practice makes claude perfect
 
 [![Claude Code mascot jumping](https://github.com/shanraisshan/claude-code-best-practice/raw/main/!/claude-jumping.svg)](https://github.com/shanraisshan/claude-code-best-practice/blob/main/!/claude-jumping.svg)
 
-[![Boris Cherny on Claude Code](https://github.com/shanraisshan/claude-code-best-practice/raw/main/!/root/boris-slider.gif)](https://github.com/shanraisshan/claude-code-best-practice/blob/main/!/root/boris-slider.gif)
+[![Boris Cherny on Claude Code](https://github.com/shanraisshan/claude-code-best-practice/raw/main/!/slider/boris-slider.gif)](https://github.com/shanraisshan/claude-code-best-practice/blob/main/!/slider/boris-slider.gif)
 Boris Cherny on X ([tweet 1](https://x.com/bcherny/status/2007179832300581177) · [tweet 2](https://x.com/bcherny/status/2017742741636321619) · [tweet 3](https://x.com/bcherny/status/2021699851499798911))
 
 ## CONCEPTS
 
 | Feature | Location | Description |
 | --- | --- | --- |
-| [**Commands**](https://code.claude.com/docs/en/slash-commands) | `.claude/commands/<name>.md` | Knowledge injected into existing context — simple user-invoked prompt templates for workflow orchestration |
-| [**Sub-Agents**](https://code.claude.com/docs/en/sub-agents) | `.claude/agents/<name>.md` | Autonomous actor in fresh isolated context — custom tools, permissions, model, memory, and persistent identity |
-| [**Skills**](https://code.claude.com/docs/en/skills) | `.claude/skills/<name>/SKILL.md` | Knowledge injected into existing context — configurable, preloadable, auto-discoverable, with context forking and progressive disclosure · [Official Skills](https://github.com/anthropics/skills/tree/main/skills) |
+| [**Commands**](https://code.claude.com/docs/en/slash-commands) | `.claude/commands/<name>.md` | Entry-point prompts for workflows — invoke with `/command-name` |
+| [**Sub-Agents**](https://code.claude.com/docs/en/sub-agents) | `.claude/agents/<name>.md` | Custom agents with their own name, color, tools, permissions, and model |
+| [**Skills**](https://code.claude.com/docs/en/skills) | `.claude/skills/<name>/SKILL.md` | Reusable knowledge, workflows, and slash commands — load on-demand or invoke with `/skill-name` |
 | [**Workflows**](https://code.claude.com/docs/en/common-workflows) | [`.claude/commands/weather-orchestrator.md`](https://github.com/shanraisshan/claude-code-best-practice/blob/main/.claude/commands/weather-orchestrator.md) |  |
 | [**Hooks**](https://code.claude.com/docs/en/hooks) | `.claude/hooks/` | Deterministic scripts that run outside the agentic loop on specific events |
 | [**MCP Servers**](https://code.claude.com/docs/en/mcp) | `.claude/settings.json`, `.mcp.json` | Model Context Protocol connections to external tools, databases, and APIs |
@@ -41,7 +43,7 @@ Boris Cherny on X ([tweet 1](https://x.com/bcherny/status/2007179832300581177) �
 | [**Status Line**](https://code.claude.com/docs/en/statusline) | `.claude/settings.json` | Customizable status bar showing context usage, model, cost, and session info |
 | [**Memory**](https://code.claude.com/docs/en/memory) | `CLAUDE.md`, `.claude/rules/`, `~/.claude/rules/`, `~/.claude/projects/<project>/memory/` | Persistent context via CLAUDE.md files and `@path` imports · [Auto Memory](https://code.claude.com/docs/en/memory) · [Rules](https://code.claude.com/docs/en/memory#organize-rules-with-clauderules) |
 | [**Checkpointing**](https://code.claude.com/docs/en/checkpointing) | automatic (git-based) | Automatic tracking of file edits with rewind (`Esc Esc` or `/rewind`) and targeted summarization |
-| [**CLI Startup Flags**](https://code.claude.com/docs/en/cli-reference) | `claude [flags]` | Command-line flags, subcommands, and environment variables for launching Claude Code · [Interactive Mode](https://code.claude.com/docs/en/interactive-mode) |
+| [**CLI Startup Flags**](https://code.claude.com/docs/en/cli-reference) | `claude [flags]` | Command-line flags, subcommands, and environment variables for launching Claude Code |
 | **AI Terms** |  | Agentic Engineering · Context Engineering · Vibe Coding |
 | [**Best Practices**](https://code.claude.com/docs/en/best-practices) |  | Official best practices · [Prompt Engineering](https://github.com/anthropics/prompt-eng-interactive-tutorial) · [Extend Claude Code](https://code.claude.com/docs/en/features-overview) |
 
@@ -49,13 +51,10 @@ Boris Cherny on X ([tweet 1](https://x.com/bcherny/status/2007179832300581177) �
 
 | Feature | Location | Description |
 | --- | --- | --- |
-| [**/btw**](https://x.com/trq212/status/2031506296697131352) | `/btw` | Side chain conversations while Claude is working |
-| [**Code Review**](https://code.claude.com/docs/en/code-review) | GitHub App (managed) | Multi-agent PR analysis that catches bugs, security vulnerabilities, and regressions · [Blog](https://claude.com/blog/code-review) |
 | [**Scheduled Tasks**](https://code.claude.com/docs/en/scheduled-tasks) | `/loop`, cron tools | Run prompts on a recurring schedule (up to 3 days), set one-time reminders, poll deployments and builds |
-| [**Voice Mode**](https://x.com/trq212/status/2028628570692890800) | `/voice` | speak to prompt - /voice to activate |
-| [**Simplify & Batch**](https://x.com/bcherny/status/2027534984534544489) | `/simplify`, `/batch` | Built-in skills for code quality and bulk operations — simplify refactors for reuse and efficiency, batch runs commands across files |
 | [**Agent Teams**](https://code.claude.com/docs/en/agent-teams) | built-in (env var) | Multiple agents working in parallel on the same codebase with shared task coordination |
-| [**Remote Control**](https://code.claude.com/docs/en/remote-control) | `/remote-control`, `/rc` | Continue local sessions from any device — phone, tablet, or browser · [Headless Mode](https://code.claude.com/docs/en/headless) |
+| [**Voice Mode**](https://x.com/trq212/status/2028628570692890800) | built-in command | speak to prompt - /voice to activate |
+| [**Remote Control**](https://code.claude.com/docs/en/remote-control) | built-in command | Continue local sessions from any device — phone, tablet, or browser · [Headless Mode](https://code.claude.com/docs/en/headless) |
 | [**Git Worktrees**](https://code.claude.com/docs/en/common-workflows) | built-in | Isolated git branches for parallel development — each agent gets its own working copy |
 | [**Ralph Wiggum Loop**](https://github.com/anthropics/claude-code/tree/main/plugins/ralph-wiggum) | plugin | Autonomous development loop for long-running tasks — iterates until completion |
 
@@ -90,26 +89,16 @@ claude
 - [obra/superpowers](https://github.com/obra/superpowers) · ★ 72k
 - [OpenSpec OPSX](https://github.com/Fission-AI/OpenSpec/blob/main/docs/opsx.md) · ★ 28k
 - [get-shit-done (GSD)](https://github.com/gsd-build/get-shit-done) · ★ 25k
+- [Andrej Karpathy (Founding Member, OpenAI) Workflow](https://github.com/forrestchang/andrej-karpathy-skills) · ★ 7k
 - [Brian Casel (Creator of Agent OS) - 2026 Workflow](https://github.com/buildermethods/agent-os) · ★ 4k - [it's overkill in 2026](https://www.youtube.com/watch?v=0hdFJA-ho3c)
 - [Human Layer RPI - Research Plan Implement](https://github.com/humanlayer/advanced-context-engineering-for-coding-agents/blob/main/ace-fca.md) · ★ 1.5k
-- [Andrej Karpathy (Founding Member, OpenAI) Workflow](https://x.com/karpathy/status/2015883857489522876)
 - [Boris Cherny (Creator of Claude Code) - Feb 2026 Workflow](https://x.com/bcherny/status/2017742741636321619)
 - [Peter Steinberger (Creator of OpenClaw) Workflow](https://youtu.be/8lF7HmQ_RgY?t=2582)
 
-## TIPS AND TRICKS
+■ **Planning (2)**
 
-■ **Prompting (2)**
-
-- challenge Claude — "grill me on these changes and don't make a PR until I pass your test." or "prove to me this works" and have Claude diff between main and your branch
-- after a mediocre fix — "knowing everything you know now, scrap this and implement the elegant solution"
-
-■ **Planning/Specs (5)**
-
-- always start with [plan mode](https://code.claude.com/docs/en/common-workflows)
-- start with a minimal spec or prompt and ask Claude to interview you using [AskUserQuestion](https://code.claude.com/docs/en/cli-reference) tool, then make a new session to execute the spec
-- always make a phase-wise gated plan, with each phase having multiple tests (unit, automation, integration)
-- spin up a second Claude to review your plan as a staff engineer, or use [cross-model](https://github.com/shanraisshan/claude-code-best-practice/blob/main/development-workflows/cross-model-workflow/cross-model-workflow.md) for review
-- write detailed specs and reduce ambiguity before handing work off — the more specific you are, the better the output
+- always start with [plan mode](https://code.claude.com/docs/en/common-workflows). ask Claude to interview you; [ask the user a question](https://code.claude.com/docs/en/cli-reference)
+- always make a phase-wise gated plan, with each phase having multiple tests (unit, automation, integration). use [cross-model](https://github.com/shanraisshan/claude-code-best-practice/blob/main/development-workflows/cross-model-workflow/cross-model-workflow.md) to review your plan
 
 ■ **Workflows (12)**
 
@@ -159,24 +148,18 @@ claude
 
 - [update](https://code.claude.com/docs/en/setup) Claude Code daily and start your day by reading the [changelog](https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md)
 - follow [r/ClaudeAI](https://www.reddit.com/r/ClaudeAI/), [r/ClaudeCode](https://www.reddit.com/r/ClaudeCode/) on Reddit
-- follow [Boris](https://x.com/bcherny), [Thariq](https://x.com/trq212), [Cat](https://x.com/_catwu), [Lydia](https://x.com/lydiahallie), [Noah](https://x.com/noahzweben), [Claude](https://x.com/claudeai), [Alex Albert](https://x.com/alexalbert__) on X
-- Always use plan mode, give Claude a way to verify, use /code-review (Boris) | 27/Dec/25 ● [Tweet](https://x.com/bcherny/status/2004711722926616680)
-- Ask Claude to interview you using AskUserQuestion tool (Thariq) | 28/Dec/25 ● [Tweet](https://x.com/trq212/status/2005315275026260309)
-- [How I use Claude Code — 13 tips from my surprisingly vanilla setup (Boris) | 03/Jan/26](https://github.com/shanraisshan/claude-code-best-practice/blob/main/tips/claude-boris-13-tips-03-jan-26.md) ● [Tweet](https://x.com/bcherny/status/2007179832300581177)
-- [10 tips for using Claude Code from the team (Boris) | 01/Feb/26](https://github.com/shanraisshan/claude-code-best-practice/blob/main/tips/claude-boris-10-tips-01-feb-26.md) ● [Tweet](https://x.com/bcherny/status/2017742741636321619)
-- [12 ways how people are customizing their claudes (Boris) | 12/Feb/26](https://github.com/shanraisshan/claude-code-best-practice/blob/main/tips/claude-boris-12-tips-12-feb-26.md) ● [Tweet](https://x.com/bcherny/status/2021699851499798911)
-- Git Worktrees - 5 ways how boris is using | 21 Feb 2026 ● [Tweet](https://x.com/bcherny/status/2025007393290272904)
-- Seeing like an Agent - lessons from building Claude Code (Thariq) | 28 Feb 2026 ● [Tweet](https://x.com/trq212/status/2027463795355095314)
-- AskUserQuestion + ASCII Markdowns (Thariq) | 28 Feb 2026 ● [Tweet](https://x.com/trq212/status/2027543858289250472)
-- /loop — schedule recurring tasks for up to 3 days (Boris) | 07 Mar 2026 ● [Tweet](https://x.com/bcherny/status/2030193932404150413)
-- Code Review — why fresh context windows catch bugs the original agent missed (Boris) | 10 Mar 2026 ● [Tweet](https://x.com/bcherny/status/2031151689219321886)
-- /btw — side chain conversations while Claude works (Thariq) | 10 Mar 2026 ● [Tweet](https://x.com/trq212/status/2031506296697131352)
-
-## ☠️ STARTUPS / BUSINESSES
+- follow [Boris](https://x.com/bcherny), [Thariq](https://x.com/trq212), [Cat](https://x.com/_catwu), [Lydia](https://x.com/lydiahallie), [Noah](https://x.com/noahzweben) on X
+- [Always use plan mode, give Claude a way to verify, use /code-review | 27/Dec/25](https://x.com/bcherny/status/2004711722926616680) ● [Tweet](https://x.com/bcherny/status/2004711722926616680)
+- [Ask Claude to interview you using AskUserQuestion tool (Thariq) | 28/Dec/25](https://x.com/trq212/status/2005315275026260309) ● [Tweet](https://x.com/trq212/status/2005315275026260309)
+- [Boris setup - 5 tips | 03/Jan/26](https://x.com/bcherny/status/2007179832300581177) ● [Tweet](https://x.com/bcherny/status/2007179832300581177)
+- [10 tips for using claude code by team itself | 01/Feb/26](https://x.com/bcherny/status/2017742741636321619) ● [Tweet](https://x.com/bcherny/status/2017742741636321619)
+- [12 ways how people are customizing their claudes | 12/Feb/26](https://github.com/shanraisshan/claude-code-best-practice/blob/main/tips/claude-boris-tips-feb-26.md) ● [Tweet](https://x.com/bcherny/status/2021699851499798911)
+- [Git Worktrees - 5 ways how boris is using | 21 Feb 2026](https://x.com/bcherny/status/2025007393290272904) ● [Tweet](https://x.com/bcherny/status/2025007393290272904)
+- [Seeing like an Agent - lessons from building Claude Code (Thariq) | 28 Feb 2026](https://x.com/trq212/status/2027463795355095314) ● [Tweet](https://x.com/trq212/status/2027463795355095314)
+- [/loop — schedule recurring tasks for up to 3 days | 07 Mar 2026](https://x.com/bcherny/status/2030193932404150413) ● [Tweet](https://x.com/bcherny/status/2030193932404150413)
 
 | Claude | Replaced |
 | --- | --- |
-| [**Code Review**](https://code.claude.com/docs/en/code-review) | [Greptile](https://greptile.com/), [CodeRabbit](https://coderabbit.ai/), [Devin Review](https://devin.ai/), [OpenDiff](https://opendiff.com/), [Cursor BugBot](https://bugbot.dev/) |
 | [**Voice Mode**](https://x.com/trq212/status/2028628570692890800) | [Wispr Flow](https://wisprflow.ai/), [SuperWhisper](https://superwhisper.com/) |
 | [**Remote Control**](https://code.claude.com/docs/en/remote-control) | [OpenClaw](https://openclaw.ai/) |
 | **Cowork** | [OpenAI Operator](https://openai.com/operator), [AgentShadow](https://agentshadow.ai/) |
@@ -184,7 +167,7 @@ claude
 | [**Plan Mode**](https://code.claude.com/docs/en/common-workflows) | [Agent OS](https://github.com/buildermethods/agent-os) |
 | [**Skills / Plugins**](https://code.claude.com/docs/en/plugins) | YC AI wrapper startups ([reddit](https://reddit.com/r/ClaudeAI/comments/1r6bh4d/claude_code_skills_are_basically_yc_ai_startup/)) |
 
-*If you have answers, do let me know at [shanraisshan@gmail.com](mailto:shanraisshan@gmail.com)*
+*If you have answers, do let me know at [shanraisshan@gmail.com](https://github.com/shanraisshan/)*
 
 **Memory & Instructions (4)**
 
@@ -220,7 +203,16 @@ claude
 | [Advanced Tool Use Patterns](https://github.com/shanraisshan/claude-code-best-practice/blob/main/reports/claude-advanced-tool-use.md) | Programmatic Tool Calling (PTC), Tool Search, and Tool Use Examples |
 | [Usage, Rate Limits & Extra Usage](https://github.com/shanraisshan/claude-code-best-practice/blob/main/reports/claude-usage-and-rate-limits.md) | Usage commands (`/usage`, `/extra-usage`, `/cost`), rate limits, and pay-as-you-go overflow billing |
 | [LLM Day-to-Day Degradation](https://github.com/shanraisshan/claude-code-best-practice/blob/main/reports/llm-day-to-day-degradation.md) | Why LLM performance varies day-to-day — infrastructure bugs, MoE routing variance, and psychology |
-| [Agents vs Commands vs Skills](https://github.com/shanraisshan/claude-code-best-practice/blob/main/reports/claude-agent-command-skill.md) | When to use each extension mechanism — comparison table, resolution order, and worked example |
 
-[![GitHub Trending](https://github.com/shanraisshan/claude-code-best-practice/raw/main/!/root/github-trending.png)](https://github.com/trending?since=monthly)
-✨Trending on Github in March 2026✨
+## Releases
+
+No releases published
+
+## Packages
+
+No packages published
+
+## Languages
+
+- [HTML 88.8%](https://github.com/shanraisshan/claude-code-best-practice/search?l=html)
+- [Python 11.2%](https://github.com/shanraisshan/claude-code-best-practice/search?l=python)
