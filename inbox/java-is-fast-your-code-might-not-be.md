@@ -9,6 +9,10 @@ description: "Fixing common Java anti-patterns took an app from 1,198ms to 239ms
 tags:
   - "clippings"
 ---
+
+> [!summary]
+> Article walks through 8 common Java anti-patterns (string concatenation in loops, O(n²) stream iteration, String.format() in hot paths, autoboxing, exceptions for control flow, broad synchronization, recreating reusable objects, virtual thread pinning) that took an order-processing app from 1,198ms to 239ms — a 5x throughput improvement with 87% less heap usage.
+
 *Part 1 of 3 in the Java Performance Optimization series. Parts 2 and 3 coming soon.*
 
 ---
