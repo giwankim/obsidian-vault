@@ -9,6 +9,10 @@ description: "AI coding skills from the engineers who build the JVM ecosystem. E
 tags:
   - "clippings"
 ---
+
+> [!summary]
+> A catalog of 22 expert-maintained AI coding skills for the JVM ecosystem, covering Spring Boot scaffolding, Java/Kotlin code quality, PostgreSQL and jOOQ database patterns, Gradle testing, and development workflows. Skills are designed for use with AI coding agents like Claude Code, Cursor, and Copilot.
+
 jvmskills.com
 
 $ cat README.md AI coding skills from the engineers who build the JVM ecosystem. Expert-maintained. Battle-tested. JVM-native. $ ls -la skills/ framework/ language/ database/ testing/ fullstack/ web/ workflow/ tool/ $

@@ -8,6 +8,9 @@ created: 2026-02-18
 description: "Based on what I've learned from role models and mentors in Amazon"
 tags:
   - "clippings"
+  - "career-growth"
+  - "leadership"
+  - "engineering-management"
 ---
 > [!summary]
 > Eugene Yan distills 31 lessons for new principal engineers from his Amazon experience: shift from doing the work to enabling others, find high-leverage problems only you can solve, scale through mentoring, actively remove yourself from the critical path, and guard your time from becoming the "go-to" person for everything. The core theme is transitioning from individual excellence to organizational impact.

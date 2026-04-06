@@ -9,6 +9,9 @@ created: 2026-01-23
 description: "소스코드 기반으로 복잡한 퍼널 이동을 시각화한 경험을 공유합니다."
 tags:
   - "clippings"
+  - "frontend"
+  - "web-development"
+  - "observability"
 ---
 
 > [!summary]
