@@ -8,6 +8,9 @@ created: 2026-02-25
 description: "Why weren't they made more powerful?"
 tags:
   - "clippings"
+  - "java"
+  - "data-structures"
+  - "api-design"
 ---
 
 > [!summary]

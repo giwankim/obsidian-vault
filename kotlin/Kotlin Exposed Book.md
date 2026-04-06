@@ -8,6 +8,9 @@ created: 2026-01-27
 description: "A tool that connects everyday work into one space. It gives you and your teams AI tools—search, writing, note-taking—inside an all-in-one, flexible workspace."
 tags:
   - "clippings"
+  - "kotlin"
+  - "database"
+  - "spring-boot"
 ---
 
 > [!summary]

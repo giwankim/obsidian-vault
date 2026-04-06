@@ -8,6 +8,8 @@ created: 2026-01-26
 description: "in, out, reified: A Practical Guide to Kotlin Generics Building a simple event bus to understand variance, once and for all Introduction Kotlin’s standard library is full of generic signatures — …"
 tags:
   - "clippings"
+  - "kotlin"
+  - "data-structures"
 ---
 
 > [!summary]

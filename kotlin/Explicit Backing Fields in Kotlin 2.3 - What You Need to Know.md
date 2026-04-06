@@ -8,6 +8,8 @@ created: 2026-02-07
 description: "Kotlin 2.3 introduces a new, experimental \"Explicit Backing Fields\" feature, so that we can give our properties a different external type than internal type,..."
 tags:
   - "clippings"
+  - "kotlin"
+  - "api-design"
 ---
 
 > [!summary]

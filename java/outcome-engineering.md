@@ -7,6 +7,9 @@ created: 2026-02-25
 description: "It was never about the code."
 tags:
   - "clippings"
+  - "coding-agents"
+  - "ai"
+  - "engineering-management"
 ---
 > [!summary]
 > Outcome engineering (o16g) is a philosophy for software development in the age of AI agents, arguing that engineers should shift focus from writing code to delivering verified outcomes. The article presents 16 principles — including managing by cost instead of capacity, treating the backlog as obsolete, and encoding intent into agent-readable constitutions — to guide teams in coordinating agentic workflows at scale.

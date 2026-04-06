@@ -8,6 +8,10 @@ created: 2026-03-21
 description: "Fixing common Java anti-patterns took an app from 1,198ms to 239ms. Eight patterns that compile fine and pass code review but silently drain CPU and balloon heap, with benchmarks and code fixes for each"
 tags:
   - "clippings"
+  - "java"
+  - "performance"
+  - "concurrency"
+  - "refactoring"
 ---
 
 > [!summary]
