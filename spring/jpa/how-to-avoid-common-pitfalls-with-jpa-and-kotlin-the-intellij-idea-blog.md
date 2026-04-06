@@ -8,6 +8,9 @@ created: 2026-03-23
 description: "This article outlines a set of best practices to help you avoid problems and build reliable persistence layers with Kotlin and Jakarta Persistence. And to share some good news before diving in, IntelliJ IDEA 2026.1 will automatically detect many of these issues, highlight them with warnings, and provide support through various inspections."
 tags:
   - "clippings"
+  - "kotlin"
+  - "jpa"
+  - "java"
 ---
 
 > [!summary]

@@ -8,6 +8,10 @@ created: 2026-02-05
 description: "Jakarta EE 11 introduces support for Java 21, records, virtual threads, and Jakarta Data, laying the groundwork for Jakarta EE 12 and its emphasis on unified data access across persistence APIs."
 tags:
   - "clippings"
+  - "spring-ai"
+  - "ai"
+  - "spring-boot"
+  - "java"
 ---
 
 > [!summary]

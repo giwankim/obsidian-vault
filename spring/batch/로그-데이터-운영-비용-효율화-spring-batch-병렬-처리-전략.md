@@ -8,6 +8,10 @@ created: 2026-03-08
 description: "Spring Batch 가 제공하는 병렬 처리 전략들을 알아보고, 상황별로 올바른 전략을 선택하는 방법과, 저는 결국 어떤 전략을 선택했는지 알아보겠습니다."
 tags:
   - "clippings"
+  - "spring-batch"
+  - "batch-processing"
+  - "performance"
+  - "concurrency"
 ---
 
 > [!summary]

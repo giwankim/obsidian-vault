@@ -8,6 +8,9 @@ created: 2026-02-16
 description: "Spring Security is widely used, offering numerous settings for various scenarios. The article shows basic configurations with component analysis through diagrams and code examples beyond the defaults."
 tags:
   - "clippings"
+  - "spring-security"
+  - "java"
+  - "security"
 ---
 
 > [!summary]

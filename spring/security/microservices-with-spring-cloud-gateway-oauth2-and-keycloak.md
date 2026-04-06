@@ -8,6 +8,10 @@ created: 2026-02-16
 description: "This article will teach you how to use Keycloak to enable OAuth2 for Spring Cloud Gateway and Spring Boot microservices."
 tags:
   - "clippings"
+  - "spring-security"
+  - "oauth"
+  - "microservices"
+  - "spring-boot"
 ---
 
 > [!summary]

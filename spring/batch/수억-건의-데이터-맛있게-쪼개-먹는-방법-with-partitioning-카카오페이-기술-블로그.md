@@ -7,6 +7,10 @@ created: 2026-03-18
 description: "Spring Batch Partitioning, Cursor 기반 ItemReader, Bulk Operations를 활용해 수억 건 데이터 처리 성능을 향상시킨 실전 경험을 공유합니다."
 tags:
   - "clippings"
+  - "spring-batch"
+  - "batch-processing"
+  - "performance"
+  - "java"
 ---
 
 > [!summary]

@@ -8,6 +8,9 @@ created: 2026-03-23
 description: "도도카트 서비스를 개발할 때 JPA를 사용하면서 좀더 Entity를 잘 정의하는 방법에 대한 고민거리를 소개합니다."
 tags:
   - "clippings"
+  - "kotlin"
+  - "jpa"
+  - "spring"
 ---
 
 > [!summary]
