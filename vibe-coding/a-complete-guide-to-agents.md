@@ -7,6 +7,9 @@ created: 2026-01-30
 description: "Learn how to optimize your AGENTS.md file for AI coding agents. Master progressive disclosure, keep instructions focused, and maximize agent performance."
 tags:
   - "clippings"
+  - "coding-agents"
+  - "prompt-engineering"
+  - "vibe-coding"
 ---
 
 > [!summary]

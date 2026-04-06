@@ -8,6 +8,9 @@ created: 2026-02-12
 description: "Kiro, Spec-kit, Bmad, Tessl, and other SDD frameworks turn business analysts into Markdown reviewers. Isn't there a more agile way to use Coding Agents?"
 tags:
   - "clippings"
+  - "spec-driven-development"
+  - "coding-agents"
+  - "vibe-coding"
 ---
 
 > [!summary]

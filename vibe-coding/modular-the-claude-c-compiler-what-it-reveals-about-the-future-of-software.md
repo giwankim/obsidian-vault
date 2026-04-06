@@ -8,6 +8,9 @@ created: 2026-02-21
 description: "Compilers occupy a special place in computer science. They're a canonical course in computer science education. Building one is a rite of passage. It forces you to confront how software actually works, by examining languages, abstractions, hardware, and the boundary between human intent and machine execution."
 tags:
   - "clippings"
+  - "compilers"
+  - "claude-code"
+  - "ai"
 ---
 
 > [!summary]

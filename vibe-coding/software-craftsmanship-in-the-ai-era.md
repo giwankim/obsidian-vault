@@ -10,6 +10,9 @@ created: 2026-02-12
 description: "Explore how AI tools are transforming software development and the importance of maintaining Software Craftsmanship for quality and maintainability."
 tags:
   - "clippings"
+  - "coding-agents"
+  - "refactoring"
+  - "testing"
 ---
 
 > [!summary]

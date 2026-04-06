@@ -8,6 +8,9 @@ created: 2026-02-01
 description: "A technical deep dive into the Codex agent loop, explaining how Codex CLI orchestrates models, tools, prompts, and performance using the Responses API."
 tags:
   - "clippings"
+  - "openai-codex"
+  - "coding-agents"
+  - "ai"
 ---
 
 > [!summary]

@@ -8,6 +8,9 @@ created: 2026-02-24
 description: "Minions are Stripe’s homegrown coding agents, responsible for more than a thousand pull requests merged each week. Though humans review the code, minions write it from start to finish. Learn how they work, and how we built them."
 tags:
   - "clippings"
+  - "coding-agents"
+  - "vibe-coding"
+  - "payments"
 ---
 
 > [!summary]

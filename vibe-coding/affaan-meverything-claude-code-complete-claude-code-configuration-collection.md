@@ -8,6 +8,10 @@ created: 2026-01-28
 description: "Complete Claude Code configuration collection - agents, skills, hooks, commands, rules, MCPs. Battle-tested configs from an Anthropic hackathon winner. - affaan-m/everything-claude-code"
 tags:
   - "clippings"
+  - "claude-code"
+  - "coding-agents"
+  - "mcp"
+  - "agent-orchestration"
 ---
 
 > [!summary]

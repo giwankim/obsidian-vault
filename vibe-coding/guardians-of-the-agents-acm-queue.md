@@ -7,6 +7,9 @@ created: 2026-02-11
 description:
 tags:
   - "clippings"
+  - "coding-agents"
+  - "security"
+  - "ai"
 ---
 
 > [!summary]

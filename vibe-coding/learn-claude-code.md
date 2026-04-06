@@ -7,6 +7,9 @@ created: 2026-03-16
 description: "Build a nano Claude Code-like agent from 0 to 1, one mechanism at a time"
 tags:
   - "clippings"
+  - "claude-code"
+  - "coding-agents"
+  - "agent-orchestration"
 ---
 
 > [!summary]

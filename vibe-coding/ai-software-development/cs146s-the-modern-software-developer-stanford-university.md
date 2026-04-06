@@ -8,6 +8,10 @@ created: 2026-01-28
 description:
 tags:
   - "clippings"
+  - "coding-agents"
+  - "llm"
+  - "prompt-engineering"
+  - "mcp"
 ---
 
 > [!summary]

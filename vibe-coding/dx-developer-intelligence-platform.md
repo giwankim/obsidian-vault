@@ -7,6 +7,9 @@ created: 2026-02-26
 description: "Designed by leading researchers, DX helps organizations measure developer productivity, improve with data, and navigate the shift to AI-augmented engineering."
 tags:
   - "clippings"
+  - "ai"
+  - "observability"
+  - "performance"
 ---
 
 > [!summary]

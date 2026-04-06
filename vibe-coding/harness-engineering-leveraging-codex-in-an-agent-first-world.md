@@ -8,6 +8,10 @@ created: 2026-03-01
 description: "By Ryan Lopopolo, Member of the Technical Staff"
 tags:
   - "clippings"
+  - "openai-codex"
+  - "coding-agents"
+  - "vibe-coding"
+  - "observability"
 ---
 
 > [!summary]

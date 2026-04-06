@@ -8,6 +8,9 @@ created: 2026-01-23
 description: "A practical guide to Git worktrees: mental model, real scenarios, and why it matters for AI-powered workflows."
 tags:
   - "clippings"
+  - "git"
+  - "coding-agents"
+  - "vibe-coding"
 ---
 
 > [!summary]

@@ -8,6 +8,9 @@ created: 2026-03-18
 description: "Learn how to set up the Ralph Loop to orchestrate long running AI coding agents, completely unsupervised. Includes all prompts, skills, scripts and a step-by-step walkthrough in Claude Code, Codex and Gemini CLI."
 tags:
   - "clippings"
+  - "coding-agents"
+  - "vibe-coding"
+  - "agent-orchestration"
 ---
 
 > [!summary]

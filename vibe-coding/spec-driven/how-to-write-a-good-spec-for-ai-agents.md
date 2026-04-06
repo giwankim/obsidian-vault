@@ -8,6 +8,9 @@ created: 2026-01-29
 description: "Learn how to write effective specifications for AI coding agents to improve clarity, focus, and productivity in your AI-driven development workflows."
 tags:
   - "clippings"
+  - "spec-driven-development"
+  - "coding-agents"
+  - "prompt-engineering"
 ---
 
 > [!summary]

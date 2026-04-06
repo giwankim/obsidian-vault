@@ -17,6 +17,9 @@ created: 2026-01-28
 description: "On agent orchestration patterns, why design and critical thinking are the new bottlenecks, and whether we should let go of looking at code"
 tags:
   - "clippings"
+  - "agent-orchestration"
+  - "coding-agents"
+  - "vibe-coding"
 ---
 
 > [!summary]

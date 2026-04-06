@@ -8,6 +8,10 @@ created: 2026-03-19
 description: "practice makes codex perfect. Contribute to shanraisshan/codex-cli-best-practice development by creating an account on GitHub."
 tags:
   - "clippings"
+  - "openai-codex"
+  - "coding-agents"
+  - "agent-orchestration"
+  - "mcp"
 ---
 
 > [!summary]

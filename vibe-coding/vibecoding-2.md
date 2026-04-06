@@ -7,6 +7,9 @@ created: 2026-01-28
 description: "I feel like I got substantial value out of Claude today, and want to document it. I am at the tailend of AI adoption, so I don't expect to say anything particularly useful or novel. However, I amconstantly complaining about the lack of boring AI posts, so it's only proper if I write one."
 tags:
   - "clippings"
+  - "vibe-coding"
+  - "claude-code"
+  - "distributed-systems"
 ---
 
 > [!summary]

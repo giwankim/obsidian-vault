@@ -9,6 +9,9 @@ created: 2026-02-06
 description: "Notes from my Thoughtworks colleagues on AI-assisted software delivery"
 tags:
   - "clippings"
+  - "spec-driven-development"
+  - "coding-agents"
+  - "ai"
 ---
 
 > [!summary]
