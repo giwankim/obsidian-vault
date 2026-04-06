@@ -7,6 +7,10 @@ created: 2026-02-12
 description:
 tags:
   - "clippings"
+  - "system-design"
+  - "distributed-systems"
+  - "performance"
+  - "event-driven"
 ---
 
 > [!summary]

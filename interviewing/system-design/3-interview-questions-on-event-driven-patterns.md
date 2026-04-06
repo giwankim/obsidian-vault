@@ -8,6 +8,9 @@ created: 2026-02-25
 description: "Also useful for projects"
 tags:
   - "clippings"
+  - "system-design-interview"
+  - "event-driven"
+  - "distributed-systems"
 ---
 
 > [!summary]

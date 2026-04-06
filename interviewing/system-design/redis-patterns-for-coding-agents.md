@@ -7,6 +7,9 @@ created: 2026-03-11
 description:
 tags:
   - "clippings"
+  - "redis"
+  - "system-design"
+  - "coding-agents"
 ---
 > [!summary]
 > Antirez's comprehensive reference of Redis design patterns organized for both human developers and LLM coding agents, covering fundamental patterns (caching, locking, rate limiting, queues, streams), community patterns (leaderboards, pub/sub, session management), and production case studies from Pinterest, Twitter, and Uber.

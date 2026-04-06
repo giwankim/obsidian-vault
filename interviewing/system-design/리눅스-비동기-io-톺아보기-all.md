@@ -8,6 +8,9 @@ created: 2026-02-01
 description: "리눅스 비동기 I/O 톺아보기 김보겸(@seedspirit)"
 tags:
   - "clippings"
+  - "operating-systems"
+  - "concurrency"
+  - "performance"
 ---
 
 > [!summary]

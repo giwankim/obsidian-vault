@@ -8,6 +8,9 @@ created: 2026-02-20
 description: "How to achieve real-time communication"
 tags:
   - "clippings"
+  - "system-design"
+  - "networking"
+  - "api-design"
 ---
 
 > [!summary]

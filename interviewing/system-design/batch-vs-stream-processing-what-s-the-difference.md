@@ -8,6 +8,10 @@ created: 2026-02-25
 description: "In the world of big data, batch processing and stream processing are the two common approaches to process large amounts of data."
 tags:
   - "clippings"
+  - "system-design"
+  - "batch-processing"
+  - "data-engineering"
+  - "kafka"
 ---
 
 > [!summary]

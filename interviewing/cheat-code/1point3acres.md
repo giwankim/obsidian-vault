@@ -7,6 +7,8 @@ created: 2026-02-09
 description: "美国加拿大留学申请,就业求职找工作,签证移民网站,包含计算机CS电子工程EE管理信息系统MIS统计生统Biostatistics数据科学data science analytics等各专业硕士博士申请信息"
 tags:
   - "clippings"
+  - "interviewing"
+  - "career-growth"
 ---
 
 > [!summary]

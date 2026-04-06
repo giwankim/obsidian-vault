@@ -8,6 +8,10 @@ created: 2026-02-05
 description: "스크리닝, 코딩, 시스템 디자인, Behavioral 인터뷰, 팀 매칭, 오퍼"
 tags:
   - "clippings"
+  - "interviewing"
+  - "leetcode"
+  - "system-design-interview"
+  - "behavioral-interview"
 ---
 
 > [!summary]

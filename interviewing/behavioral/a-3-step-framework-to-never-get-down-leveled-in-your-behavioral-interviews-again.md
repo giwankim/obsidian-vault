@@ -8,6 +8,9 @@ created: 2026-02-20
 description: "Amazon Principal Architect shares his secrets for the last month of collaborations guest post"
 tags:
   - "clippings"
+  - "interviewing"
+  - "behavioral-interview"
+  - "career-growth"
 ---
 
 > [!summary]

@@ -7,6 +7,10 @@ created: 2026-03-11
 description: "Most popular and trending interview questions right now. See what candidates are practicing today."
 tags:
   - "clippings"
+  - "interviewing"
+  - "leetcode"
+  - "system-design-interview"
+  - "algorithms"
 ---
 > [!summary]
 > Curated collection of trending tech interview questions from PracHub (6.8k questions, 352 companies), spanning coding & algorithms, system design, machine learning, and analytics from companies like OpenAI, Google, Meta, Anthropic, and Uber.

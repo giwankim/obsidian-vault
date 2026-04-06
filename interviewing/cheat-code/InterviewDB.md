@@ -7,6 +7,8 @@ created: 2026-02-09
 description: "Your shortcut for acing your next tech/quant interview. We curate the latest and most relevant interview questions, including exclusive content from forums like 1point3acres."
 tags:
   - "clippings"
+  - "interviewing"
+  - "leetcode"
 ---
 
 > [!summary]

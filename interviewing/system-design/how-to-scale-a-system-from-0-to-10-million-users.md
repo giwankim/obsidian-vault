@@ -8,6 +8,10 @@ created: 2026-02-07
 description: "Scaling is a complex topic, but after working at big tech on services handling millions of requests and scaling my own startup (AlgoMaster.io) from scratch, I’ve realized that most systems evolve through a surprisingly similar set of stages as they grow."
 tags:
   - "clippings"
+  - "system-design-interview"
+  - "distributed-systems"
+  - "performance"
+  - "database"
 ---
 
 > [!summary]

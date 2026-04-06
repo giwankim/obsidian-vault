@@ -8,6 +8,9 @@ created: 2026-02-24
 description: "Practice real interview questions from top tech companies like Google, Amazon, Meta, and more. Sharpen your coding and system design skills and land your dream job with Offer Retriever."
 tags:
   - "clippings"
+  - "interviewing"
+  - "leetcode"
+  - "system-design-interview"
 ---
 
 > [!summary]

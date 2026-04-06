@@ -8,6 +8,10 @@ created: 2026-03-21
 description: "Coding, System Design, Low Level Design and Behavioral Interviews"
 tags:
   - "clippings"
+  - "interviewing"
+  - "leetcode"
+  - "system-design-interview"
+  - "behavioral-interview"
 ---
 
 > [!summary]

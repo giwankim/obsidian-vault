@@ -7,6 +7,10 @@ created: 2026-01-25
 description:
 tags:
   - "clippings"
+  - "interviewing"
+  - "leetcode"
+  - "algorithms"
+  - "data-structures"
 ---
 
 > [!summary]

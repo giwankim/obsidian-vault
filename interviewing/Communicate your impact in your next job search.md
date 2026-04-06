@@ -7,6 +7,10 @@ created: 2026-02-09
 description: "Join Kelly (Dir. of Engineering) and Taylor (Engineering Recruiter) to master the art of personal branding in tech job searches. Learn how to go beyond the technical skills and showcase your abilities to lead projects, influence stakeholders, and drive impact."
 tags:
   - "clippings"
+  - "interviewing"
+  - "behavioral-interview"
+  - "career-growth"
+  - "leadership"
 ---
 
 > [!summary]

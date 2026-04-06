@@ -7,6 +7,10 @@ created: 2026-02-12
 description:
 tags:
   - "clippings"
+  - "system-design-interview"
+  - "performance"
+  - "redis"
+  - "database"
 ---
 
 > [!summary]

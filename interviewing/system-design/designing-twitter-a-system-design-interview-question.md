@@ -8,6 +8,9 @@ created: 2026-02-25
 description: "Your All-in-One Learning Portal: GeeksforGeeks is a comprehensive educational platform that empowers learners across domains-spanning computer science and programming, school education, upskilling, commerce, software tools, competitive exams, and more."
 tags:
   - "clippings"
+  - "system-design-interview"
+  - "distributed-systems"
+  - "microservices"
 ---
 
 > [!summary]

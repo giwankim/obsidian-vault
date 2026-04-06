@@ -8,6 +8,10 @@ created: 2026-02-06
 description: "What’s the difference?"
 tags:
   - "clippings"
+  - "system-design"
+  - "event-driven"
+  - "distributed-systems"
+  - "kafka"
 ---
 
 > [!summary]

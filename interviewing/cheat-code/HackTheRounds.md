@@ -8,6 +8,9 @@ created: 2026-02-09
 description: "Practice real coding interview questions and system design problems from Google, Meta, Amazon, Netflix, Apple, Microsoft, and 30+ top tech companies. Better than LeetCode for targeted interview prep."
 tags:
   - "clippings"
+  - "interviewing"
+  - "leetcode"
+  - "system-design-interview"
 ---
 
 > [!summary]

@@ -8,6 +8,9 @@ created: 2026-02-20
 description: "#28 System Design - WebSockets"
 tags:
   - "clippings"
+  - "system-design"
+  - "networking"
+  - "api-design"
 ---
 
 > [!summary]
