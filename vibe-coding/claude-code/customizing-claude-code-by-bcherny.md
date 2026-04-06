@@ -8,6 +8,10 @@ created: 2026-02-12
 description: "Claude Code @anthropicai"
 tags:
   - "clippings"
+  - "claude-code"
+  - "vibe-coding"
+  - "mcp"
+  - "agent-orchestration"
 ---
 
 > [!summary]

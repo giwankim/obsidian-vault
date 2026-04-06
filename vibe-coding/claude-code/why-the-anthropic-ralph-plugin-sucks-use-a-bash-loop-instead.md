@@ -7,6 +7,9 @@ created: 2026-02-13
 description: "Discover why the Anthropic Ralph plugin degrades AI performance by filling up context windows. Learn why bash loops keep Claude in the smart zone instead."
 tags:
   - "clippings"
+  - "claude-code"
+  - "vibe-coding"
+  - "coding-agents"
 ---
 
 > [!summary]

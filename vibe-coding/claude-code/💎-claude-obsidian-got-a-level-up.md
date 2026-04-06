@@ -8,6 +8,8 @@ created: 2026-02-20
 description: "How to get the most out of Claude + Obsidian as somebody who is not a programmer or entrepreneur and is just trying to make life easier"
 tags:
   - "clippings"
+  - "claude-code"
+  - "vibe-coding"
 ---
 
 > [!summary]

@@ -8,6 +8,10 @@ created: 2026-01-28
 description: "@bcherny: I'm Boris and I created Claude Code. Lots of people have asked how I use Claude Code, so I wanted to show off my setup a bit. My setup might be surprisingly vanilla! Claude Code works..."
 tags:
   - "clippings"
+  - "claude-code"
+  - "vibe-coding"
+  - "mcp"
+  - "prompt-engineering"
 ---
 
 > [!summary]

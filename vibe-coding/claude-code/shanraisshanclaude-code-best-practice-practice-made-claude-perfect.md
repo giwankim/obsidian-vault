@@ -9,6 +9,10 @@ created: 2026-03-11
 description: "practice made claude perfect. Contribute to shanraisshan/claude-code-best-practice development by creating an account on GitHub."
 tags:
   - "clippings"
+  - "claude-code"
+  - "coding-agents"
+  - "agent-orchestration"
+  - "mcp"
 ---
 > [!summary]
 > Community-maintained reference for Claude Code best practices, covering core concepts (commands, agents, skills, hooks, MCP servers), development workflows (planning, debugging, context management), and the Command → Agent → Skill orchestration pattern.

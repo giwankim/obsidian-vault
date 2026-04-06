@@ -8,6 +8,9 @@ created: 2026-03-17
 description: "설치부터 기업 AI 팀 구축까지, 한국어로 배우는 Claude Code 완전 정복 플레이북"
 tags:
   - "clippings"
+  - "claude-code"
+  - "vibe-coding"
+  - "coding-agents"
 ---
 
 > [!summary]

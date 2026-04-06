@@ -8,6 +8,9 @@ created: 2026-02-07
 description: "Reverse Engineering your Software Architecture with Claude Code to Help Claude Code I have been using Claude Code for a variety of purposes and one thing I realise is that the more it understands …"
 tags:
   - "clippings"
+  - "claude-code"
+  - "vibe-coding"
+  - "system-design"
 ---
 
 > [!summary]

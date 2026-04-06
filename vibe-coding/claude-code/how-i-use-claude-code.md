@@ -8,6 +8,10 @@ created: 2026-02-24
 description: "The research-plan-implement workflow I use to build software with Claude Code, and why I never let it write code until I've approved a written plan."
 tags:
   - "clippings"
+  - "claude-code"
+  - "vibe-coding"
+  - "prompt-engineering"
+  - "spec-driven-development"
 ---
 
 > [!summary]

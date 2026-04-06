@@ -8,6 +8,9 @@ created: 2026-01-30
 description: "Learn how to create, structure, and maintain CLAUDE.md files for Claude Code. Save hours by documenting project conventions that persist across sessions."
 tags:
   - "clippings"
+  - "claude-code"
+  - "vibe-coding"
+  - "prompt-engineering"
 ---
 
 > [!summary]

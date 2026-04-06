@@ -8,6 +8,10 @@ created: 2026-02-01
 description:
 tags:
   - "clippings"
+  - "claude-code"
+  - "vibe-coding"
+  - "agent-orchestration"
+  - "git"
 ---
 
 > [!summary]

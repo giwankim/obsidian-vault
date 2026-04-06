@@ -8,6 +8,10 @@ created: 2026-03-24
 description: "A curated list of awesome skills, hooks, slash-commands, agent orchestrators, applications, and plugins for Claude Code by Anthropic - hesreallyhim/awesome-claude-code"
 tags:
   - "clippings"
+  - "claude-code"
+  - "coding-agents"
+  - "agent-orchestration"
+  - "mcp"
 ---
 
 > [!summary]

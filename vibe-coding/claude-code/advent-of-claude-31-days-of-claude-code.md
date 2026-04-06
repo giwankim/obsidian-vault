@@ -8,6 +8,10 @@ created: 2026-01-28
 description: "A comprehensive guide to Claude Code's most powerful features, from quick shortcuts to advanced agent patterns."
 tags:
   - "clippings"
+  - "claude-code"
+  - "vibe-coding"
+  - "agent-orchestration"
+  - "prompt-engineering"
 ---
 
 > [!summary]
