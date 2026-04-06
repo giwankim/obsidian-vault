@@ -8,6 +8,9 @@ created: 2026-01-26
 description: "Backpressure, in client-server applications, is accomplished when a client adjusts its transmission of messages in response to a server that has slowed its processing of messages."
 tags:
   - "clippings"
+  - "networking"
+  - "distributed-systems"
+  - "performance"
 ---
 
 > [!summary]

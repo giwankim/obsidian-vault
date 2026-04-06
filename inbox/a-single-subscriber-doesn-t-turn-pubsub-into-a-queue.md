@@ -8,6 +8,9 @@ created: 2026-03-07
 description: "Learn why pub/sub and work queues are not interchangeable, how delivery guarantees affect retries, and why idempotency ensures reliable async systems."
 tags:
   - "clippings"
+  - "event-driven"
+  - "distributed-systems"
+  - "microservices"
 ---
 
 > [!summary]

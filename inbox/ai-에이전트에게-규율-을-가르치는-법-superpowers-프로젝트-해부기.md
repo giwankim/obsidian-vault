@@ -7,6 +7,10 @@ created: 2026-03-26
 description: "Claude Code 플러그인 \"Superpowers\"를 코드 레벨까지 해부하면서 발견한 것들"
 tags:
   - "clippings"
+  - "coding-agents"
+  - "vibe-coding"
+  - "prompt-engineering"
+  - "claude-code"
 ---
 
 > [!summary]

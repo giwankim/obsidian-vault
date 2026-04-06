@@ -8,6 +8,9 @@ created: 2026-03-25
 description:
 tags:
   - "clippings"
+  - "career-growth"
+  - "engineering-management"
+  - "distributed-systems"
 ---
 
 > [!summary]

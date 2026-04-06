@@ -8,6 +8,8 @@ created: 2026-03-27
 description: "A rundown of seven common mistakes is system architecture diagrams and how to fix them"
 tags:
   - "clippings"
+  - "system-design"
+  - "api-design"
 ---
 
 > [!summary]

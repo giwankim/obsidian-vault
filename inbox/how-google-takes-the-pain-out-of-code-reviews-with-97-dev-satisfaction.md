@@ -8,6 +8,9 @@ created: 2026-02-18
 description: "A study of Google's code review tooling, AI-powered improvements, and recent statistics. Critique, \"Modern Code Review at Google,\" and various Google software engineering papers."
 tags:
   - "clippings"
+  - "code-review"
+  - "devops"
+  - "ai"
 ---
 > [!summary]
 > Examines Google's code review tool Critique and the practices that achieve 97% developer satisfaction: small changes (~200 LOC), sub-24-hour review turnaround, one reviewer per change, tight IDE integration, ML-powered suggestions, and an "attention set" that tracks who needs to act next. Google's median review latency is under 4 hours, far faster than industry peers.

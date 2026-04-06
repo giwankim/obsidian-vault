@@ -8,6 +8,9 @@ created: 2026-03-20
 description: "In this article, we will look at the technical architecture and engineering decisions that made this expansion possible."
 tags:
   - "clippings"
+  - "payments"
+  - "system-design"
+  - "distributed-systems"
 ---
 
 > [!summary]

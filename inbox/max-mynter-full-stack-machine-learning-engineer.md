@@ -7,6 +7,8 @@ created: 2026-02-12
 description: "Max Mynter - Full Stack Machine Learning Engineer. Explore my blog and portfolio. Multiple years of experience in data science, software engineering, and machine learning."
 tags:
   - "clippings"
+  - "machine-learning"
+  - "career-growth"
 ---
 
 > [!summary]

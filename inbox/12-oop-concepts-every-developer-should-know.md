@@ -8,6 +8,8 @@ created: 2026-02-20
 description: "Key Object-Oriented Programming Concepts"
 tags:
   - "clippings"
+  - "java"
+  - "api-design"
 ---
 
 > [!summary]

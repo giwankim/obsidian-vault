@@ -8,6 +8,9 @@ created: 2026-03-16
 description: "Modern kernel anti-cheat systems are, without exaggeration, among the most sophisticated pieces of software running on consumer Windows machines. They operate at the highest privilege level available to software, they intercept kernel callbacks that were designed for legitimate security products, they scan memory structures that most programmers never touch in their entire careers, and they do all of this transparently while a game is running. If you have ever wondered how BattlEye actually catches a cheat, or why Vanguard insists on loading before Windows boots, or what it means for a PCIe DMA device to bypass every single one of these protections, this post is for you."
 tags:
   - "clippings"
+  - "security"
+  - "operating-systems"
+  - "performance"
 ---
 
 > [!summary]

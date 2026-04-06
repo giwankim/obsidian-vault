@@ -8,6 +8,9 @@ created: 2026-02-10
 description: "A Guide to comparing Claude Code Compiler with GCC"
 tags:
   - "clippings"
+  - "compilers"
+  - "ai"
+  - "performance"
 ---
 
 > [!summary]

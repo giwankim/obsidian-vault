@@ -8,6 +8,8 @@ created: 2026-01-23
 description: "Advisor to growth-stage startups. ex-Stripe, Twitter, Google, YahooWant to learn more from me? I teach 2 courses to ambitious leaders:Product Sense & Strateg..."
 tags:
   - "clippings"
+  - "leadership"
+  - "career-growth"
 ---
 
 > [!summary]

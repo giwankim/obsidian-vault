@@ -8,6 +8,10 @@ created: 2026-03-25
 description: "In this article, we will look at the architecture of this system and the challenges Netflix faced while building it."
 tags:
   - "clippings"
+  - "distributed-systems"
+  - "system-design"
+  - "performance"
+  - "redis"
 ---
 
 > [!summary]
