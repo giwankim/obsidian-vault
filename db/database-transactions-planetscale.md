@@ -7,6 +7,10 @@ created: 2026-02-24
 description: "What are database transactions and how do SQL databases isolate one transaction from another?"
 tags:
   - "clippings"
+  - "database"
+  - "postgresql"
+  - "mysql"
+  - "concurrency"
 ---
 
 > [!summary]

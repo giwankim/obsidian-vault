@@ -8,6 +8,10 @@ created: 2026-01-26
 description: "Locks, PostgreSQL, Code , Examples and more."
 tags:
   - "clippings"
+  - "postgresql"
+  - "spring-boot"
+  - "distributed-systems"
+  - "concurrency"
 ---
 
 > [!summary]

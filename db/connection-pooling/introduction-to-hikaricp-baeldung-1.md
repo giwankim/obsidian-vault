@@ -8,6 +8,10 @@ created: 2026-02-12
 description: "We learn about the HikariCP JDBC connection pool project."
 tags:
   - "clippings"
+  - "database"
+  - "connection-pooling"
+  - "hikaricp"
+  - "java"
 ---
 
 > [!summary]

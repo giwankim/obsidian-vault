@@ -8,6 +8,10 @@ created: 2026-02-25
 description: "With an effort to make Notion faster and more reliable for years to come — we migrated Notion’s PostgreSQL monolith into a horizontally-partitioned database fleet."
 tags:
   - "clippings"
+  - "postgresql"
+  - "distributed-systems"
+  - "performance"
+  - "system-design"
 ---
 
 > [!summary]

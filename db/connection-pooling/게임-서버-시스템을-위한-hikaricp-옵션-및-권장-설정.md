@@ -8,6 +8,10 @@ created: 2026-02-12
 description: "HikariCP는 특별히 옵션을 튜닝하지 않더라도 대부분의 개발 및 배포에서 충분한 성능으로 동작합니다. 하지만 게임 서버 시스템을 위한 JDBC와 Timeout 이해하기에서 이야기한 것처럼 WAS 시스템을 위한 HikariCP 권장 설정을 게임 서버 시스템에 그대로 적용... - HikariCP, JDBC, Timeout, TPM실, 게임 서버, 기술분석팀"
 tags:
   - "clippings"
+  - "database"
+  - "connection-pooling"
+  - "hikaricp"
+  - "performance"
 ---
 
 > [!summary]

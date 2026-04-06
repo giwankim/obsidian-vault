@@ -8,6 +8,9 @@ created: 2026-02-26
 description: "When you write a SQL query with a JOIN clause, you probably do not think much about what happens next. You just expect the database to return the right rows. But this simple keyword forces your database to make one of the most consequential decisions a query planner makes: which join algorithm should it use?"
 tags:
   - "clippings"
+  - "database"
+  - "algorithms"
+  - "performance"
 ---
 
 > [!summary]

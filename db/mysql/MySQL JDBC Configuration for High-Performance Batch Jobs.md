@@ -8,6 +8,10 @@ created: 2026-02-09
 description: "MySQL JDBC Configuration for High-Performance Batch Jobs - mysql-options.adoc"
 tags:
   - "clippings"
+  - "mysql"
+  - "java"
+  - "batch-processing"
+  - "performance"
 ---
 
 > [!summary]

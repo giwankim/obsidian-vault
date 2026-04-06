@@ -8,6 +8,10 @@ created: 2026-01-28
 description: "Learn how to use PostgreSQL as a Dead Letter Queue (DLQ) for event-driven systems. Case study from Wayfair showing how to handle failures in Kafka consumers with PostgreSQL for better observability and retry mechanisms."
 tags:
   - "clippings"
+  - "postgresql"
+  - "event-driven"
+  - "kafka"
+  - "distributed-systems"
 ---
 
 > [!summary]

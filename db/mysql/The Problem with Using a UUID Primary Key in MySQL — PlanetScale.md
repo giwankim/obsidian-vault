@@ -7,6 +7,9 @@ created: 2026-02-09
 description: "Understand the different versions of UUIDs and why using them as a primary key in MySQL can hurt database performance."
 tags:
   - "clippings"
+  - "mysql"
+  - "database"
+  - "performance"
 ---
 
 > [!summary]

@@ -8,6 +8,11 @@ created: 2026-02-12
 description: "1부 HikariCP Dead lock에서 벗어나기 (이론편)은 잘 보셨나요? 2부 HikariCP Dead lock에서 벗어나기 (실전편)에서는 실제 장애 사례를 기반으로 장애 원인을 설명하고 해결 사례를 공유하고자 합니다. 그럼 시작하도록 하겠습니다! 1부의 Dead lock 예시는 이해가 갔는데, 실제 상황은 뭐였나요? 사실, 예제가 실제 상황이었습니다. 장애 환경에 대한 Thread count와 maximum pool size의 조건은 아래와 같습니다 CPU Core :"
 tags:
   - "clippings"
+  - "database"
+  - "connection-pooling"
+  - "hikaricp"
+  - "jpa"
+  - "concurrency"
 ---
 
 > [!summary]

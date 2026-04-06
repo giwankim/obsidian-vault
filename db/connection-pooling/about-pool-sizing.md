@@ -8,6 +8,10 @@ created: 2026-02-25
 description: "光 HikariCP・A solid, high-performance, JDBC connection pool at last. - About Pool Sizing · brettwooldridge/HikariCP Wiki"
 tags:
   - "clippings"
+  - "database"
+  - "connection-pooling"
+  - "hikaricp"
+  - "performance"
 ---
 
 > [!summary]
