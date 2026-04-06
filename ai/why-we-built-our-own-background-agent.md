@@ -10,6 +10,10 @@ created: 2026-02-05
 description: "The craft of engineering is rapidly changing. We built our own coding agent to accelerate faster."
 tags:
   - "clippings"
+  - "coding-agents"
+  - "ai"
+  - "system-design"
+  - "devops"
 ---
 
 > [!summary]

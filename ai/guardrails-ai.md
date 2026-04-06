@@ -8,6 +8,10 @@ created: 2026-01-30
 description: "Enforce assurance for LLM applications"
 tags:
   - "clippings"
+  - "ai"
+  - "llm"
+  - "observability"
+  - "security"
 ---
 
 > [!summary]

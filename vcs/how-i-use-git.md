@@ -8,6 +8,8 @@ created: 2026-02-18
 description: "From aliases, to commits, to commit messages, to reviews, to workflows."
 tags:
   - "clippings"
+  - "git"
+  - "code-review"
 ---
 > [!summary]
 > Thorsten Ball shares his git workflow refined over 12 years: heavy use of CLI aliases, treating commits as quicksaves, optimizing merged PRs (not individual commits) for understandability/revertability/bisectability, and keeping PRs small and eagerly merged. He emphasizes that the "why" matters most in commit messages and that context should dictate how much effort you put into git practices.

@@ -8,6 +8,8 @@ created: 2026-02-26
 description: "Learn how to optimize Amazon S3 costs using lifecycle rules and Terraform. Automate storage transitions, retention policies, and governance at scale."
 tags:
   - "clippings"
+  - "terraform"
+  - "devops"
 ---
 > [!summary]
 > A practical guide to automating S3 cost optimization using Terraform lifecycle rules that transition objects through storage tiers (Standard → Standard-IA → Glacier IR → Deep Archive → Delete). It presents a modular Terraform setup with built-in validations for managing retention policies across multiple environments, including cleanup of incomplete multipart uploads and noncurrent object versions.

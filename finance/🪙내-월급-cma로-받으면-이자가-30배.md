@@ -7,6 +7,8 @@ created: 2026-02-05
 description: "#이더리움 #시프트업 #청년도약계좌 #엔비디아"
 tags:
   - "clippings"
+  - "finance"
+  - "personal-finance"
 ---
 
 > [!summary]

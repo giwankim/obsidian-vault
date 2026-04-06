@@ -8,6 +8,9 @@ created: 2026-01-29
 description: "Lessons learned from 14 years of engineering at Google, focusing on what truly matters beyond just writing great code."
 tags:
   - "clippings"
+  - "career-growth"
+  - "leadership"
+  - "engineering-management"
 ---
 
 > [!summary]

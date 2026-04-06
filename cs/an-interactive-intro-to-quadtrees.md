@@ -8,6 +8,9 @@ created: 2026-03-09
 description: "An interactive exploration of quadtrees. Start with brute-force spatial search, build recursive space partitioning step by step, then use it for point lookups, range queries, nearest-neighbor search, collision detection, and image compression."
 tags:
   - "clippings"
+  - "data-structures"
+  - "algorithms"
+  - "system-design"
 ---
 
 > [!summary]

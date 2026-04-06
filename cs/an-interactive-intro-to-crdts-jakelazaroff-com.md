@@ -7,6 +7,9 @@ created: 2026-03-09
 description: "CRDTs don't have to be all academic papers and math jargon. Learn what CRDTs are and how they work through interactive visualizations and code samples."
 tags:
   - "clippings"
+  - "distributed-systems"
+  - "data-structures"
+  - "web-development"
 ---
 
 > [!summary]

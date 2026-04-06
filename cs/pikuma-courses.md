@@ -8,6 +8,9 @@ created: 2026-03-23
 description:
 tags:
   - "clippings"
+  - "compilers"
+  - "operating-systems"
+  - "algorithms"
 ---
 
 > [!summary]

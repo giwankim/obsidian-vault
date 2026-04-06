@@ -8,6 +8,9 @@ created: 2026-01-30
 description: "OAuth was first introduced in 2007."
 tags:
   - "clippings"
+  - "oauth"
+  - "security"
+  - "api-design"
 ---
 
 > [!summary]

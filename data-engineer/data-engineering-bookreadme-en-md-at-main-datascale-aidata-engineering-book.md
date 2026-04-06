@@ -9,6 +9,10 @@ created: 2026-02-14
 description: "data engineering book. Contribute to datascale-ai/data_engineering_book development by creating an account on GitHub."
 tags:
   - "clippings"
+  - "data-engineering"
+  - "llm"
+  - "ai"
+  - "machine-learning"
 ---
 
 > [!summary]

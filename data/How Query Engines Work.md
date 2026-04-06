@@ -7,6 +7,9 @@ created: 2026-02-09
 description:
 tags:
   - "clippings"
+  - "database"
+  - "performance"
+  - "data-engineering"
 ---
 
 > [!summary]

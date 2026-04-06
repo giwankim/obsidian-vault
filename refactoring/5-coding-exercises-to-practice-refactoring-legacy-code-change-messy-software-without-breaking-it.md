@@ -8,6 +8,8 @@ created: 2026-02-18
 description: "Feeling overwhelmed by your legacy codebase? These katas will help you learn how to tackle it."
 tags:
   - "clippings"
+  - "refactoring"
+  - "testing"
 ---
 > [!summary]
 > Presents 5 coding katas for practicing legacy code refactoring, ordered by difficulty: Gilded Rose, Tennis, Trip Service, Expense Report, and Trivia Game, plus 2 bonus "realistic" katas for front-end and API refactoring. Each kata targets specific skills like adding tests to untested code, breaking problematic dependencies, and separating concerns using hexagonal architecture.

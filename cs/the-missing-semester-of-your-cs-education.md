@@ -8,6 +8,9 @@ created: 2026-03-23
 description: "Master powerful tools that will make you a more productive computer scientist and programmer."
 tags:
   - "clippings"
+  - "devops"
+  - "git"
+  - "ai"
 ---
 
 > [!summary]

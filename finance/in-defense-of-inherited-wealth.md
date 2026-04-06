@@ -8,6 +8,8 @@ created: 2026-01-30
 description: "Politicians have imposed massive inheritance and estate taxes to penalize intergenerational wealth transfers."
 tags:
   - "clippings"
+  - "finance"
+  - "economics"
 ---
 
 > [!summary]

@@ -7,6 +7,8 @@ created: 2026-02-12
 description: "Battle-tested, Mom-approved"
 tags:
   - "clippings"
+  - "performance"
+  - "algorithms"
 ---
 
 > [!summary]

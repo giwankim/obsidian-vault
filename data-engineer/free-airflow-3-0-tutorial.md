@@ -8,6 +8,9 @@ created: 2026-02-26
 description: "Master the core concepts of Apache Airflow 3.0 — from your first DAG to advanced scheduling — with hands-on code examples.”"
 tags:
   - "clippings"
+  - "data-engineering"
+  - "batch-processing"
+  - "devops"
 ---
 > [!summary]
 > A hands-on tutorial covering Apache Airflow 3.0 core concepts including DAG creation, XComs for cross-task communication, dynamic task mapping, and scheduling via cron timetables and asset-based triggers. It also explains how executors run tasks in parallel, how the dag-processor and scheduler work, and how to use the Airflow UI for monitoring and backfills.

@@ -9,6 +9,9 @@ created: 2026-02-05
 description:
 tags:
   - "clippings"
+  - "algorithms"
+  - "performance"
+  - "data-structures"
 ---
 
 > [!summary]

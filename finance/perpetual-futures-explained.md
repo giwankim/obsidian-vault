@@ -8,6 +8,8 @@ created: 2026-03-20
 description: "Crypto’s most popular product offers capital efficiency for professionals, leveraged exposure for the masses, rich yields for market makers — and a poorly understood failure mode."
 tags:
   - "clippings"
+  - "finance"
+  - "payments"
 ---
 *Programming note*: *Bits about Money is* [*supported by our readers*](https://www.bitsaboutmoney.com/memberships/)*. I generally forecast about one issue a month, and haven't kept that pace that this year. As a result, I'm working on about 3-4 for December.*
 

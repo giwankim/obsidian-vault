@@ -8,6 +8,9 @@ created: 2026-02-24
 description:
 tags:
   - "clippings"
+  - "coding-agents"
+  - "ai"
+  - "devops"
 ---
 
 > [!summary]

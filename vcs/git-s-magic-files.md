@@ -8,6 +8,8 @@ created: 2026-02-24
 description: "Magic files and where to find them: .gitignore, .gitattributes, .mailmap, .git-blame-ignore-revs, .lfsconfig, and more."
 tags:
   - "clippings"
+  - "git"
+  - "devops"
 ---
 
 > [!summary]

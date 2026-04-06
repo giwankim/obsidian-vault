@@ -8,6 +8,10 @@ created: 2026-03-23
 description: "Contribute to jamwithai/production-agentic-rag-course development by creating an account on GitHub."
 tags:
   - "clippings"
+  - "ai"
+  - "llm"
+  - "agent-orchestration"
+  - "data-engineering"
 ---
 
 > [!summary]

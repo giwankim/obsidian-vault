@@ -8,6 +8,8 @@ created: 2026-03-12
 description: "A series about the internals of Terraform and how different parts of Terraform work under the hood."
 tags:
   - "clippings"
+  - "terraform"
+  - "devops"
 ---
 
 > [!summary]

@@ -8,6 +8,10 @@ created: 2026-02-09
 description: "Rails 8 eliminates Redis from the default stack. Learn how SolidQueue, SolidCache, and SolidCable replace Redis for job processing, caching, and real-time updates—powered entirely by PostgreSQL. Explore the true cost of Redis, how SolidQueue works, when it scales, and how to migrate from Sidekiq to a simpler, Redis-free Rails architecture."
 tags:
   - "clippings"
+  - "redis"
+  - "postgresql"
+  - "backend"
+  - "web-development"
 ---
 
 > [!summary]

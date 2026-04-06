@@ -8,6 +8,8 @@ created: 2026-02-12
 description: "-----= OPEN FOR SUGGESTIONS! =-----  How to suggest new resources? Use comments in Google Doc!   Please be mindful of accidental edit suggestions - I see many erroneous edits (spaces added, returns, deletions…).  Tinkering & Practical > Theoretical & Boring :) Projects, books, videos, whatever… Q..."
 tags:
   - "clippings"
+  - "graphics-programming"
+  - "web-development"
 ---
 
 > [!summary]

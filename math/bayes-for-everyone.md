@@ -8,6 +8,7 @@ created: 2026-02-05
 description: "A guest post by Brandon Hendrickson"
 tags:
   - "clippings"
+  - "algorithms"
 ---
 
 > [!summary]

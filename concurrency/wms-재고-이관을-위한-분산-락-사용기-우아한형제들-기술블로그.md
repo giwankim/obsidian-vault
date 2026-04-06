@@ -8,6 +8,10 @@ created: 2026-02-23
 description: "WMS 재고 이관 과정에서 발생한 동시성 이슈를 분산 락(Distributed Lock)을 사용해 해결한 경험을 공유하는 글입니다. 본 글은 분산 락에 대해 알고 있는 분들을 대상으로 작성되었습니다. 제가 경험한 내용들이 여러분들의 비즈니스에 도움이 되는 글이 되길 바랍니다. WMS란? 물류에서 사용되는 용어로 상품을 구별하기 위한 고유의 식별 코드입니다. 예를 들어, 인천DC(출발지)에서 송파잠실PPC(목적지)로 배달이 피규어(SKU: S01234)를 10개(이관 수량) 이관하기"
 tags:
   - "clippings"
+  - "concurrency"
+  - "redis"
+  - "distributed-systems"
+  - "backend"
 ---
 
 > [!summary]

@@ -8,6 +8,8 @@ created: 2026-02-26
 description: "OpenAI has some big questions. It doesn’t have unique tech. It has a big user base, but with limited engagement and stickiness and no network effect. The incumbents have matched the tech and are leveraging their product and distribution. And a lot of the value and leverage will come from new experiences that haven’t been invented yet, and it can’t invent all of those itself. What’s the plan?"
 tags:
   - "clippings"
+  - "ai"
+  - "business-strategy"
 ---
 
 > [!summary]

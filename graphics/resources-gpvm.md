@@ -7,6 +7,8 @@ created: 2026-03-05
 description: "Graphics programming resources and learning materials"
 tags:
   - "clippings"
+  - "graphics-programming"
+  - "algorithms"
 ---
 
 > [!summary]

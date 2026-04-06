@@ -8,6 +8,8 @@ created: 2026-03-28
 description:
 tags:
   - "clippings"
+  - "api-design"
+  - "system-design"
 ---
 
 > [!summary]

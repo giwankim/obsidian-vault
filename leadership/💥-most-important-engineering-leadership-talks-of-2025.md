@@ -8,6 +8,8 @@ created: 2026-02-19
 description: "Tech Talks Weekly Extra #13"
 tags:
   - "clippings"
+  - "leadership"
+  - "engineering-management"
 ---
 
 > [!summary]

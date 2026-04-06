@@ -8,6 +8,8 @@ created: 2026-03-04
 description: "A hands-on introduction to elliptic curve cryptography. Start with curve geometry, build point addition and scalar multiplication, see why ECDLP is hard, and then use that math in ECDH, ECDSA, and ECIES."
 tags:
   - "clippings"
+  - "cryptography"
+  - "security"
 ---
 
 > [!summary]

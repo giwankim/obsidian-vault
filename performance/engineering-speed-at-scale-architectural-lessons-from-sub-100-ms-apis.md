@@ -8,6 +8,10 @@ created: 2026-01-31
 description: "Low‑latency systems require intentional design, strict latency budgets, caching, async patterns, and strong observability. Architecture creates speed; culture sustains it as systems evolve."
 tags:
   - "clippings"
+  - "performance"
+  - "system-design"
+  - "observability"
+  - "api-design"
 ---
 
 > [!summary]

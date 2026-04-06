@@ -8,6 +8,9 @@ created: 2026-03-20
 description: "Many engineers confuse accuracy with consistency in distributed systems. Learn the difference using CAP theorem concepts, replication examples, and real system design trade-offs."
 tags:
   - "clippings"
+  - "distributed-systems"
+  - "system-design-interview"
+  - "system-design"
 ---
 
 > [!summary]
