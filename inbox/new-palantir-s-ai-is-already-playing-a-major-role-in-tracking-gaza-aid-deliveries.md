@@ -8,6 +8,9 @@ created: 2026-03-05
 description: "As Israel bans NGOs, the U.S. is handing aid delivery in Gaza to private companies pursuing their own agendas."
 tags:
   - "clippings"
+  - "ai"
+  - "security"
+  - "geopolitics"
 ---
 
 > [!summary]

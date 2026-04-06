@@ -8,6 +8,8 @@ created: 2026-02-20
 description: "It's more than just the L in SOLID!"
 tags:
   - "clippings"
+  - "api-design"
+  - "refactoring"
 ---
 
 > [!summary]

@@ -8,6 +8,10 @@ created: 2026-03-24
 description: "The architecture and coordination that kept global transactions flowing through complex application and infrastructure changes."
 tags:
   - "clippings"
+  - "payments"
+  - "microservices"
+  - "kubernetes"
+  - "distributed-systems"
 ---
 
 > [!summary]

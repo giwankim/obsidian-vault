@@ -8,6 +8,8 @@ created: 2026-02-11
 description: "Type systems verify properties of programs. Production correctness is a property of systems. The gap between these is where the interesting failures live."
 tags:
   - "clippings"
+  - "distributed-systems"
+  - "system-design"
 ---
 
 > [!summary]

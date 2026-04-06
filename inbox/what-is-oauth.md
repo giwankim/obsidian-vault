@@ -7,6 +7,9 @@ created: 2026-03-26
 description: "Wherein I [try to] answer a seemingly straightforward question: \"WTF is OAuth, anyhow?\""
 tags:
   - "clippings"
+  - "oauth"
+  - "security"
+  - "api-design"
 ---
 
 > [!summary]

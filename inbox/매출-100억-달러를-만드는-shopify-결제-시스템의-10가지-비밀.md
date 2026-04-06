@@ -8,6 +8,10 @@ created: 2026-03-01
 description: "매출 100억 달러의 비결은 바로 결제 시스템의 안정성에 있습니다"
 tags:
   - "clippings"
+  - "payments"
+  - "system-design"
+  - "distributed-systems"
+  - "performance"
 ---
 
 > [!summary]

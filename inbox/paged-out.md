@@ -8,6 +8,9 @@ created: 2026-02-26
 description: "Deeply technical zine. And it's free."
 tags:
   - "clippings"
+  - "security"
+  - "operating-systems"
+  - "zine"
 ---
 
 > [!summary]

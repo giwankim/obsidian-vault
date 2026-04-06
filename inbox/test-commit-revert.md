@@ -8,6 +8,9 @@ created: 2026-03-26
 description: "test && commit || revert As part of Limbo on the Cheap, we invented a new programming workflow. I introduced “test && commit”, where every time the tests run correctly the code is committed …"
 tags:
   - "clippings"
+  - "testing"
+  - "git"
+  - "refactoring"
 ---
 
 > [!summary]

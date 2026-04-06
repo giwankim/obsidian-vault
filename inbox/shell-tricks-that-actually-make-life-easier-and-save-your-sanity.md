@@ -8,6 +8,9 @@ created: 2026-03-27
 description: "Watch someone backspace 40 characters instead of pressing CTRL+W, and you’ll understand why this list exists. A collection of shell tricks-grouped by what wo..."
 tags:
   - "clippings"
+  - "shell"
+  - "devops"
+  - "operating-systems"
 ---
 
 > [!summary]

@@ -8,6 +8,8 @@ created: 2026-02-05
 description: "Including my Vegas hotel tiers and restaurant recommendations. Plus, advice for young poker players. Is the poker dream dead?"
 tags:
   - "clippings"
+  - "poker"
+  - "lifestyle"
 ---
 
 > [!summary]

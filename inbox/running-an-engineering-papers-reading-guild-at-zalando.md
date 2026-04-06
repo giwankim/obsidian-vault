@@ -8,6 +8,9 @@ created: 2026-03-25
 description: "In September 2024, we started an Engineering Papers guild at Zalando to read and discuss research papers together. A year later, we reflect on our journey and share insights on organising and..."
 tags:
   - "clippings"
+  - "career-growth"
+  - "engineering-management"
+  - "distributed-systems"
 ---
 
 > [!summary]

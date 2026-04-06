@@ -8,6 +8,8 @@ created: 2026-01-30
 description: "Affordability is a goal, not a policy."
 tags:
   - "clippings"
+  - "housing-policy"
+  - "politics"
 ---
 
 > [!summary]

@@ -8,6 +8,9 @@ created: 2026-03-20
 description: "Refactoring databases safely in production. Learn the Expand/Contract pattern, dual writes, and strategies for zero-downtime schema changes."
 tags:
   - "clippings"
+  - "database"
+  - "refactoring"
+  - "distributed-systems"
 ---
 
 > [!summary]
