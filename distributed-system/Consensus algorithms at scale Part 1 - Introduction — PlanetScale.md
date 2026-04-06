@@ -7,6 +7,10 @@ created: 2026-01-30
 description: "This is a multi-part blog series and will be updated with links to the corresponding posts."
 tags:
   - "clippings"
+  - "distributed-systems"
+  - "algorithms"
+  - "database"
+  - "mysql"
 ---
 
 > [!summary]
