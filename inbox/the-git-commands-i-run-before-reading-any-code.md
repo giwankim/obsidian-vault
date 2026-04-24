@@ -4,14 +4,14 @@ source: "https://piechowski.io/post/git-commands-before-reading-code/"
 author:
   - "[[Ally Piechowski]]"
 published: "2026-04-08T08:30:00Z"
-created: 2026-04-11
-description: "Five git commands that tell you where a codebase hurts before you open a single file. Churn hotspots, bus factor, bug clusters, and crisis patterns."
+created: 2026-04-22
+description: "Five git log commands that diagnose a new codebase before you open a single file: code churn hotspots, bus factor, bug clusters, and crisis patterns."
 tags:
   - "clippings"
 ---
 
 > [!summary]
-> Five git one-liners that diagnose a codebase before you open a single file: top-20 most-changed files (churn hotspots), `shortlog -sn` for bus factor, a bug-keyword grep for defect clusters, commits-per-month for team velocity trends, and a revert/hotfix grep for crisis patterns. Cross-referencing churn and bug hotspots highlights the highest-risk files — the ones that keep breaking *and* keep getting patched.
+> Five git one-liners that profile a codebase before you open a single file: top-20 most-changed files (churn hotspots), `git shortlog -sn --no-merges` for bus factor, a `--grep="fix|bug|broken"` filter for defect clusters, commits-per-month for velocity trend, and a `revert|hotfix|emergency|rollback` grep for crisis patterns. Cross-referencing churn and bug hotspots surfaces the riskiest files — the ones that keep breaking *and* keep getting patched — giving you a targeted reading list instead of a day of wandering the source tree.
 
 ![The Git Commands I Run Before Reading Any Code](https://piechowski.io/post/git-commands-before-reading-code/cover_hu3f66e25b7571f7e32d40f355f31a2ca9_56928_1500x0_resize_q75_h2_box_2.webp)
 
@@ -23,11 +23,13 @@ The first thing I usually do when I pick up a new codebase isn’t opening the c
 git log --format=format: --name-only --since="1 year ago" | sort | uniq -c | sort -nr | head -20
 ```
 
+I run this from `app/` or `src/`, not the repo root. Lockfiles, changelogs, and generated code will dominate the list otherwise.
+
 The 20 most-changed files in the last year. The file at the top is almost always the one people warn me about. “Oh yeah, that file. Everyone’s afraid to touch it.”
 
 High churn on a file doesn’t mean it’s bad. Sometimes it’s just active development. But high churn on a file that nobody wants to own is the clearest signal of codebase drag I know. That’s the file where every change is a patch on a patch. The blast radius of a small edit is unpredictable. The team pads their estimates because they know it’s going to fight back.
 
-A [2005 Microsoft Research study](https://www.microsoft.com/en-us/research/publication/use-of-relative-code-churn-measures-to-predict-system-defect-density/) found churn-based metrics predicted defects more reliably than complexity metrics alone. I take the top 5 files from this list and cross-reference them against the bug hotspot command below. A file that’s high-churn *and* high-bug is your single biggest risk.
+A [2005 Microsoft Research study](https://www.microsoft.com/en-us/research/publication/use-of-relative-code-churn-measures-to-predict-system-defect-density/) found churn-based metrics predicted defects more reliably than complexity metrics alone. I take the top 5 files from this list and cross-reference them against the bug hotspot command below. A file that’s high-churn *and* high-bug is your single biggest risk. Adam Tornhill’s [Your Code as a Crime Scene](https://pragprog.com/titles/atcrime2/your-code-as-a-crime-scene-second-edition/) builds a full methodology around churn-based analysis, including complexity overlays that these raw commands don’t cover.
 
 ## Who Built This
 
@@ -75,14 +77,14 @@ Crisis patterns are easy to read. Either they’re there or they’re not.
 
 These five commands take a couple minutes to run. They won’t tell you everything. But you’ll know which code to read first, and what to look for when you get there. That’s the difference between spending your first day reading the codebase methodically and spending it wandering.
 
-This is the first hour of what I do in a [codebase audit](https://piechowski.io/post/how-i-audit-a-legacy-rails-codebase/). Here’s what the rest of the week looks like.
+This is the first hour of what I do in a [full codebase audit](https://piechowski.io/post/how-i-audit-a-legacy-rails-codebase/).
 
 ---
 
 ## Related Articles
 
 - [Why Your Engineering Team Is Slow (It's the Codebase, Not the People)](https://piechowski.io/post/codebase-drag-audit/)
-- [How to Close a Tab in Vim](https://piechowski.io/post/vim-tabclose/)
 - [How I Audit a Legacy Rails Codebase in the First Week](https://piechowski.io/post/how-i-audit-a-legacy-rails-codebase/)
-- [How to Open a New Tab in Vim](https://piechowski.io/post/vim-tabnew/)
-- [Rails default\_scope: Why You Should Never Use It](https://piechowski.io/post/why-is-default-scope-bad-rails/)
+- [Ruby 3.2 Is EOL: What You Actually Need to Do](https://piechowski.io/post/ruby-3-2-eol/)
+- [Rails 7.2 to 8.1 Upgrade: What Actually Breaks and How to Fix It](https://piechowski.io/post/rails-7-to-8-upgrade-what-actually-breaks/)
+- [How to Close a Tab in Vim](https://piechowski.io/post/vim-tabclose/)
