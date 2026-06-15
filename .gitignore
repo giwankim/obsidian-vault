@@ -12,5 +12,9 @@
 .obsidian/plugins/
 .obsidian/themes/
 
+# Obsidian - generated cache and backups (regenerated, not meaningful)
+.obsidian/cache
+.obsidian/*.bak
+
 # Claude Code - local settings
 .claude/settings.local.json
