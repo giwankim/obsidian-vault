@@ -13,6 +13,9 @@ tags:
 > [!summary]
 > Martin Fowler distinguishes four patterns that get conflated under the "event-driven" label: Event Notification, Event-Carried State Transfer, Event Sourcing, and CQRS. He explains the benefits and traps of each — for example, how event notification's loose coupling can obscure larger logical flows — and argues that much of the confusion around event-driven systems stems from mixing these distinct patterns.
 
+> [!note] My notes
+> See [[meaning-of-event-driven]] for my distilled notes on this article.
+
 Towards the end of last year I attended a workshop with my colleagues in Thoughtworks to discuss the nature of “event-driven” applications. Over the last few years we've been building lots of systems that make a lot of use of events, and they've been often praised, and often damned. Our North American office organized a summit, and Thoughtworks senior developers from all over the world showed up to share ideas.
 
 The biggest outcome of the summit was recognizing that when people talk about “events”, they actually mean some quite different things. So we spent a lot of time trying to tease out what some useful patterns might be. This note is a brief summary of the main ones we identified.
