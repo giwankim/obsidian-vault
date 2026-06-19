@@ -3,6 +3,8 @@ repos:
     rev: v6.0.0
     hooks:
       - id: end-of-file-fixer
+        # Obsidian rewrites .obsidian/*.json without a trailing newline; let it.
+        exclude: ^\.obsidian/
       - id: trailing-whitespace
   - repo: https://github.com/DavidAnson/markdownlint-cli2
     rev: v0.20.0
