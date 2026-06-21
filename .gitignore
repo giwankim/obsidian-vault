@@ -22,6 +22,3 @@
 
 # Claude Code - local settings
 .claude/settings.local.json
-
-# Note templates (scaffolding, not content) — leading underscore + "template"
-_*template*.md
