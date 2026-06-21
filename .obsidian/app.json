@@ -2,6 +2,7 @@
   "tabSize": 2,
   "showLineNumber": true,
   "userIgnoreFilters": [
-    "README.md"
+    "README.md",
+    "/node_modules/"
   ]
 }
