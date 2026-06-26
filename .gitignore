@@ -20,5 +20,8 @@
 .obsidian/cache
 .obsidian/*.bak
 
+# Obsidian Web Clipper - raw staging area (processed into inbox/)
+Clippings/
+
 # Claude Code - local settings
 .claude/settings.local.json
