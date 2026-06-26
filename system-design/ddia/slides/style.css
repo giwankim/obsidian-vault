@@ -1,0 +1,77 @@
+/* ── DDIA theme ──────────────────────────────────────────────
+   A "data-systems" palette: deep slate background, blue/cyan
+   accents, warm code blocks. Auto-imported by Slidev from the
+   project root. Tweak the variables below to rebrand every deck. */
+
+:root {
+  --ddia-bg:       #0d1117;  /* slate near-black */
+  --ddia-surface:  #161b22;  /* code / card surface */
+  --ddia-heading:  #58a6ff;  /* primary blue */
+  --ddia-accent:   #2dd4bf;  /* teal accent */
+  --ddia-text:     #e6edf3;
+  --ddia-muted:    #8b949e;
+
+  --slidev-theme-primary: var(--ddia-heading);
+}
+
+.slidev-layout {
+  background-color: var(--ddia-bg);
+  color: var(--ddia-text);
+  font-feature-settings: 'cv05', 'ss01';
+}
+
+.slidev-layout h1 {
+  color: var(--ddia-heading);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.slidev-layout h2 {
+  color: var(--ddia-accent);
+  font-weight: 600;
+}
+
+/* Section divider slides get an accent rule */
+.slidev-layout.section h1 {
+  border-left: 4px solid var(--ddia-accent);
+  padding-left: 0.6em;
+}
+
+/* Tables read as data, not decoration */
+.slidev-layout table {
+  font-size: 0.92em;
+}
+.slidev-layout thead th {
+  color: var(--ddia-heading);
+  border-bottom: 2px solid var(--ddia-heading);
+}
+.slidev-layout tbody tr:nth-child(even) {
+  background: rgba(255, 255, 255, 0.03);
+}
+
+/* Code surfaces */
+.slidev-layout :not(pre) > code {
+  color: var(--ddia-accent);
+  background: var(--ddia-surface);
+  padding: 0.15em 0.4em;
+  border-radius: 4px;
+}
+.slidev-layout pre {
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 8px;
+}
+
+/* Blockquotes = the "through-line" callout */
+.slidev-layout blockquote {
+  border-left: 3px solid var(--ddia-accent);
+  background: rgba(45, 212, 191, 0.06);
+  color: var(--ddia-text);
+}
+
+kbd {
+  background: var(--ddia-surface);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 4px;
+  padding: 0.1em 0.4em;
+  font-size: 0.85em;
+}
