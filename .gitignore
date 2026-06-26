@@ -23,5 +23,8 @@
 # Obsidian Web Clipper - raw staging area (processed into inbox/)
 Clippings/
 
+# Inbox - staging area for processed clippings (untracked until categorized into topic folders)
+inbox/
+
 # Claude Code - local settings
 .claude/settings.local.json
