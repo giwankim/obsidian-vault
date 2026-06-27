@@ -13,7 +13,10 @@ END_MARKER = "<!-- topics:end -->"
 
 
 def count_md_files(directory: Path) -> int:
-    return sum(1 for _ in directory.rglob("*.md"))
+    # Skip build artifacts (e.g. node_modules under the ddia slides project).
+    return sum(
+        1 for p in directory.rglob("*.md") if "node_modules" not in p.parts
+    )
 
 
 def build_topic_list() -> str:
