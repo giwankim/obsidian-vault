@@ -74,7 +74,7 @@ folders. Never commit.
 1. From the vault root, identify candidate articles and skip non-articles:
 
    ```bash
-   for f in inbox/*.md; do
+   find inbox -maxdepth 1 -name '*.md' | sort | while read -r f; do
      if head -20 "$f" | grep -q '^source:'; then
        echo "ARTICLE  $f"
      else
@@ -136,7 +136,7 @@ folders. Never commit.
 Run from the vault root:
 
 ```bash
-cd /Users/gwk/Development/obsidian/vault && for f in inbox/*.md; do
+cd /Users/gwk/Development/obsidian/vault && find inbox -maxdepth 1 -name '*.md' | sort | while read -r f; do
   if head -20 "$f" | grep -q '^source:'; then echo "ARTICLE  $f"; else echo "SKIP     $f"; fi
 done
 ```

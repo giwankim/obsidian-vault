@@ -33,7 +33,7 @@ folders. Never commit.
 1. From the vault root, identify candidate articles and skip non-articles:
 
    ```bash
-   for f in inbox/*.md; do
+   find inbox -maxdepth 1 -name '*.md' | sort | while read -r f; do
      if head -20 "$f" | grep -q '^source:'; then
        echo "ARTICLE  $f"
      else
