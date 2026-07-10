@@ -7,7 +7,7 @@ description: File inbox articles into the vault's existing topic folders using f
 
 File `.md` clippings from `inbox/` into existing topic folders. Propose a
 complete mapping, get one batch approval, then move the files. Never create
-folders. Never commit.
+folders. Never commit. Never rename files or edit article content.
 
 ## Categorization Rules
 
