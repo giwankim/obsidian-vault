@@ -7,7 +7,7 @@ from pathlib import Path
 
 VAULT = Path(__file__).resolve().parent.parent
 README = VAULT / "README.md"
-EXCLUDE = {".obsidian", ".git", ".agents", "Clippings", "inbox", "scripts"}
+EXCLUDE = {".obsidian", ".git", ".agents", "Clippings", "inbox", "scripts", "docs"}
 START_MARKER = "<!-- topics:start -->"
 END_MARKER = "<!-- topics:end -->"
 
