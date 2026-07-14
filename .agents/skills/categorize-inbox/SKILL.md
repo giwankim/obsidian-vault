@@ -1,13 +1,15 @@
 ---
 name: categorize-inbox
-description: File inbox articles into the vault's existing topic folders using fixed categorization rules, with one batch approval before any file moves. Use when the user says "categorize inbox", "file inbox articles", "triage inbox", or "process inbox".
+description: File inbox articles into the vault's existing topic folders using fixed categorization rules, confirming each move with the user before it happens. Use when the user says "categorize inbox", "file inbox articles", "triage inbox", or "process inbox".
 ---
 
 # Categorize Inbox
 
 File `.md` clippings from `inbox/` into existing topic folders. Propose a
-complete mapping, get one batch approval, then move the files. Never create
-folders. Never commit. Never rename files or edit article content.
+complete mapping as an overview, then confirm every move with the user
+individually — one question per file, moved immediately on approval — so the
+user stays in control of each move. Never create folders. Never commit.
+Never rename files or edit article content.
 
 ## Categorization Rules
 
@@ -26,7 +28,8 @@ folders. Never commit. Never rename files or edit article content.
    user can decide separately.
 5. **Concept ties go to the user.** When two concept folders both plausibly
    fit, propose the better one and name the alternative in the rationale; the
-   user settles it at the approval step.
+   user settles it at that file's confirmation question, where the
+   alternative appears as its own option.
 
 ## Workflow
 
@@ -61,8 +64,9 @@ folders. Never commit. Never rename files or edit article content.
    `> [!summary]` callout. Only read the full body if those are missing or
    inconclusive.
 
-4. Apply the rules and present one mapping table, plus a separate list for
-   articles with no fitting folder:
+4. Apply the rules and present one mapping table as an overview — it gives
+   the user the whole picture before the per-file questions start — plus a
+   separate list for articles with no fitting folder:
 
    ```markdown
    | Article | Destination | Rationale |
@@ -73,18 +77,28 @@ folders. Never commit. Never rename files or edit article content.
    - some-new-topic-article.md (no fitting folder; create one?)
    ```
 
-5. Ask for one batch approval of the whole mapping. Apply any adjustments the
-   user gives, then proceed — do not re-ask per article.
+5. Confirm and move one file at a time. For each article in the mapping, ask
+   one AskUserQuestion confirming that move, then act on the answer before
+   asking about the next article. Options for each question:
 
-6. Move approved files with `mv`. Before each move, check for a name
-   conflict; on conflict, do not overwrite — report the file as a likely
-   duplicate clipping and leave the inbox copy in place:
+   - **"Move to <destination>/" (Recommended)** — the proposed folder.
+   - **"Move to <alternative>/"** — only when rule 5 flagged a concept tie;
+     this is where the user settles it.
+   - **"Keep in inbox"** — skip this file.
+
+   If the user answers with a custom folder ("Other"), move there only if
+   the folder already exists; folders are never created, so otherwise leave
+   the file in inbox and flag it in the final report.
+
+   On approval, move the file immediately with `mv`. Check for a name
+   conflict first; on conflict, do not overwrite — report the file as a
+   likely duplicate clipping and leave the inbox copy in place:
 
    ```bash
    [ -e "db/cdc/some-cdc-article.md" ] && echo "CONFLICT — skipping" \
      || mv "inbox/some-cdc-article.md" "db/cdc/"
    ```
 
-7. Report what moved and what stayed. Remind the user that `inbox/` is
+6. Report what moved and what stayed. Remind the user that `inbox/` is
    git-ignored, so moved files appear as new untracked files, and that
    `/commit-push` groups them into `docs(<topic>)` commits.
