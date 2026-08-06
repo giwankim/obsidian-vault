@@ -1,17 +1,19 @@
 ---
 title: "Harness Engineering for Self-Improvement"
-source: "https://lilianweng.github.io/posts/2026-07-04-harness/?utm_source=substack&utm_medium=email#harness-layer-vs-core-intelligence"
+source: "https://lilianweng.github.io/posts/2026-07-04-harness/"
 author:
   - "[[Lilian Weng]]"
 published: 2026-07-04
-created: 2026-07-08
+created: 2026-08-05
 description: "The concept of recursive self-improvement (RSI) dates back to I. J. Good (1965), where he defined an “ultraintelligent machine” as a system that can surpass humans in all intellectual activities and design better machines to improve itself. Yudkowsky (2008) used the phrase “recursive self-improvement” for a specific feedback loop: an AI uses its current intelligence to improve the cognitive machinery that produces its intelligence.This feedback loop in modern AI may indicate the model rewriting its own weights directly, or more broadly the model improves the training pipeline and the deployment system, which in turn enables a better successor model with improved performance across economically valuable tasks. The speed of research development in AI has been shown to drastically accelerated in frontier labs (Anthropic; OpenAI)."
 tags:
   - "clippings"
 ---
 
 > [!summary]
-> Surveys harness engineering — the system layer around an LLM that orchestrates workflow, tools, memory, and evaluation — as a near-term path toward recursive self-improvement (RSI). Walks through design patterns (workflow automation, file-system-as-memory, sub-agents) and a large body of research on optimizing the harness itself: ACE/MCE context engineering, Meta-Harness, ADAS, AFlow, STOP, and evolutionary search (AlphaEvolve, Darwin Gödel Machine). Concludes that harnesses can be made self-improving, but core model intelligence remains the bottleneck, with open challenges around weak evaluators, reward hacking, and keeping humans in the loop.
+> Lilian Weng surveys harness engineering — the workflow, context management, tooling, and permission layer wrapped around a base model — as the practical near-term path toward recursive self-improvement, arguing this deployment layer matters as much as raw model intelligence.
+> She walks through core design patterns (goal-oriented plan-execute-observe loops, the file system as persistent memory, subagents and backend jobs) and the research that treats the harness itself as an optimization target: ACE and Meta Context Engineering for context, ADAS and AFlow for workflow search, and Darwin Gödel Machine, Self-Harness, and Meta-Harness for evolving harness code directly.
+> She closes on the open bottlenecks — fuzzy evaluators, memory lifecycle, bias against negative results, diversity collapse, reward hacking, short-term optimization targets, and where humans should stay in the loop.
 
 The concept of **recursive self-improvement (RSI)** dates back to [I. J. Good (1965)](https://philpapers.org/rec/GOOSCT), where he defined an “ultraintelligent machine” as a system that can surpass humans in all intellectual activities and design better machines to improve itself. [Yudkowsky (2008)](https://www.lesswrong.com/posts/JBadX7rwdcRFzGuju/recursive-self-improvement) used the phrase “recursive self-improvement” for a specific feedback loop: an AI uses its current intelligence to improve the cognitive machinery that produces its intelligence.
 
@@ -209,13 +211,19 @@ $$
 
 Algorithm of Self-Taught Optimizer (STOP). (Image source: Zelikman et al. 2023 )
 
-In Zelikman et al. (2023)’s experiments, the improved improver discovered various strategies, such as genetic algorithms, decomposing and improving parts, multi-armed prompt bandits, simulated annealing, varying temperature, and beam/tree search. This is analogous to how a harness workflow can be represented as an object for optimization.
+In their experiments, the improved improver discovered various strategies, such as genetic algorithms, decomposing and improving parts, multi-armed prompt bandits, simulated annealing, varying temperature, and beam/tree search. This is analogous to how a harness workflow can be represented as an object for optimization.
 
 ![](https://lilianweng.github.io/posts/2026-07-04-harness/STOP-patterns.png)
 
 Examples of self-improvement strategies discovered by STOP. (Image source: Zelikman et al. 2023 )
 
-A *cautionary* result in their findings is that STOP improved mean downstream performance across iterations with GPT-4 but degraded with weaker models like GPT-3.5 and Mixtral. Recursive structure alone is not enough. The base model must be *capable enough* to improve the mechanism. This implies that harness improvement enables better deployment of the model but intelligence is still the core.
+A *cautionary* result in Zelikman et al. (2023)’s findings is that STOP improved mean downstream performance across iterations with GPT-4 but degraded with weaker models like GPT-3.5 and Mixtral. Recursive structure alone is not enough. The base model must be *capable enough* to improve the mechanism. This implies that harness improvement enables better deployment of the model but intelligence is still the core.
+
+[Lin et al. (2026)](https://arxiv.org/abs/2605.30621) investigated the dependency of harness evolution on model capabilities in more details. They disentangled two axes: (1) *harness-updating* refers to the capability of producing useful harness edits and (2) *harness-benefit* denotes the capability of utilizing the updated harness, to achieve better task solving. Interestingly a range of model of different sizes and core intelligence, from Qwen3.5-9B to Claude Opus 4.6, were observed in their experiments to show similar harness updating capability; the 9B harness proposer/evolver is able to write a skill procedurally isomorphic to Opus. To best utilize a harness, a model needs to invoke skills/tools correctly and timely and be good at long-horizon instruction following.
+
+![](https://lilianweng.github.io/posts/2026-07-04-harness/harness-update.png)
+
+Main results: (A) harness updating capability is measured flat across a range of models from Qwen2-32B to Opus 4.6; (B) harness benefit capability is non-monotonic where middle tier models benefit the most. (Image source: Lin et al. 2026 )
 
 A more recent work, **Self-Harness** ([Zhang et al. 2026](https://arxiv.org/abs/2606.09498)), relies on LLM agents to improve their own harness via a propose-evaluate-accept loop.
 
@@ -242,6 +250,25 @@ When running `MiniMax M2.5`, `Qwen3.5-35B-A3B`, and `GLM-5` on Terminal-Bench-2,
 
 Self-harness type of work does raise my concerns that if a program is allowed to edit the OS system, abstraction boundaries are broken. The editable surface needs to be properly designed and the permission control and security layers need to live outside this loop. All the challenges around [reward hacking](https://lilianweng.github.io/posts/2024-11-28-reward-hacking/) still remain.
 
+**Agentic Harness Engineering** (AHE; [Lin et al. 2026](https://arxiv.org/abs/2604.25850)) see the bottlenecks of harness evolution are around **observability** —that is, when a rollout fails, we need to know which component is responsible for that and every edit should be grounded by evidence.
+
+The framework creates a closed loop with 3 observability pillars:
+
+1. *Component observability*: every editable harness component has a representation in the file system so the action space is explicit and tracable.
+	- A harness contains 7 components: system prompt, tool description, tool implementation, middleware, skill, sub-agent configuration, and long-term memory.
+		- Each failure pattern is mapped to one component so the edit can be more targeted.
+2. *Experience observability*: analysize and summarize a large amount of raw trajectories into a hierarchy of evidence and failure patterns.
+	- Each harness generates $k$ traces.
+		- Use an agent (“Agent debugger”) to analysis the trajectories each stored in one file and generate per-task analysis report on the root cause for the failure or success.
+		- All the per-task reports are aggregated into a benchmark overview for the next step, and raw traces can be accessed if needed. This layered access structure is more token efficient.
+3. *Decision observability*: every edit is paired with a prediction for the next round to validate.
+	- An agent (“Evolve agent”) reads the repo and decides which component to edit, and then produces the edit and the reasoning behind it.
+		- Every edit is a file-level, falsifiable claim and can be verified in the next round, under two constraints:
+		- (1) Edits are only applied to the harness workspace. the runs directory, tracer, verifier, and LLM configuration are read-only, which disables a set of reward hacking (e.g disabling the verifier, swapping the model, or raising the reasoning budget) and thus it can keep every recorded gain attributable to harness edits.
+				- (2) Edits are evidence-driven, with a manifesto entry: the failure evidence’s name, the inferred root cause, the targeted fix, and a predicted impact comprising both expected fixes and at-risk regressions.
+
+On Terminal-Bench-2, AHE achieved better than human-designed harness (OpenCode, Terminus-2, Codex) except for Hard tier and a few other self-evolve baselines (ACE, TF-GRPO). The same frozen harness, without further evolving, transfers to SWE-bench-verified, indicating that the evolved harness is able to encode engineering experience into harness components rather than doing benchmark-specific optimization.
+
 ## Evolutionary Search
 
 Evolutionary search is an optimization method inspired by natural selection (see my old post on [evolutionary algorithm](https://lilianweng.github.io/posts/2019-09-05-evolution-strategies/)). It evolves a population of solutions by mutating them and only keeping those with high “fitness” in the crowd. Evolutionary search comes in handy when (1) the search space is extensive or weirdly shaped; and (2) it is hard to optimize directly with gradients but easy to evaluate solutions. Harness search seems to be a good fit here.
@@ -266,7 +293,7 @@ Ablations show the evolution procedure, context in prompts, meta-prompts, full-f
 
 Ablations show the value of everal designs in AlphaEvolve. (Image source: Novikov et al. 2025 )
 
-Recent variants such as **ThetaEvolve** ([Wang et al. 2025](https://arxiv.org/abs/2511.23473)) combines evolutionary search with RL and in-context learning. **ShinkaEvolve** ([Lange et al. 2025](https://arxiv.org/abs/2509.19349)), on the other hand, introduced three new components to improve LLM sampling efficiency:
+Recent variants such as **ThetaEvolve** ([Wang et al. 2025](https://arxiv.org/abs/2511.23473)) combines evolutionary search with RL and in-context learning, and **DemoEvolve** ([Che, et al. 2026](https://arxiv.org/abs/2605.24539)) augments the self-rollout archive with human expert demonstrations as reference experience for harness-level diagnosis and editing. **ShinkaEvolve** ([Lange et al. 2025](https://arxiv.org/abs/2509.19349)), on the other hand, introduced three new components to improve LLM sampling efficiency:
 
 - More sample-efficient exploration by designing parent sampling to balance performance rank and offspring count.
 - Code-novelty rejection sampling by discarding candidates that are too similar to the existing population based on embedding-based cosine similarity.
@@ -298,6 +325,8 @@ Harness evolution changes the non-parametric system around the model. To enable 
 The Feedback-Agent in SIA decides the next iteration type. (Image source: Hebbar et al. 2026 )
 
 There are a few confounding choices in SIA’s experiments that make the results hard to interpret. For example, the task-specific agent is much weaker than the models used for the Meta-Agent and Feedback-Agent (`gpt-oss-120b` vs `Claude Sonnet 4.6`), and the baselines are too weak to cross-reference cleanly against related methods. I would consider the direction interesting, but the evidence provisional. Yet many challenges, such as training stability and Goodhart effect, still remain open.
+
+**Continual Harness** ([Karten et al. 2026](https://arxiv.org/abs/2605.09998)) experimented in long-horizon gameplay setting with harness updating and co-learning a policy model by distilling a strong teacher model’s labels on low-reward trajectories.
 
 ## Future Challenges
 
@@ -458,3 +487,11 @@ Or use the BibTeX citation:
 \[34\] Siegel, et al. [“CORE-Bench: Fostering the Credibility of Published Research Through a Computational Reproducibility Agent Benchmark.”](https://arxiv.org/abs/2409.11363) TMLR 2024.
 
 \[35\] Ouyang, et al. [“KernelBench: Can LLMs Write Efficient GPU Kernels?”](https://arxiv.org/abs/2502.10517) arXiv preprint arXiv:2502.10517, 2025.
+
+\[36\] Lin, et al. [“Harness Updating Is Not Harness Benefit: Disentangling Evolution Capabilities in Self-Evolving LLM Agents.”](https://arxiv.org/abs/2605.30621) arXiv preprint arXiv:2605.30621, 2026.
+
+\[37\] Lin, et al. [“Agentic Harness Engineering: Observability-Driven Automatic Evolution of Coding-Agent Harnesses.”](https://arxiv.org/abs/2604.25850) arXiv preprint arXiv:2604.25850, 2026.
+
+\[38\] Karten, et al. [“Continual Harness: Online Adaptation for Self-Improving Foundation Agents.”](https://arxiv.org/abs/2605.09998) arXiv preprint arXiv:2605.09998, 2026.
+
+\[39\] Che, et al. [“DemoEvolve: Overcoming Sparse Feedback in Agentic Harness Evolution with Demonstrations.”](https://arxiv.org/abs/2605.24539) arXiv preprint arXiv:2605.24539, 2026.
