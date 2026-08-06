@@ -11,8 +11,7 @@ tags:
   - "concurrency"
   - "kotlin"
 ---
-
-# Task Execution and Scheduling
+# Task Execution and Scheduling 1
 
 Spring Framework provides abstractions for the asynchronous execution and scheduling of tasks with the `TaskExecutor` and `TaskScheduler` interfaces, respectively.
 
