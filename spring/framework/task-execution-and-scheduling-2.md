@@ -14,6 +14,9 @@ tags:
 ---
 # Task Execution and Scheduling 2
 
+> [!NOTE] Series: Task Execution and Scheduling
+> [[task-execution-and-scheduling-1|Part 1 — TaskExecutor Abstraction]] · **Part 2 — TaskScheduler Abstraction** · [[task-execution-and-scheduling-3|Part 3 — Annotation Support]]
+
 ## `TaskScheduler` Abstraction
 
 Spring has a `TaskScheduler` SPI with a variety of methods for scheduling tasks to run at some point in the future.
