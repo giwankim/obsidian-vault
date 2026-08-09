@@ -14,7 +14,7 @@ tags:
 # Task Execution and Scheduling 1
 
 > [!NOTE] Series: Task Execution and Scheduling
-> **Part 1 — TaskExecutor Abstraction** · [[task-execution-and-scheduling-2|Part 2 — TaskScheduler Abstraction]] · [[task-execution-and-scheduling-3|Part 3 — Annotation Support]]
+> **Part 1 — TaskExecutor Abstraction** · [[task-execution-and-scheduling-2|Part 2 — TaskScheduler Abstraction]] · [[task-execution-and-scheduling-3|Part 3 — Annotation Support]] · [[task-execution-and-scheduling-4|Part 4 — Spring Boot Auto-configuration]]
 
 Spring Framework provides abstractions for the asynchronous execution and scheduling of tasks with the `TaskExecutor` and `TaskScheduler` interfaces, respectively.
 

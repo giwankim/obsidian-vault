@@ -15,7 +15,7 @@ tags:
 # Task Execution and Scheduling 2
 
 > [!NOTE] Series: Task Execution and Scheduling
-> [[task-execution-and-scheduling-1|Part 1 — TaskExecutor Abstraction]] · **Part 2 — TaskScheduler Abstraction** · [[task-execution-and-scheduling-3|Part 3 — Annotation Support]]
+> [[task-execution-and-scheduling-1|Part 1 — TaskExecutor Abstraction]] · **Part 2 — TaskScheduler Abstraction** · [[task-execution-and-scheduling-3|Part 3 — Annotation Support]] · [[task-execution-and-scheduling-4|Part 4 — Spring Boot Auto-configuration]]
 
 ## `TaskScheduler` Abstraction
 
