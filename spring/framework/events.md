@@ -52,7 +52,28 @@ You can register as many event listeners as you wish, but note that, by default,
 
 ## Annotation-based Event Listeners
 
+ You can register an event listener on any method of a managed bean by using the `@EventListner` annotation. The `BlockedListNotifier` can be rewritten as follows:
+ ```kotlin
+ class BlockedListNotifier {
+	 lateinit var notificationAddress: String
+
+	 @EventListener
+	 fun processBlockedListEvent(event: BlockedListEvent) {
+		// notify appropriate parties via notificationAddress...
+	 }
+ }
+ ```
+
 ## Asynchronous Listeners
+
+If you want a particular listener to process events asynchronously, you can reuse the regular @Async support.
+```kotlin
+@EventListener
+@Async
+fun processBlockedListEvent(event: BlockedListEvent) {
+	// BlockedListEvent is processed in a separate thread
+}
+```
 
 ## Ordering Listeners
 
