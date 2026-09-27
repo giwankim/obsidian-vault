@@ -11,6 +11,27 @@ individually — one question per file, moved immediately on approval — so the
 user stays in control of each move. Never create folders. Never commit.
 Never rename files or edit article content.
 
+## Codex and Claude Code
+
+Maintain this skill in `.agents/skills/categorize-inbox/`, which Codex
+discovers directly. Claude Code uses the existing
+`.claude/skills/categorize-inbox` symlink to the same directory.
+
+Use the host's available file and shell tools for the workflow below. For
+each move confirmation in step 5:
+
+- **Claude Code:** use `AskUserQuestion` when available.
+- **Codex:** use `request_user_input_async` when available and permitted
+  for approvals. Use `request_user_input` only if its current tool contract
+  permits approval questions in the active mode.
+- **Fallback for either host:** if no suitable question tool is available,
+  ask the same question with its options in normal chat, end the turn, and
+  wait for the user's reply. Do not change modes just to access a tool.
+
+Wait for an explicit answer before moving that file or asking about the
+next one. An asynchronous question being posted, a preselected option, an
+empty response, or a timeout does not approve a move.
+
 ## Categorization Rules
 
 1. **Non-articles stay in inbox.** A file without a `source:` line in its
@@ -78,15 +99,16 @@ Never rename files or edit article content.
    ```
 
 5. Confirm and move one file at a time. For each article in the mapping, ask
-   one AskUserQuestion confirming that move, then act on the answer before
-   asking about the next article. Options for each question:
+   one question using the host guidance above, then act on the answer
+   before asking about the next article. Include the filename and proposed
+   destination in the question. Options for each question:
 
    - **"Move to <destination>/" (Recommended)** — the proposed folder.
    - **"Move to <alternative>/"** — only when rule 5 flagged a concept tie;
      this is where the user settles it.
    - **"Keep in inbox"** — skip this file.
 
-   If the user answers with a custom folder ("Other"), move there only if
+   If the user types a custom folder in their answer, move there only if
    the folder already exists; folders are never created, so otherwise leave
    the file in inbox and flag it in the final report.
 
@@ -101,4 +123,5 @@ Never rename files or edit article content.
 
 6. Report what moved and what stayed. Remind the user that `inbox/` is
    git-ignored, so moved files appear as new untracked files, and that
-   `/commit-push` groups them into `docs(<topic>)` commits.
+   the `commit-push` skill, if installed, can group them into
+   `docs(<topic>)` commits when separately requested.
