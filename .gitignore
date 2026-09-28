@@ -28,3 +28,9 @@ inbox/
 
 # Claude Code - local settings
 .claude/settings.local.json
+
+# Agent skills - installed per machine, not part of the vault
+.agents/
+.claude/skills/
+.codex/skills/
+skills-lock.json
