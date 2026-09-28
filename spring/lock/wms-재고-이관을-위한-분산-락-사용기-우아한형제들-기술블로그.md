@@ -2,24 +2,19 @@
 title: "WMS 재고 이관을 위한 분산 락 사용기 | 우아한형제들 기술블로그"
 source: "https://techblog.woowahan.com/17416/"
 author:
-  - "[[jhk]]"
 published: 2024-05-28
-created: 2026-02-23
+created: 2026-09-28
 description: "WMS 재고 이관 과정에서 발생한 동시성 이슈를 분산 락(Distributed Lock)을 사용해 해결한 경험을 공유하는 글입니다. 본 글은 분산 락에 대해 알고 있는 분들을 대상으로 작성되었습니다. 제가 경험한 내용들이 여러분들의 비즈니스에 도움이 되는 글이 되길 바랍니다. WMS란? 물류에서 사용되는 용어로 상품을 구별하기 위한 고유의 식별 코드입니다. 예를 들어, 인천DC(출발지)에서 송파잠실PPC(목적지)로 배달이 피규어(SKU: S01234)를 10개(이관 수량) 이관하기"
 tags:
   - "clippings"
-  - "concurrency"
-  - "redis"
-  - "distributed-systems"
-  - "backend"
 ---
 
 > [!summary]
-> Woowahan Brothers tech blog post on solving concurrency bugs in their WMS inventory transfer system using Redis distributed locks with a state-key pattern, allowing parallel SKU allocation while preventing simultaneous allocation and cancellation of transfer orders.
+> 배민 B마트 WMS에서 이관요청서의 할당과 취소가 동시에 요청되어, 취소된 이관요청서에 재고가 할당된 채 남은 동시성 문제를 Redis 분산 락으로 해결한 과정을 3단계로 소개한다. 할당과 취소에 같은 이관요청서 단위 락 키를 걸자 SKU별 병렬 할당 요청이 첫 건만 성공했고, waitTime을 두어 순차 처리하자 SKU가 많을수록 할당이 느려졌다. 마지막으로 짧은 락 안에서 Redis 상태 키(할당/취소, TTL 30초)를 확인·갱신하고 재고 할당은 락 밖에서 병렬로 처리해, 같은 종류의 요청은 병렬로 진행하면서 상반된 요청은 예외로 막았다.
 
 ## WMS 재고 이관을 위한 분산 락 사용기
 
-2024\. 05. 28.김준홍
+2024\. 05. 28. 김준홍
 
 [Backend](https://techblog.woowahan.com/?pcat=backend)
 
