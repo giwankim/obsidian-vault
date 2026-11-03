@@ -10,6 +10,9 @@ repos:
     rev: v0.20.0
     hooks:
       - id: markdownlint-cli2
+        # nodeenv's default picks nodejs.org's newest entry, even a pre-release
+        # it can't parse (v27.0.0-alpha crashed the install).
+        language_version: lts
   - repo: local
     hooks:
       - id: sync-readme
